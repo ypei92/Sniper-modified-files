@@ -307,28 +307,29 @@ CacheCntlr::~CacheCntlr()
 #endif
 std::cout<<"a test for execution"<<std::endl;
 
-
+    ofstream OUTFILE1("pc_accesses.csv");
     for(std::map<IntPtr, UInt64>::iterator it=pc_accesses.begin(); it != pc_accesses.end(); it++)
     {
 	assert(pc_hits.find(it->first) != pc_hits.end());
 	if(it->second > 0)
 	{
-		std::cout << "PC: " << it->first << " prefetch_hits + misses: " << it->second << " prefetch_hits: " << pc_hits[it->first];
-		std::cout << " accuracy: " << (double) pc_hits[it->first]/ (double) it->second << std::endl; 
+		OUTFILE1 << "PC: " << it->first << " prefetch_hits + misses: " << it->second << " prefetch_hits: " << pc_hits[it->first];
+		OUTFILE1 << " accuracy: " << (double) pc_hits[it->first]/ (double) it->second << std::endl; 
 	}
     }
     std::cout<<std::endl;
-    
+    OUTFILE1.close();
+    ofstream OUTFILE2("pc_prefetches.csv");
     for(std::map<IntPtr, UInt64>::iterator it=pc_prefetches.begin(); it != pc_prefetches.end(); it++)
     {
 	assert(pc_prefetch_hits.find(it->first) != pc_prefetch_hits.end());
 	if(it->second > 0)
 	{
-		std::cout << "PC: " << it->first << " prefetches: " << it->second << " prefetch_hits: " << pc_prefetch_hits[it->first];
-		std::cout << " accuracy: " << (double) pc_prefetch_hits[it->first]/ (double) it->second << std::endl; 
+		OUTFILE2 << "PC: " << it->first << " prefetches: " << it->second << " prefetch_hits: " << pc_prefetch_hits[it->first];
+		OUTFILE2 << " accuracy: " << (double) pc_prefetch_hits[it->first]/ (double) it->second << std::endl; 
 	}
     }
-
+    OUTFILE2.close();
 #ifdef KNAPSACK 
     assert(0);
     std::cout << std::endl << "============================= ==================================="<< std::endl << std::endl;
