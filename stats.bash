@@ -15,6 +15,6 @@ benchmark=(
 )
 for i in "${benchmark[@]}" 
 do
-echo $i
-./a.out $i >> stats/summary.stats
+    echo $i
+    ./a.out $i >> stats/summary.stats
 done

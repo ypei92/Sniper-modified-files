@@ -1205,11 +1205,11 @@ CacheCntlr::processShmemReqFromPrevCache(CacheCntlr* requester, Core::mem_op_t m
 
    if (cache_hit)
    {
-	//std::cout<<"debug1"<<std::endl;
+	  //std::cout<<"debug1"<<std::endl;
       if (isPrefetch == Prefetch::NONE && cache_block_info->hasOption(CacheBlockInfo::PREFETCH))
       {
          // This line was fetched by the prefetcher and has proven useful
-	//std::cout<<"debug2"<<std::endl;
+	    //std::cout<<"debug2"<<std::endl;
         if(pc_accesses.find(ca_pc) == pc_accesses.end())
 	{
 	 
