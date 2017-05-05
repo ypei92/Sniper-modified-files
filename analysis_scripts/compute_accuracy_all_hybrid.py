@@ -12,7 +12,8 @@ import os, subprocess, re, sys, stat, sniper_lib
 #benchmark_set = ['astar', 'bzip2', 'cactusADM', 'calculix', 'gcc', 'GemsFDTD', 'gobmk', 'gromacs', 'h264ref', 'hmmer', 'lbm', 'leslie3d', 'libquantum', 'mcf', 'soplex', 'sphinx3', 'tonto', 'xalancbmk', 'zeusmp', 'omnetpp']
 
 # according to run_all.py
-benchmark_set = ['astar', 'bzip2', 'gcc', 'libquantum', 'mcf', 'omnetpp', 'perlbench', 'sjeng', 'soplex', 'sphinx3', 'xalancbmk']
+# benchmark_set = ['astar', 'bzip2', 'gcc', 'libquantum', 'mcf', 'omnetpp', 'perlbench', 'sjeng', 'soplex', 'sphinx3', 'xalancbmk']
+benchmark_set = ['astar', 'bzip2', 'gcc', 'libquantum', 'mcf', 'omnetpp', 'perlbench', 'soplex', 'sphinx3', 'xalancbmk']
 
 pinpoint_dir = "/u/haowu/scratch/smets/sniper_simpoint"
 #output_dir_base = "/scratch/cluster/akanksha/sniper_output_3level/{0}/{1}/{2}"

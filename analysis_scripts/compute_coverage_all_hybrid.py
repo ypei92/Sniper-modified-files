@@ -19,7 +19,8 @@ import os, subprocess, re, sys, stat, sniper_lib
 #benchmark_set = ['bzip2', 'gcc', 'mcf', 'omnetpp', 'perlbench', 'soplex', 'sphinx3', 'xalancbmk', 'gobmk']
 
 # cs395t-lin
-benchmark_set = ['astar', 'bzip2', 'gcc', 'libquantum', 'mcf', 'omnetpp', 'perlbench', 'sjeng', 'soplex', 'sphinx3', 'xalancbmk']
+# benchmark_set = ['astar', 'bzip2', 'gcc', 'libquantum', 'mcf', 'omnetpp', 'perlbench', 'sjeng', 'soplex', 'sphinx3', 'xalancbmk']
+benchmark_set = ['astar', 'bzip2', 'gcc', 'libquantum', 'mcf', 'omnetpp', 'perlbench', 'soplex', 'sphinx3', 'xalancbmk']
 
 pinpoint_dir = "/u/haowu/scratch/smets/sniper_simpoint"
 #output_dir_base = "/scratch/cluster/akanksha/sniper_output_hybrid/{0}/{1}/{2}"

@@ -15,7 +15,8 @@ benchmark_set = ['astar', 'gcc', 'libquantum', 'mcf', 'soplex', 'sphinx3', 'xala
 #benchmark_set = ['soplex']
 
 # cs395t-lin
-benchmark_set = ['astar', 'bzip2', 'gcc', 'libquantum', 'mcf', 'omnetpp', 'perlbench', 'sjeng', 'soplex', 'sphinx3', 'xalancbmk']
+# benchmark_set = ['astar', 'bzip2', 'gcc', 'libquantum', 'mcf', 'omnetpp', 'perlbench', 'sjeng', 'soplex', 'sphinx3', 'xalancbmk']
+benchmark_set = ['astar', 'bzip2', 'gcc', 'libquantum', 'mcf', 'omnetpp', 'perlbench', 'soplex', 'sphinx3', 'xalancbmk']
 
 #output_dir_base = "/scratch/cluster/akanksha/sniper_output_3level/{0}/{1}/{2}"
 #output_dir_base = "/scratch/cluster/akanksha/sniper_output/{0}/{1}/{2}"

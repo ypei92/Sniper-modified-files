@@ -18,7 +18,8 @@ benchmark_set = ['astar', 'cactusADM', 'mcf', 'soplex', 'sphinx3', 'xalancbmk']
 #benchmark_set = ['bwaves', 'cactusADM', 'calculix', 'GemsFDTD', 'gromacs', 'lbm', 'leslie3d', 'milc', 'tonto', 'wrf', 'zeusmp', 'sphinx3', 'soplex']
 
 # cs395t-lin
-benchmark_set = ['astar', 'bzip2', 'gcc', 'libquantum', 'mcf', 'omnetpp', 'perlbench', 'sjeng', 'soplex', 'sphinx3', 'xalancbmk']
+# benchmark_set = ['astar', 'bzip2', 'gcc', 'libquantum', 'mcf', 'omnetpp', 'perlbench', 'sjeng', 'soplex', 'sphinx3', 'xalancbmk']
+benchmark_set = ['astar', 'bzip2', 'gcc', 'libquantum', 'mcf', 'omnetpp', 'perlbench', 'soplex', 'sphinx3', 'xalancbmk']
 
 #output_dir_base = "/scratch/cluster/akanksha/sniper_output_3level/{0}/{1}/{2}"
 #output_dir_base = "/scratch/cluster/akanksha/sniper_output_replacement_1B/{0}/{1}/1"
