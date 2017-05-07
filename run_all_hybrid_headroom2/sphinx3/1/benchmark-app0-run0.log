@@ -1,0 +1,26 @@
+
+INFO: utt.c(337): 291 frm; 637 sen, 4656 gau/fr, Sen 0.00 CPU 0.00 Clk [Ovrhd 0.00 CPU 0.00 Clk]; 141 hmm, 8 wd/fr, 0.00 CPU 0.00 Clk (cen7-menk-b)
+INFO: utt.c(375): HMMHist[0..0](cen7-menk-b): 6(2)
+INFO: lm.c(823): 0 tg(), 0 tgcache, 0 bo; 0 fills, 0 in mem (0.0%)
+INFO: lm.c(826): 24638 bg(), 24633 bo; 0 fills, 1 in mem (50.0%)
+
+Backtrace(cen7-miry-b)
+LatID SFrm EFrm AScr LScr Type
+78 0 32 -319958 -74100 -1 <sil>
+119 33 58 -219674 -148846 0 TWO
+155 59 97 -205982 -148846 0 SIX
+357 98 129 -345175 -148846 0 EIGHT
+504 130 165 -322443 -74100 -1 <sil>
+577 166 196 -269850 -148846 0 FOUR
+666 197 254 -552286 -148846 0 SIX
+835 255 294 -471072 -148846 0 NINTH
+1175 295 331 -423730 -148846 0 FOUR
+1294 332 350 -172745 -74100 -1 <sil>
+1296 351 351 0 -148846 0 </s>
+0 351 -3302915 -1413068 (Total)
+
+FWDVIT: 'TWO SIX EIGHT FOUR SIX NINTH FOUR ' (cen7-miry-b)
+
+FWDXCT: cen7-miry-b S 0 T -4715983 A -3302915 L -1413068 0 -319958 -74100 <sil> 33 -219674 -148846 TWO 59 -205982 -148846 SIX 98 -345175 -148846 EIGHT 130 -322443 -74100 <sil> 166 -269850 -148846 FOUR 197 -552286 -148846 SIX 255 -471072 -148846 NINTH 295 -423730 -148846 FOUR 332 -172745 -74100 <sil> 351
+[SIFT_RECORDER] sift_writer.cc:550: Sift::Mode Sift::Writer::Sync(): Assertion `!response->fail()' failed.
+Pin app terminated abnormally due to signal 6.

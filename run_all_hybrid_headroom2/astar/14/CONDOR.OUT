@@ -1,0 +1,90 @@
+[SNIPER] Start
+Sampler: 4, 32, 0
+itlb_cache: 32, 1
+itlb_cache_L1: 32, 1
+Sampler: 4, 128, 0
+dtlb_cache: 128, 4
+dtlb_cache_L1: 128, 4
+L1-I 2
+Sampler: 4, 4, 128
+L1-I: 2048, 64
+L1-I_L1: 2048, 64
+L1-D 3
+Sampler: 4, 8, 32
+L1-D: 1024, 32
+L1-D_L1: 1024, 32
+L2 4
+Sampler: 122, 16, 16
+L2: 32768, 1024
+L2_L1: 32768, 1024
+Executing Python script /v/filer4b/v20q001/ypei/Desktop/cs395t-lin/output/run_all_hybrid_headroom2/astar/14/sim.scripts.py
+[STOPBYICOUNT] Starting in ROI (detail)
+[STOPBYICOUNT] Then stopping after simulating at least 250000000 instructions in detail
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using SIFT/trace-driven frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+[TRACE:0] -- DONE --
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 1151.06 seconds
+[SNIPER] Simulated 250.0M instructions, 126.8M cycles, 1.97 IPC
+[SNIPER] Simulation speed 217.2 KIPS (217.2 KIPS / target core - 4603.9ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+a test for execution
+
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+a test for execution
+
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+ =========================================================== 
+Triggers: 639261
+Repeats: 0
+
+Same addr: 369470 57.7964
+New addr: 99 0.0154866
+
+Distribution of new addresses: 
+Stream Head: 58 58.5859
+Stream Divergence: 192766 194713
+
+Invalidation count: 231669 234009
+No Conflict count: 41205 41621.2
+Same Stream count: 0 0
+New Stream count: 0 0
+
+Not found: 267036
+On Chip Mispredictions: 0
+ =========================================================== 
+Distribution of predictions: 
+Predict Init: 603795 94.452
+Total Predictions: 570644
+Predict OCI Miss: 33140 5.48862
+Predict Stream End: 33151 5.49044
+Buffer Success: 0 0
+Stride Distribution: 0, 245041, 0, 0, 15916, 28888, 30498, 24978, 9108, 18630, 25438, 7268, 14536, 12788, 10856, 13064, 2530, 0, 5382, 0, 0, 0, 0, 0, 1978, 0, 0, 0, 0, 0, 0, 0, 69460, 0, 0, 0, 0, 0, 0, 0, 2116, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 33137808, 0, 49, 0, 15, 0, 15, 0, 0, 6644585, 1868787317, 1915577714, 1702195557, 7566451, 113, 0, 5073232, 0, 29811168, 0, 0, 0, 5073232, 0, 30369584, 0, 0, 0, 5073232, 0, 30641936, 0, 0, 0, 5165152, 0, 2736192880, 10979, 0, 10979, 33136112, 0, 49, 0, 6, 0, 6, 0, 0, 0, 1919906931, 29541, 48, 0, 49, 0, 
+a test for execution
+
+Inserted: 698705
+Redundant.progress: 95
+Redundant.cache: 666700
+Redundant.buffer: 0
+[SNIPER] End
+[SNIPER] Elapsed time: 1207.85 seconds

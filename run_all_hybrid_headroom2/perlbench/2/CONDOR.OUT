@@ -1,0 +1,98 @@
+[SNIPER] Start
+Sampler: 4, 32, 0
+itlb_cache: 32, 1
+itlb_cache_L1: 32, 1
+Sampler: 4, 128, 0
+dtlb_cache: 128, 4
+dtlb_cache_L1: 128, 4
+L1-I 2
+Sampler: 4, 4, 128
+L1-I: 2048, 64
+L1-I_L1: 2048, 64
+L1-D 3
+Sampler: 4, 8, 32
+L1-D: 1024, 32
+L1-D_L1: 1024, 32
+L2 4
+Sampler: 122, 16, 16
+L2: 32768, 1024
+L2_L1: 32768, 1024
+Executing Python script /v/filer4b/v20q001/ypei/Desktop/cs395t-lin/output/run_all_hybrid_headroom2/perlbench/2/sim.scripts.py
+[STOPBYICOUNT] Starting in ROI (detail)
+[STOPBYICOUNT] Then stopping after simulating at least 250000000 instructions in detail
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using SIFT/trace-driven frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+[app0] c7bc408f71ca5b065a4d042884e6c8a3:
+[app0] NOT SPAM[ 4887]: DATE_IN_FUTURE_96_XX,MLM,NO_REAL_NAME
+[app0] ...replaced by 3f58f5c65238a6c96a57833b78e1256c
+[app0] c7b1db4e4bdbcfdceb298eecf4623bf1:
+[app0] SPAM[ 17228]: ADDR_NUMS_AT_BIGSITE,BAD_CREDIT,CLICK_BELOW_CAPS,CLICK_TO_REMOVE_1,DO_IT_TODAY,EXCUSE_3,EXCUSE_REMOVE,FORGED_OUTLOOK_TAGS,FREE_GRANT,FROM_ENDS_IN_NUMS,FROM_WEBMAIL_END_NUMS6,HTML_30_40,HTML_FONTCOLOR_GREEN,HTML_FONTCOLOR_UNKNOWN,HTML_FONTCOLOR_UNSAFE,HTML_FONT_BIG,HTML_LINK_CLICK_CAPS,HTML_LINK_CLICK_HERE,HTML_MESSAGE,HTML_TAG_BALANCE_BODY,HTML_TAG_BALANCE_HTML,LINES_OF_YELLING,MIME_HTML_ONLY,NO_REAL_NAME,ORDER_NOW,REMOVE_PAGE,SUBJ_ALL_CAPS,VERY_SUSP_RECIPS
+[app0] ...replaced by 8bc579a37958875efc0ba1bd21f6a9db
+[STOPBYICOUNT] Ending ROI after 250000006 instructions (250000000 requested)
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 1476.08 seconds
+[SNIPER] Simulated 250.0M instructions, 142.6M cycles, 1.75 IPC
+[SNIPER] Simulation speed 169.4 KIPS (169.4 KIPS / target core - 5904.3ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[app0] [SIFT_RECORDER] sift_writer.cc:550: Sift::Mode Sift::Writer::Sync(): Assertion `!response->fail()' failed.
+[app0] Pin app terminated abnormally due to signal 6.
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+a test for execution
+
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+a test for execution
+
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+ =========================================================== 
+Triggers: 535359
+Repeats: 0
+
+Same addr: 299117 55.8722
+New addr: 1184 0.22116
+
+Distribution of new addresses: 
+Stream Head: 113 9.54392
+Stream Divergence: 77250 6524.49
+
+Invalidation count: 110103 9299.24
+No Conflict count: 36682 3098.14
+Same Stream count: 0 0
+New Stream count: 0 0
+
+Not found: 203955
+On Chip Mispredictions: 0
+ =========================================================== 
+Distribution of predictions: 
+Predict Init: 440323 82.2482
+Total Predictions: 398445
+Predict OCI Miss: 41601 9.44784
+Predict Stream End: 41878 9.51075
+Buffer Success: 0 0
+Stride Distribution: 0, 80177, 13800, 36616, 27600, 45678, 4600, 18400, 22218, 4600, 23000, 25438, 13536, 23092, 28014, 8464, 31970, 0, 12972, 0, 13800, 0, 0, 0, 7222, 0, 0, 0, 0, 0, 2254, 0, 9200, 0, 0, 0, 7038, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 39339168, 0, 49, 0, 15, 0, 15, 0, 0, 6644585, 1868787317, 1915577714, 1702195557, 7566451, 113, 0, 5073232, 0, 36012528, 0, 0, 0, 5073232, 0, 36570944, 0, 0, 0, 5073232, 0, 36843296, 0, 0, 0, 5165152, 0, 1483246960, 11013, 0, 11013, 39337472, 0, 49, 0, 6, 0, 6, 0, 0, 0, 1919906931, 29541, 48, 0, 49, 0, 
+a test for execution
+
+Inserted: 740308
+Redundant.progress: 6948
+Redundant.cache: 557435
+Redundant.buffer: 0
+[SNIPER] End
+[SNIPER] Elapsed time: 1542.70 seconds

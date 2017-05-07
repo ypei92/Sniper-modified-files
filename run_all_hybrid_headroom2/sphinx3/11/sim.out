@@ -1,0 +1,48 @@
+                                     | Core 0    
+  Instructions                       |  249999893
+  Cycles                             |  211824760
+  IPC                                |       1.18
+  Time (ns)                          |   62301400
+  Idle time (ns)                     |        -59
+  Idle time (%)                      |      -0.0%
+Branch predictor stats               |           
+  num correct                        |   21035093
+  num incorrect                      |     605176
+  misprediction rate                 |      2.80%
+  mpki                               |       2.42
+TLB Summary                          |           
+  I-TLB                              |           
+    num accesses                     |   35559579
+    num misses                       |         77
+    miss rate                        |      0.00%
+    mpki                             |       0.00
+  D-TLB                              |           
+    num accesses                     |   70175111
+    num misses                       |     113557
+    miss rate                        |      0.16%
+    mpki                             |       0.45
+Cache Summary                        |           
+  Cache L1-I                         |           
+    num cache accesses               |   35559579
+    num cache misses                 |        481
+    miss rate                        |      0.00%
+    mpki                             |       0.00
+  Cache L1-D                         |           
+    num cache accesses               |   70175111
+    num cache misses                 |    3706921
+    miss rate                        |      5.28%
+    mpki                             |      14.83
+  Cache L2                           |           
+    num cache accesses               |    3776686
+    num cache misses                 |     246528
+    miss rate                        |      6.53%
+    mpki                             |       0.99
+DRAM summary                         |           
+  num dram accesses                  |    3456878
+  average dram access latency (ns)   |     112.52
+  average dram queueing delay        |      48.71
+  average dram bandwidth utilization |     27.00%
+Coherency Traffic                    |           
+  num loads from dram                |          0
+  num loads from dram cache          |          0
+  num loads from remote cache        |          0

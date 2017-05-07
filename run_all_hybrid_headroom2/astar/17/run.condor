@@ -1,0 +1,17 @@
+
++Group="GRAD"
++Project="ARCHITECTURE"
++ProjectDescription="Architectural Simulation to study caches using sniper simulator"
+universe=vanilla
+coresize=0
+getenv=true
+Rank=Memory
+notification=Error
+input=
+output=/u/ypei/Desktop/cs395t-lin/output/run_all_hybrid_headroom2/astar/17/CONDOR.OUT
+error=/u/ypei/Desktop/cs395t-lin/output/run_all_hybrid_headroom2/astar/17/CONDOR.ERR
+Log=/u/ypei/Desktop/cs395t-lin/output/run_all_hybrid_headroom2/astar/17/CONDOR.LOG
+requirements = InMastodon
+initialdir = /u/ypei/Desktop/cs395t-lin/output/run_all_hybrid_headroom2/astar/17
+executable = /u/ypei/Desktop/cs395t-lin/output/run_all_hybrid_headroom2/astar/17/run.sh
+queue

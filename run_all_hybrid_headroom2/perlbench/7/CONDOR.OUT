@@ -1,0 +1,101 @@
+[SNIPER] Start
+Sampler: 4, 32, 0
+itlb_cache: 32, 1
+itlb_cache_L1: 32, 1
+Sampler: 4, 128, 0
+dtlb_cache: 128, 4
+dtlb_cache_L1: 128, 4
+L1-I 2
+Sampler: 4, 4, 128
+L1-I: 2048, 64
+L1-I_L1: 2048, 64
+L1-D 3
+Sampler: 4, 8, 32
+L1-D: 1024, 32
+L1-D_L1: 1024, 32
+L2 4
+Sampler: 122, 16, 16
+L2: 32768, 1024
+L2_L1: 32768, 1024
+Executing Python script /v/filer4b/v20q001/ypei/Desktop/cs395t-lin/output/run_all_hybrid_headroom2/perlbench/7/sim.scripts.py
+[STOPBYICOUNT] Starting in ROI (detail)
+[STOPBYICOUNT] Then stopping after simulating at least 250000000 instructions in detail
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using SIFT/trace-driven frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+[app0] cf34ca54dc85702d5e27f5f6214aa0ae:
+[app0] SPAM[ 17549]: CLICK_BELOW,DATE_IN_FUTURE_06_12,EXCUSE_3,HTML_60_70,HTML_FONTCOLOR_BLUE,HTML_FONTCOLOR_RED,HTML_FONTCOLOR_UNSAFE,HTML_FONT_BIG,HTML_FONT_FACE_BAD,HTML_FORMACTION_MAILTO,HTML_LINK_CLICK_HERE,HTML_MESSAGE,HTML_TAG_EXISTS_TBODY,INVALID_DATE_TZ_ABSURD,MAILTO_SUBJ_REMOVE,MAILTO_TO_REMOVE,MIME_HTML_ONLY,MSGID_OUTLOOK_INVALID,MSGID_SPAM_ZEROES
+[app0] ...replaced by 564ceba945e22fb2ac71205899419efe
+[app0] cf2d9083c3b734a89fcd94846e773550:
+[app0] NOT SPAM[ 2870]: DATE_IN_PAST_96_XX,NO_REAL_NAME,PRIORITY_NO_NAME,X_PRIORITY_HIGH
+[app0] ...replaced by a7d73df2bfb6068b9bfaba379651fc82
+[app0] cf271f5e5ac435c55b91442146982351:
+[app0] SPAM[ 22944]: ADDR_NUMS_AT_BIGSITE,BTAMAIL_URL,CLICK_BELOW_CAPS,DATE_IN_FUTURE_12_24,EXCUSE_3,FORGED_YAHOO_RCVD,FROM_ENDS_IN_NUMS,FROM_WEBMAIL_END_NUMS6,FRONTPAGE,HTML_50_60,HTML_FONTCOLOR_RED,HTML_FONT_BIG,HTML_FORMACTION_MAILTO,HTML_LINK_CLICK_CAPS,HTML_LINK_CLICK_HERE,HTML_MESSAGE,HTML_TAG_EXISTS_TBODY,LINES_OF_YELLING,LINES_OF_YELLING_2,MAILTO_SUBJ_REMOVE,MAILTO_TO_REMOVE,MIME_HTML_NO_CHARSET,MIME_HTML_ONLY,MSGID_FROM_MTA_HEADER,NO_QS_ASKED,NO_REAL_NAME,REMOVE_REMOVAL_1WORD,THE_FOLLOWING_FORM,UPPERCASE_25_50
+[app0] ...replaced by 6beff2777e211a1fde5bb164217c9fa1
+[STOPBYICOUNT] Ending ROI after 250000005 instructions (250000000 requested)
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 1600.45 seconds
+[SNIPER] Simulated 250.0M instructions, 160.0M cycles, 1.56 IPC
+[SNIPER] Simulation speed 156.2 KIPS (156.2 KIPS / target core - 6401.7ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[app0] [SIFT_RECORDER] sift_writer.cc:550: Sift::Mode Sift::Writer::Sync(): Assertion `!response->fail()' failed.
+[app0] Pin app terminated abnormally due to signal 6.
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+a test for execution
+
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+a test for execution
+
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+ =========================================================== 
+Triggers: 1217307
+Repeats: 0
+
+Same addr: 708968 58.2407
+New addr: 1238 0.1017
+
+Distribution of new addresses: 
+Stream Head: 148 11.9548
+Stream Divergence: 271960 21967.7
+
+Invalidation count: 327181 26428.2
+No Conflict count: 59424 4800
+Same Stream count: 0 0
+New Stream count: 0 0
+
+Not found: 426120
+On Chip Mispredictions: 0
+ =========================================================== 
+Distribution of predictions: 
+Predict Init: 1117130 91.7706
+Total Predictions: 1027538
+Predict OCI Miss: 88954 7.96273
+Predict Stream End: 89592 8.01984
+Buffer Success: 0 0
+Stride Distribution: 0, 177283, 167808, 90574, 78108, 45448, 31786, 43894, 47656, 32200, 26174, 23230, 27600, 23000, 28152, 31280, 31510, 0, 20470, 0, 11500, 0, 0, 0, 11592, 0, 0, 0, 0, 0, 20424, 0, 7728, 0, 0, 0, 6716, 0, 0, 0, 4600, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 40682656, 0, 49, 0, 15, 0, 15, 0, 0, 6644585, 1868787317, 1915577714, 1702195557, 7566451, 113, 0, 5073232, 0, 37356016, 0, 0, 0, 5073232, 0, 37914432, 0, 0, 0, 5073232, 0, 38186784, 0, 0, 0, 5165152, 0, 1960766832, 11053, 0, 11053, 40680960, 0, 49, 0, 6, 0, 6, 0, 0, 0, 1919906931, 29541, 48, 0, 49, 0, 
+a test for execution
+
+Inserted: 1778174
+Redundant.progress: 10020
+Redundant.cache: 1521268
+Redundant.buffer: 0
+[SNIPER] End
+[SNIPER] Elapsed time: 1665.49 seconds
