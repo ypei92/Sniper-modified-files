@@ -1,0 +1,92 @@
+[SNIPER] Start
+Sampler: 4, 32, 0
+itlb_cache: 32, 1
+itlb_cache_L1: 32, 1
+Sampler: 4, 128, 0
+dtlb_cache: 128, 4
+dtlb_cache_L1: 128, 4
+L1-I 2
+Sampler: 4, 4, 128
+L1-I: 2048, 64
+L1-I_L1: 2048, 64
+L1-D 3
+Sampler: 4, 8, 32
+L1-D: 1024, 32
+L1-D_L1: 1024, 32
+L2 4
+Sampler: 122, 16, 16
+L2: 32768, 1024
+L2_L1: 32768, 1024
+Executing Python script /v/filer4b/v20q001/ypei/Desktop/cs395t-lin/output/low_bandwidth/run_all_hybrid_headroom9/gcc/13/sim.scripts.py
+[STOPBYICOUNT] Starting in ROI (detail)
+[STOPBYICOUNT] Then stopping after simulating at least 250000000 instructions in detail
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using SIFT/trace-driven frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+[STOPBYICOUNT] Ending ROI after 250000005 instructions (250000000 requested)
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 584.28 seconds
+[SNIPER] Simulated 250.0M instructions, 393.3M cycles, 0.64 IPC
+[SNIPER] Simulation speed 427.9 KIPS (427.9 KIPS / target core - 2337.2ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[app0] [SIFT_RECORDER] sift_writer.cc:550: Sift::Mode Sift::Writer::Sync(): Assertion `!response->fail()' failed.
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+a test for execution
+[app0] Pin app terminated abnormally due to signal 6.
+
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+a test for execution
+
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+ =========================================================== 
+Triggers: 1902224
+Repeats: 0
+
+Same addr: 1369129 71.9752
+New addr: 1199 0.0630315
+
+Distribution of new addresses: 
+Stream Head: 824 68.7239
+Stream Divergence: 201882 16837.5
+
+Invalidation count: 235203 19616.6
+No Conflict count: 34559 2882.32
+Same Stream count: 0 0
+New Stream count: 0 0
+
+Not found: 524944
+On Chip Mispredictions: 0
+ =========================================================== 
+Distribution of predictions: 
+Predict Init: 1611284 84.7053
+Total Predictions: 1595824
+Predict OCI Miss: 10216 0.634029
+Predict Stream End: 15460 0.959483
+Buffer Success: 0 0
+Stride Distribution: 0, 22999, 8786, 13064, 69276, 23736, 168406, 38686, 241776, 45711, 185150, 35328, 128892, 29118, 92828, 19504, 175720, 0, 94484, 0, 80040, 0, 0, 0, 72036, 0, 0, 0, 0, 0, 85330, 0, 20516, 0, 0, 0, 15824, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 46667056, 0, 49, 0, 15, 0, 15, 0, 0, 6644585, 1868787317, 1915577714, 1702195557, 7566451, 113, 0, 5073232, 0, 43340448, 0, 0, 0, 5073232, 0, 43898864, 0, 0, 0, 5073232, 0, 44171184, 0, 0, 0, 5165152, 0, 3393207664, 11152, 0, 11152, 46665360, 0, 49, 0, 6, 0, 6, 0, 0, 0, 1919906931, 29541, 48, 0, 49, 0, 
+a test for execution
+
+Inserted: 2030833
+Redundant.progress: 96174
+Redundant.cache: 529673
+Redundant.buffer: 0
+[SNIPER] End
+[SNIPER] Elapsed time: 587.58 seconds

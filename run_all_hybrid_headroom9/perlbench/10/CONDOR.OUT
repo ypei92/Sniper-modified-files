@@ -1,0 +1,98 @@
+[SNIPER] Start
+Sampler: 4, 32, 0
+itlb_cache: 32, 1
+itlb_cache_L1: 32, 1
+Sampler: 4, 128, 0
+dtlb_cache: 128, 4
+dtlb_cache_L1: 128, 4
+L1-I 2
+Sampler: 4, 4, 128
+L1-I: 2048, 64
+L1-I_L1: 2048, 64
+L1-D 3
+Sampler: 4, 8, 32
+L1-D: 1024, 32
+L1-D_L1: 1024, 32
+L2 4
+Sampler: 122, 16, 16
+L2: 32768, 1024
+L2_L1: 32768, 1024
+Executing Python script /v/filer4b/v20q001/ypei/Desktop/cs395t-lin/output/low_bandwidth/run_all_hybrid_headroom9/perlbench/10/sim.scripts.py
+[STOPBYICOUNT] Starting in ROI (detail)
+[STOPBYICOUNT] Then stopping after simulating at least 250000000 instructions in detail
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using SIFT/trace-driven frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+[app0] 9482307bdf7796a50c23f632421616ca:
+[app0] NOT SPAM[ 3050]: BIZ_TLD,CLICK_BELOW_CAPS,HTML_50_60,HTML_FONTCOLOR_RED,HTML_FONT_BIG,HTML_LINK_CLICK_CAPS,HTML_MESSAGE,LOW_PRICE,MIME_HTML_ONLY
+[app0] ...replaced by 1ee1b87b9da7bf8a0e2b3e505ad2d75f
+[app0] 947b8f1086d912b2964459b87b30be2c:
+[app0] NOT SPAM[ 0]:
+[app0] ...replaced by fe4281d6b66c6ef776b546f3e0ad69b8
+[STOPBYICOUNT] Ending ROI after 250000007 instructions (250000000 requested)
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 993.40 seconds
+[SNIPER] Simulated 250.0M instructions, 150.4M cycles, 1.66 IPC
+[SNIPER] Simulation speed 251.7 KIPS (251.7 KIPS / target core - 3973.7ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[app0] [SIFT_RECORDER] sift_writer.cc:550: Sift::Mode Sift::Writer::Sync(): Assertion `!response->fail()' failed.
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+a test for execution
+[app0] Pin app terminated abnormally due to signal 6.
+
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+a test for execution
+
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+ =========================================================== 
+Triggers: 656043
+Repeats: 0
+
+Same addr: 369326 56.296
+New addr: 1219 0.185811
+
+Distribution of new addresses: 
+Stream Head: 152 12.4692
+Stream Divergence: 104455 8568.91
+
+Invalidation count: 141795 11632.1
+No Conflict count: 41146 3375.39
+Same Stream count: 0 0
+New Stream count: 0 0
+
+Not found: 241582
+On Chip Mispredictions: 0
+ =========================================================== 
+Distribution of predictions: 
+Predict Init: 555037 84.6038
+Total Predictions: 504950
+Predict OCI Miss: 49612 8.9385
+Predict Stream End: 50087 9.02408
+Buffer Success: 0 0
+Stride Distribution: 0, 101797, 44988, 47702, 22034, 23000, 24656, 27600, 41400, 30314, 35650, 18308, 4600, 28006, 21160, 7222, 37306, 0, 7038, 0, 13984, 0, 0, 0, 6210, 0, 0, 0, 0, 0, 7314, 0, 10074, 0, 0, 0, 2944, 0, 0, 0, 9890, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 32363856, 0, 49, 0, 15, 0, 15, 0, 0, 6644585, 1868787317, 1915577714, 1702195557, 7566451, 113, 0, 5073232, 0, 29037248, 0, 0, 0, 5073232, 0, 29595664, 0, 0, 0, 5073232, 0, 29867984, 0, 0, 0, 5165152, 0, 473443696, 11023, 0, 11023, 32362160, 0, 49, 0, 6, 0, 6, 0, 0, 0, 1919906931, 29541, 48, 0, 49, 0, 
+a test for execution
+
+Inserted: 626816
+Redundant.progress: 3081
+Redundant.cache: 524870
+Redundant.buffer: 0
+[SNIPER] End
+[SNIPER] Elapsed time: 998.14 seconds
