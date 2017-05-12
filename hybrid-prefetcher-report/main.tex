@@ -1,4 +1,4 @@
-\documentclass[letterpaper,keeplastbox,twoside,10pt]{article}
+\documentclass[a4paper,keeplastbox,twoside,10pt]{report}
 \usepackage{usenix}
 \usepackage{paralist}
 \usepackage{wrapfig}
@@ -28,6 +28,9 @@
 \usepackage{graphicx}
 \usepackage{algorithm}
 \usepackage{color,soul}
+\usepackage{sectsty}
+\usepackage{titlesec}
+\usepackage[margin=1in]{geometry}
 \usepackage[
 bookmarks,bookmarksopen,
 pdfstartview={FitH},
@@ -39,13 +42,20 @@ urlcolor={black}
 \addtolength{\belowcaptionskip}{-5pt}
 
 \newcommand{\grumbler}[2]{\textcolor{red}{\bf #1: #2}}
-% Add your own...
 \newcommand\tab[1][1cm]{\hspace*{#1}}
+\renewcommand\thesection{\arabic{section}}
+\renewcommand\thesubsection{\thesection.\arabic{subsection}}
+
+\titleformat*{\section}{\LARGE\bfseries}
+\titleformat*{\subsection}{\large\bfseries}
+\titleformat*{\subsubsection}{\normalsize\bfseries}
+\titleformat*{\paragraph}{\large\bfseries}
+\titleformat*{\subparagraph}{\large\bfseries}
 
 \begin{document}
 
-\title{\Large Hybrid Prefetcher using ISB and BO}
-\author{\rm Yan Pei, Michael He\\The University of Texas at Austin}
+\title{\huge Hybrid Prefetcher using ISB and BO}
+\author{Yan Pei, Michael He\\The University of Texas at Austin\\\{ypei, jyhe\}@cs.utexas.edu}
 
 \maketitle
 
@@ -53,15 +63,14 @@ urlcolor={black}
 \pagenumbering{arabic}
 
 \tableofcontents
-
 \newpage
 \input{section/introduction}
 \newpage
 \input{section/motivation}
 \newpage
-\input{section/headroom}
-\newpage
 \input{section/design}
+\newpage
+\input{section/headroom}
 \newpage
 \input{section/experimental_methodology}
 \newpage
@@ -69,7 +78,7 @@ urlcolor={black}
 \newpage
 \input{section/conclusion}
 \newpage
-\input{section/future_work}
+\input{section/acknowledgement}
 
 \newpage
 \bibliographystyle{plain}
