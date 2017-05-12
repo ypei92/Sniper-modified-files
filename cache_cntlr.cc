@@ -157,6 +157,9 @@ CacheCntlr::CacheCntlr(MemComponent::component_t mem_component,
    m_shmem_perf_global(NULL),
    m_shmem_perf_model(shmem_perf_model)
 {
+   prev_loads_prefetch = 0;
+   prev_load_misses = 0;
+   time_cnt = 0;
    m_core_id_master = m_core_id - m_core_id % m_shared_cores;
    Sim()->getStatsManager()->logTopology(name, core_id, m_core_id_master);
 
@@ -314,7 +317,7 @@ std::cout<<"a test for execution"<<std::endl;
 	if(it->second > 0)
 	{
 		OUTFILE1 << "PC: " << it->first << " prefetch_hits + misses: " << it->second << " prefetch_hits: " << pc_hits[it->first];
-		OUTFILE1 << " accuracy: " << (double) pc_hits[it->first]/ (double) it->second << std::endl; 
+		OUTFILE1 << " hit rate: " << (double) pc_hits[it->first]/ (double) it->second << std::endl; 
 	}
     }
     std::cout<<std::endl;
@@ -330,6 +333,13 @@ std::cout<<"a test for execution"<<std::endl;
 	}
     }
     OUTFILE2.close();
+    ofstream OUTFILE3("trigger_demand.csv");
+    OUTFILE3 << "trigger: \tdemand: \tcnt:" <<endl;
+    for(std::map< std::pair<IntPtr, IntPtr>, UInt64>::iterator it=trigger_demand_cnt.begin(); it!= trigger_demand_cnt.end(); ++it)
+    {
+      
+        OUTFILE3 << it->first.first << "\t" << it->first.second << "\t" << it->second << endl;
+    }
 #ifdef KNAPSACK 
     assert(0);
     std::cout << std::endl << "============================= ==================================="<< std::endl << std::endl;
@@ -1028,7 +1038,8 @@ CacheCntlr::doPrefetch(IntPtr prefetch_address, IntPtr prefetch_pc, SubsecondTim
    }
    //std::cout<<"debug!"<< temp_prefetch_pc << std::endl;
    pc_prefetches[temp_prefetch_pc]++;
-   addr_prefetch_pc[prefetch_address] = temp_prefetch_pc;
+   if(addr_prefetch_pc.find(prefetch_address) == addr_prefetch_pc.end())
+       addr_prefetch_pc[prefetch_address] = temp_prefetch_pc;
 
    ++stats.prefetches;
    acquireStackLock(prefetch_address);
@@ -1205,25 +1216,33 @@ CacheCntlr::processShmemReqFromPrevCache(CacheCntlr* requester, Core::mem_op_t m
 
    if (cache_hit)
    {
-	  //std::cout<<"debug1"<<std::endl;
+	//std::cout<<"debug1"<<std::endl;
       if (isPrefetch == Prefetch::NONE && cache_block_info->hasOption(CacheBlockInfo::PREFETCH))
       {
          // This line was fetched by the prefetcher and has proven useful
-	    //std::cout<<"debug2"<<std::endl;
+	//std::cout<<"debug2"<<std::endl;
         if(pc_accesses.find(ca_pc) == pc_accesses.end())
 	{
 	 
 	    pc_hits[ca_pc] = 0;
 	    pc_accesses[ca_pc] = 0;           
         }	
-	 
-	   //std::cout<<"PC: "<< ca_pc << " accesses: " << pc_accesses[ca_pc] << " pc_hits: " << pc_hits[ca_pc] << std::endl;
+		   //std::cout<<"PC: "<< ca_pc << " accesses: " << pc_accesses[ca_pc] << " pc_hits: " << pc_hits[ca_pc] << std::endl;
          pc_hits[ca_pc]++;
 	 pc_accesses[ca_pc]++;
          UInt64 prefetch_pc = addr_prefetch_pc[address];
+         addr_prefetch_pc.erase(address);
          assert(pc_prefetches.find(prefetch_pc) != pc_prefetches.end());
          pc_prefetch_hits[prefetch_pc]++;
-	 
+	 std::pair<IntPtr, IntPtr> temp(prefetch_pc, ca_pc), temp2(ca_pc, prefetch_pc);
+         if(trigger_demand_cnt.find(temp) == trigger_demand_cnt.end())
+         {
+             trigger_demand_cnt[temp] = 0;
+             demand_trigger_cnt[temp2] = 0;
+         } 
+         trigger_demand_cnt[temp]++;        
+         demand_trigger_cnt[temp2]++;        
+ 
 	 stats.hits_prefetch++;
          prefetch_hit = true;
          cache_block_info->clearOption(CacheBlockInfo::PREFETCH);
@@ -1449,6 +1468,19 @@ CacheCntlr::processShmemReqFromPrevCache(CacheCntlr* requester, Core::mem_op_t m
    if (count && modeled && m_master->m_prefetcher && isPrefetch == Prefetch::NONE && mem_op_type != Core::WRITE)
    {
       trainPrefetcher(ca_pc, address, cache_hit, prefetch_hit, t_issue);
+        
+        SubsecondTime t_now = getShmemPerfModel()->getElapsedTime(ShmemPerfModel::_USER_THREAD); 
+        if(t_now.getNS() > time_cnt * 1000000)
+        {
+             double bandwidth_usage =(double) ((stats.load_misses + stats.loads_prefetch) - (prev_load_misses + prev_loads_prefetch));///((double)(t_prev.getNS() - t_now.getNS()));  
+             cout << time_cnt << "\t" << bandwidth_usage << endl;
+             //t_prev = t_now;
+             prev_load_misses = stats.load_misses;
+             prev_loads_prefetch = stats.loads_prefetch;
+             time_cnt++;
+             //cout << t_now.getNS() << endl;
+        }
+
    }
 
    #ifdef PRIVATE_L2_OPTIMIZATION

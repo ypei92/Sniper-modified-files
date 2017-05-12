@@ -225,7 +225,13 @@ namespace ParametricDramDirectoryMSI
 	   std::map<IntPtr, UInt64> pc_prefetches;
 	   std::map<IntPtr, UInt64> pc_prefetch_hits;
 	   std::map<IntPtr, IntPtr> addr_prefetch_pc;
-	  struct {
+           std::map< std::pair<IntPtr,IntPtr>, UInt64 > trigger_demand_cnt;
+           std::map< std::pair<IntPtr,IntPtr>, UInt64 > demand_trigger_cnt;
+	 UInt64 prev_load_misses, prev_loads_prefetch;
+         SubsecondTime t_prev;
+         uint time_cnt; 
+
+         struct {
            UInt64 loads, stores;
            UInt64 load_misses, store_misses;
            UInt64 load_overlapping_misses, store_overlapping_misses;
