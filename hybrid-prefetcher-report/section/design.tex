@@ -1,14 +1,12 @@
 \section{Design Flow}
 \label{sec:designflow}
 
-
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=1.0\textwidth]{images/design_flow.png}
 	\caption{Design flow}
 	\label{fig:design_flow}
 \end{figure}
-
 
 Based on the introduction and motivation we demonstrated above, we design our headroom experiments and ``smart'' hybrid prefetcher system in Fig.\ref{fig:design_flow}.
 
@@ -45,15 +43,10 @@ First, we will evaluate the individual performance of \emph{BO}, \emph{ISB} and 
 	\label{fig:pcmetric}
 \end{figure}
 
-
 However, these two metrics from \emph{ISB} and \emph{BO} sometimes cannot determine the preference of a PC.
-For example in Fig.\ref{fig:metric}, on PC1, it is clear that ISB on this PC has higher accuracy and coverage, so the hybrid system should choose ISB. But on PC2, ISB has higher accuracy but BO has higher coverage, then it's hard to choose. 
-In terms of speedup, prefetch hits has positive contribution and useless prefetches has negative contribution. 
-On PC2, BO has more prefetch hits and more useless prefetches, so it's hard to infer its contribution is positive or negative only on this numbers. 
-
-
-
-
+For example in Fig.\ref{fig:pcmetric}, on PC1, it is clear that ISB on this PC has higher accuracy and coverage, so the hybrid system should choose ISB. But on PC2, ISB has higher accuracy but BO has higher coverage, then it's hard to choose.
+In terms of speedup, prefetch hits has positive contribution and useless prefetches has negative contribution.
+On PC2, BO has more prefetch hits and more useless prefetches, so it's hard to infer its contribution is positive or negative only on this numbers.
 
     \subsubsection{Design of Brute Force Search}
     \label{sec:designBFS}
@@ -67,5 +60,11 @@ On PC2, BO has more prefetch hits and more useless prefetches, so it's hard to i
 
   \subsection{Static Analysis}
   \label{sec:staticanalysis}
+  Another path to know about headroom is to use static analysis method. The high level design flow is shown in Fig.\ref{fig:staticanalysis_flow}. The input for a benchmark are three files from \emph{ISB} only execution, \emph{BO} only execution and \emph{NHP} execution. In each performance file, it records the hits and prefetches issued by each PC. As described in Fig.\ref{fig:pcmetric}, some PC are easy to make decision but some are not. Here we come up with some heuristic from \emph{Brute Forse Search} to guide our decision making process. 
 
-  
+  \begin{figure}[ht!]
+	\centering
+	\includegraphics[width=1.0\textwidth]{images/staticanalysis_flow.png}
+	\caption{Static Analysis Design Flow}
+	\label{fig:staticanalysis_flow}
+  \end{figure}
