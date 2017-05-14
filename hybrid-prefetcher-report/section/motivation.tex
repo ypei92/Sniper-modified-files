@@ -48,10 +48,27 @@ Regular prefetchers are good at prefetching regular patterns while prefetching i
     \item Cache pollution
   \end{itemize}
 
-  \subsection{Previous Solution}
+  \subsection{Related Work}
   \label{sec:PrevSol}
-  previous solution
+  Gendler et al.\cite{gendlerpaper} proposed a method to combine multiple prefetchers. 
+  They calculate the accuracy of every prefetcher in the last N prefetched addresses and only turn on the most accurate one. 
+  This scheme doesn't take coverage into account and may result in bad choice: a high-accurate low-coverage prefetcher is preferred to a medium-high-accurate high coverage one. 
+  If the contention of resources is not an issue, the better choice is obviously the latter one. \par
+  Ebrahimi et al.\cite{yalepaper} used an interval-based sampling and throttling method to control the aggressiveness of two prefetchers. 
+  In each interval, they sample the number of total prefetches, hits in prefetches and total misses to calculate the accuracy and coverage of each prefetcher. 
+  They combine the current statistics and historical statistics, and use the combination as the performance feedback of two prefetchers. 
+  Finally they build a heuristics to coordinate and throttle the prefetchers in the next interval.
+  
+  
 
-\subsection{Our Goal}
+\subsection{Our Scheme: PC Localization}
   \label{sec:goal}
-  Our design of hybrid prefetcher should do prefetches smartly. Idealy, if our hybrid prefetcher can utilize \emph{BO} and \emph{ISB}'s advantage well while avoiding the influence of their disadvantages, the hybrid prefetcher should enjoy better accuracy, coverage and speedup. The rest of the report are organized as follows. Section \ref{fig:design_flow} described the way we design our research process. Section \ref{sec:headroom} analyzes the result of headroom experiments and how the result should guide our real design. Section \ref{sec:ourdesign} will give the solution of our design and the result are evaluated in section \ref{sec:result}.
+  Our design of hybrid prefetcher should do prefetching smartly. Idealy, if our hybrid prefetcher can utilize \emph{BO} and \emph{ISB}'s advantage well while avoiding the influence of their disadvantages, the hybrid prefetcher should enjoy better accuracy, coverage and speedup. \par
+  PC localization has been demonstrated as a useful technique in prefetching.\cite{isbpaper, ghbpaper, shippaper}. In this project we use PC as our feature to localize prefetchers. The intuition of PC localization is that PC is biased to regular patterns or irregular patterns. 
+  Some PCs traverse an array with a fixed stride so it would always load regular streams. Some PCs scan a linked list or a graph, so it will always load irregular streams. 
+  During the execution, if our hybrid prefetching system can identify the preference of each PC and control the prefetching degree of both prefetchers, we can make accurate prefetches and avoid useless prefetches. \par
+  
+  
+  
+  
+
