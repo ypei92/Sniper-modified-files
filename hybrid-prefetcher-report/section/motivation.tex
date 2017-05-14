@@ -1,6 +1,8 @@
 \section{Motivation}
 \label{sec:motivation}
-As mentioned in section \ref{sec:intro}, the pros and cons are list in the follwing table \ref{table:regVsirreg}. Regular prefetchers are good at prefetching regular patterns while prefetching irregular patterns inaccurately. on the other hand, irregular prefetchers are good at prefetching irregular patterns while prefetching regular patterns inefficiently. Obviously, the advantage and disadvantage of these two kinds of prefetchers are complimentary. One straightforward idea is to identify regular patterns and irregular patterns during execution and apply corresponding prefetcher to issue prefetches.
+As mentioned in section \ref{sec:intro}, the pros and cons are listed in the follwing table \ref{table:regVsirreg}. 
+Regular prefetchers are good at prefetching regular patterns while prefetching irregular patterns inaccurately. on the other hand, irregular prefetchers are good at prefetching irregular patterns while prefetching regular patterns inefficiently. Obviously, the advantage and disadvantage of these two kinds of prefetchers are complimentary. 
+%One straightforward idea is to identify regular patterns and irregular patterns during execution and apply corresponding prefetcher to issue prefetches.
 
 \begin{table}[ht!]
 \centering
@@ -35,7 +37,9 @@ As mentioned in section \ref{sec:intro}, the pros and cons are list in the follw
 	  \label{fig:hybridVssingle}
   \end{figure}
 
-  Well, it works when resource is enough rich, such as huge cache, huge memory bandwidth and so on. If these are limited, \emph{NHP} may cause huge memory pressure and cache pollution due to large number of inaccurate prefetches. In Fig.\ref{fig:hybridVssingle}, we give an example when \emph{NHP} works and when it doesn't. For benchmark \emph{sophinx3}, it is not memory intensive. The figure shows that the accuracy of \emph{ISB} is much higher than \emph{NHP}'s while \emph{NHP}'s coverage is much higher. It means that \emph{NHP} issued much more useless prefetchers to the cache. However, \emph{NHP}'s speed is still much better than \emph{ISB}'s. On the other hand, for benchmark \emph{mcf}, \emph{ISB} still has higher accuracy and lower coverage. However, this time, \emph{NHP}'s speed up is lower than \emph{ISB}'s. The possible reasons that a \emph{NHP} results in poor performance are listed below.
+  Well, it works when resource is rich enough, such as huge cache, huge memory bandwidth and so on. If these are limited, \emph{NHP} may cause huge memory pressure and cache pollution due to large number of inaccurate prefetches. In Fig.\ref{fig:hybridVssingle}, we give an example when \emph{NHP} works and when it doesn't. 
+ For benchmark \emph{sphinx3}, it is not memory intensive. The figure shows that the accuracy of \emph{ISB} is much higher than \emph{NHP}'s while \emph{NHP}'s coverage is a little bit higher. It means that \emph{NHP} issued much more useless prefetches to the memory. However, \emph{NHP}'s speed is still much better than \emph{ISB}'s. 
+ gOn the other hand, for benchmark \emph{mcf}, \emph{ISB} still has higher accuracy and lower coverage. However, this time, \emph{NHP}'s speed up is lower than \emph{ISB}'s. The possible reasons that a \emph{NHP} results in poor performance are listed below.
 
   \begin{itemize}
     \item Memory bandwidth is limited
