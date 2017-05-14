@@ -16,4 +16,6 @@ For types of prefetchers, most of prefetchers can be divided into two groups: \e
 
   \subsection{Best Offset Prefetcher}
   \label{sec:bointro}
+
   \emph{BO}, which stands for best offset prefetcher, is one of the championships of regular prefetcher. \emph{BO} is actually built on \emph{Sandbox prefetcher}\cite{sandboxpaper}. The \emph{Sandbox prefetcher} uses simple hardware and was shown to be quite effective, while the timeliness is not considered in \emph{Sandbox prefetcher}. Many late prefetches are issued in the \emph{Sandbox prefetcher}. The \emph{BO} is an offset prefetcher with a new method for selecting the prefetch offset that takes into account prefetch timeliness. Briefly, the \emph{BO} prefetch offset is updated at the end of every learning phase. Each learning phase consists of several rounds. During a round, each offset in the list is tested once, and each offset's score is incremented if a hit occur. After all the rounds are finished in one learning phase, the offset with the highest score will be selected as the offset of the next learning phase.
+
