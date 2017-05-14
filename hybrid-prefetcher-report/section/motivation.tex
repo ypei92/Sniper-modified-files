@@ -1,11 +1,24 @@
 \section{Motivation}
 \label{sec:motivation}
+As mentioned in section \ref{sec:intro}, the pros and cons are list in the follwing table \ref{table:regVsirreg}. Regular prefetchers are good at prefetching regular patterns while prefetching irregular patterns inaccurately. on the other hand, irregular prefetchers are good at prefetching irregular patterns while prefetching regular patterns inefficiently. Obviously, the advantage and disadvantage of these two kinds of prefetchers are complimentary. One straightforward idea is to identify regular patterns and irregular patterns during execution and apply corresponding prefetcher to issue prefetches.
 
+\begin{table}[ht!]
+\centering
+\begin{tabular}{cccll}
+\cline{1-3}
+\multicolumn{1}{|c|}{}                     & \multicolumn{1}{c|}{Regular Access Pattern}             & \multicolumn{1}{c|}{Irregular Access Pattern}          &  &  \\ \cline{1-3}
+\multicolumn{1}{|c|}{Regular Prefetcher}   & \multicolumn{1}{c|}{Accurate}              & \multicolumn{1}{c|}{{\color[HTML]{FE0000} Inaccurate}} &  &  \\ \cline{1-3}
+\multicolumn{1}{|c|}{Irregular Prefetcher} & \multicolumn{1}{c|}{{\color[HTML]{FE0000} Inefficient}} & \multicolumn{1}{c|}{Accurate} &  &  \\ \cline{1-3}
+\end{tabular}
+\caption{Regular Vs. Irregular}
+\label{table:regVsirreg}
+\end{table}
 
   \subsection{Irregular Vs. Regular}
   \label{sec:irrVsre}
-  As described in \ref{table:prefetchvspattern}, regular prefetchers are good at prefetching regular patterns while prefetching irregular patterns inaccurately. on the other hand, irregular prefetchers are good at prefetching irregular patterns while prefetching regular patterns inefficiently.
+  Here we will show the performance graph of one regular benchmark and one irregular benchmark.
 
-  \subsection{Naive Hybrid Prefetcher}
+
+  \subsection{Naive Hybrid Prefetcher Vs. Single functioned prefetcher}
   \label{sec:naivehy}
   naive hybrid
