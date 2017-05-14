@@ -1,7 +1,7 @@
 \section{Design Flow}
 \label{sec:designflow}
 
-Based on the introduction and motivation we demonstrated above, we design our headroom experiments and online strategy as follows. 
+Based on the introduction and motivation we demonstrated above, we design our headroom experiments and dynamic strategy as follows. 
 
 
 \begin{figure}[ht!]
@@ -11,7 +11,10 @@ Based on the introduction and motivation we demonstrated above, we design our he
 	\label{fig:design_flow}
 \end{figure}
 
-The Brute Force and Static Analysis are both offline headroom designs which will be described in the following two sections. Brute Force Search tries each choice on each PC, and finds out the best decisions and optimal headroom. Static Analysis comes up with a heuristic. It uses the statistics of each PC from ISB, BO and naive hybrid experiments as input, and builds a strategy that makes decisions closest to Brute Force Search thus achieves best speedup. Finally the Static Analysis guides the design of our dynamic hybrid system.
+The Brute Force and Static Analysis are both offline headroom designs which will be described in the following two sections. 
+Brute Force Search tries each choice on each PC, and finds out the best decisions and optimal headroom. 
+Static Analysis comes up with a heuristic. It uses the statistics of each PC from ISB, BO and naive hybrid experiments as input, and builds a strategy that makes decisions closest to Brute Force Search thus achieves best speedup. 
+Finally the Static Analysis guides the design of our dynamic hybrid system.
 
 
   \subsection{Brute Force Search}
@@ -28,15 +31,15 @@ The Brute Force and Static Analysis are both offline headroom designs which will
  Accuracy = \frac{prefetch\ hits}{total\  prefetched} 
  \end{equation}
   \begin{equation}
-  Coverage = \frac{prefetch\ hits}{prefetch\ hits + total\ misses}
+  Coverage = \frac{prefetch\ hits}{total\ prefetch\ hits + total\ misses}
   \end{equation}
   
   Similarly we can define accuracy and coverage of a trigger PC:
   \begin{equation}
-  PC\ Accuracy = \frac{prefetch\ hits}{prefetched\ by\ this\ PC}
+  PC\ Accuracy = \frac{prefetch\ hits\ by\ this\ PC}{prefetches\ by\ this\ PC}
   \end{equation}
   \begin{equation}
-  PC\ Coverage = \frac{prefetch\ hits}{prefetch\ hits + total\ misses}
+  PC\ Coverage = \frac{prefetch\ hits\ by\ this\ PC}{total\ prefetch\ hits + total\ misses}
  \end{equation}
  
  However, it turns out that these two metrics from ISB and BO can't determine the preference of a PC. 
@@ -48,7 +51,9 @@ The Brute Force and Static Analysis are both offline headroom designs which will
 	\label{fig:metric}
 \end{figure}
 
-For example in Fig.\ref{fig:metric}, on PC1, it is clear that ISB on this PC has higher accuracy and coverage, so the hybrid system should choose ISB. But on PC2, ISB has higher accuracy but BO has higher coverage, then it's hard to choose. In terms of speedup, prefetch hits has positive contribution and useless prefetches has negative contribution. On PC2, BO has more prefetch hits and more useless prefetches, so it's hard to infer its contribution is positive or negative only on this numbers. 
+For example in Fig.\ref{fig:metric}, on PC1, it is clear that ISB on this PC has higher accuracy and coverage, so the hybrid system should choose ISB. But on PC2, ISB has higher accuracy but BO has higher coverage, then it's hard to choose. 
+In terms of speedup, prefetch hits has positive contribution and useless prefetches has negative contribution. 
+On PC2, BO has more prefetch hits and more useless prefetches, so it's hard to infer its contribution is positive or negative only on this numbers. 
   
     \subsubsection{Design of Brute Force Search}
   \label{sec:designBFS}

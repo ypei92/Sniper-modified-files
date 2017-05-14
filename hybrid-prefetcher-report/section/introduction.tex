@@ -3,19 +3,31 @@
 
 This is the final class project of cs395t-lin: \emph{Prediction Mechanism in Computer Architecture}. Our group, which consist of Yan Pei and Michael He, chose the project of hybrid prefetch design.
 
-In terms of ``hybrid prefetcher'', it usually means a prefetcher built on several other prefetchers. A hybrid prefetcher usually issues prefetch requests based on what its underlying prefetchers issue. In our project, we designed a prefetcher using irregualr steam buffer prefetcher(\emph{ISB})\cite{isbpaper} and best-offset prefetcher(\emph{BO})\cite{bopaper}.
+``hybrid prefetcher'' means a prefetcher built on several other prefetchers. A hybrid prefetcher issues prefetch requests based on what its underlying prefetchers issue. In our project, we designed a prefetcher using irregualr steam buffer prefetcher(\emph{ISB})\cite{isbpaper} and best-offset prefetcher(\emph{BO})\cite{bopaper}.
 
-In the execution of a program, access patterns means the stream of data address visited. Usually access patterns can be divided into \emph{regular pattern} and \emph{irregular pattern}. For example, the access is regular when traversing a simple array, where address can be represented by a base PC and a fixed stride, while the access is regarded as irregular when traversing a link list, where address are ordered in pointer chasing manner. These two kinds of access patten can occur alone or interleave with each outher.
+In the execution of a program, access patterns, i.e. the stream of data address visited, can be divided into \emph{regular pattern} and \emph{irregular pattern}. For example, the access is regular when traversing a simple array, where addresses can be represented by a base PC and a fixed stride. The access is regarded as irregular when addresses can't be represented as above.  Traversing a link list is irregular, where address are ordered in pointer chasing manner. These two kinds of access pattens can occur alone or interleave with each other.
 
-For types of prefetchers, most of prefetchers can be divided into two groups: \emph{regular prefetcher}\cite{bopaper, sandboxpaper} and \emph{irregular prefetcher}\cite{isbpaper, ghbpaper, reinforcementlearning}. \emph{Regular prefetchers} prefetch regular patterns well while \emph{irregular prefetchers} are good at irregular pattern. These two kinds of prefetchers' advantage are complimentary. Therefore, we construct our hybrid prefetcher by picking one \emph{regular prefetcher} and \emph{irregular prefetcher} respectively. We pick \emph{ISB}\cite{isbpaper} as irregular prefetcher component and \emph{BO}\cite{bopaper} as regular prefetcher component.
+For types of prefetchers, most of prefetchers can be divided into two groups: \emph{regular prefetcher}\cite{bopaper, sandboxpaper} and \emph{irregular prefetcher}\cite{isbpaper, ghbpaper, reinforcementlearning}. 
+They are good at prefetching their corresponding patterns but is either inaccurate or inefficient at the other pattern. Their advantages are complimentary. 
+%\emph{Regular prefetchers} prefetch regular patterns well while \emph{irregular prefetchers} are good at irregular pattern. These two kinds of prefetchers' advantage are complimentary. 
+Therefore, we construct our hybrid prefetcher by combining one \emph{regular prefetcher} and one \emph{irregular prefetcher}. 
+We pick \emph{ISB}\cite{isbpaper} as irregular prefetcher component and \emph{BO}\cite{bopaper} as regular prefetcher component.
 
   \subsection{Irregular Stream Buffer Prefetcher}
   \label{sec:isbintro}
 
-  \emph{ISB}, which stands for irregular stream buffer prefetcher, is the state of the art irregular prefetcher. It enjoys extremely good accuracy with fairly good coverage. In our standing, it is an idea built on \emph{GHB}\cite{ghbpaper}. Instead of using global history buffer, \emph{ISB} assigns access pattern buffer for every PC. In \emph{GHB}, access stream of one PC is stored in a link list, which is very inconvenient to traverse. The key idea of \emph{ISB} is to use an extra level of indirection to translate arbitrary pairs of correlated physical address(PC local access stream) into consecutive address in a new structural address space(PC local access stream buffer), which is visible only to the \emph{ISB}. This structural address space allows the \emph{ISB} to organize prefetching meta-data so that it is simultaneously temporally and spatially ordered, which produce technical benifits in terms of coverage, accuracy and memory traffic overhead.
+  \emph{ISB}, which stands for Irregular Stream Buffer prefetcher, is a state of the art irregular prefetcher. It enjoys extremely good accuracy with fairly good coverage. It is an idea built on Global History Buffer(\emph{GHB})\cite{ghbpaper}.
+In \emph{GHB}, access stream of one PC is stored in a link list, which is very inconvenient to traverse. Instead of using GHB, \emph{ISB} assigns access pattern buffer for every PC.
+The key idea of \emph{ISB} is to use an extra level of indirection to translate arbitrary pairs of correlated physical address(PC local access stream) into consecutive address in a new structural address space(PC local access stream buffer), which is visible only to the \emph{ISB}. 
+This structural address space allows the \emph{ISB} to organize prefetching meta-data so that it is both temporally and spatially ordered, which produce technical benefits in terms of coverage, accuracy and memory traffic overhead.
 
   \subsection{Best Offset Prefetcher}
   \label{sec:bointro}
 
-  \emph{BO}, which stands for best offset prefetcher, is one of the championships of regular prefetcher. \emph{BO} is actually built on \emph{Sandbox prefetcher}\cite{sandboxpaper}. The \emph{Sandbox prefetcher} uses simple hardware and was shown to be quite effective, while the timeliness is not considered in \emph{Sandbox prefetcher}. Many late prefetches are issued in the \emph{Sandbox prefetcher}. The \emph{BO} is an offset prefetcher with a new method for selecting the prefetch offset that takes into account prefetch timeliness. Briefly, the \emph{BO} prefetch offset is updated at the end of every learning phase. Each learning phase consists of several rounds. During a round, each offset in the list is tested once, and each offset's score is incremented if a hit occur. After all the rounds are finished in one learning phase, the offset with the highest score will be selected as the offset of the next learning phase.
+  \emph{BO}, which stands for Best Offset prefetcher, is one of the championships of regular prefetchers. \emph{BO} is actually built on \emph{Sandbox prefetcher}\cite{sandboxpaper}. 
+ The \emph{Sandbox prefetcher} uses simple hardware and was shown to be quite effective, while the timeliness is not considered. 
+ Thus many late prefetches are issued in the \emph{Sandbox prefetcher}. 
+ The \emph{BO} is an offset prefetcher with a new method that takes into account prefetch timeliness. Briefly, the \emph{BO} prefetch offset is updated at the end of every learning phase. Each learning phase consists of several rounds. 
+ During a round, each offset in the list is tested once, and each offset's score is incremented if a hit occur. 
+ After all the rounds are finished in one learning phase, the offset with the highest score will be selected as the offset of the next learning phase.
 
