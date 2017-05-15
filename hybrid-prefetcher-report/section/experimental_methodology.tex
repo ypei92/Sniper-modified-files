@@ -1,7 +1,7 @@
 \section{Experimental Methodology}
 \label{sec:methodology}
 
-We evaluate all our experiments using Sniper \cite{sniperpaper}, a next generation parallel, high-speed and accurate x86 simulator. Our simulation runs ten benchmarks from SPEC06 benchmark suite on a single core model. We disable the prefetching of L1 cache to make the access stream to L2 consistent. We use SimPoint sampling methodology. We simulate 250 million instruction on each SimPoint and simulate around 20 SimPoints on each benchmark. We now only simulate degree equals 1 for both ISB and BO. See Table \ref{table:config} for details. 
+We evaluate all our experiments using \emph{Sniper} \cite{sniperpaper}, a next generation parallel, high-speed and accurate x86 simulator. Our simulation runs ten benchmarks from SPEC06 benchmark suite on a single core model. We disable the prefetching of L1 cache to make the access stream to L2 consistent. We use SimPoint sampling methodology. We simulate 250 million instructions on each SimPoint and simulate around 20 SimPoints on each benchmark. We now only simulate both ISB and BO with degree one. See Table \ref{table:config} for more details. 
 \begin{table}[ht!]
 \centering
         \renewcommand{\multirowsetup}{\centering}  

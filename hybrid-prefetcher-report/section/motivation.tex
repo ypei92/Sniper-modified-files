@@ -38,7 +38,7 @@ Regular prefetchers are good at prefetching regular patterns but inaccurate at i
   \end{figure}
 
 
-  Well, it works when resource is rich enough, such as huge cache, huge memory bandwidth and so on. If these are limited, \emph{NHP} may cause huge memory pressure and cache pollution due to large number of inaccurate prefetches. In Fig.\ref{fig:hybridVssingle}, we give an example when \emph{NHP} works and when it doesn't. 
+  Well, it works when resource is rich enough, such as huge cache, huge memory bandwidth and so on. If these are limited, \emph{NHP} may cause huge memory pressure and cache pollution due to large number of inaccurate prefetches. In Fig. \ref{fig:hybridVssingle}, we give an example when \emph{NHP} works and when it doesn't. 
  Benchmark \emph{sphinx3} is not memory intensive. The figure shows that the accuracy of \emph{ISB} is much higher than \emph{NHP}'s while \emph{NHP}'s coverage is a little bit higher. This means that \emph{NHP} issued much more useless prefetches to the memory, to achieve a little bit higher coverage. Because the benchmark is not memory intensive, the many useless prefetches don't cost much overhead. \emph{NHP}'s speed is still much better than \emph{ISB}'s. 
  On the other hand, for memory intensive benchmark \emph{mcf}, \emph{ISB} also has higher accuracy and lower coverage. However, this time, \emph{NHP}'s speedup is lower than \emph{ISB}'s. The possible contention reasons that a \emph{NHP} results in poor performance are listed below.
 
@@ -54,7 +54,7 @@ Regular prefetchers are good at prefetching regular patterns but inaccurate at i
   \label{sec:PrevSol}
   Gendler et al.\cite{gendlerpaper} proposed a method to combine multiple prefetchers.
   They calculate the accuracy of every prefetcher in the last N prefetched addresses and only turn on the most accurate one.
-  This scheme doesn't take coverage into account and may result in bad choice: a high-accurate low-coverage prefetcher is preferred to a medium-high-accurate high coverage one.
+  This scheme doesn't take coverage into account and may result in bad choice: a high-accurate low-coverage prefetcher is preferred to a medium-high-accurate high-coverage one.
   If the contention of resources is not an issue, the better choice is obviously the latter one. \par
   Ebrahimi et al.\cite{yalepaper} used an interval-based sampling and throttling method to control the aggressiveness of two prefetchers.
   In each interval, they sample the number of total prefetches, hits in prefetches and total misses to calculate the accuracy and coverage of each prefetcher.
@@ -66,6 +66,8 @@ Regular prefetchers are good at prefetching regular patterns but inaccurate at i
 \subsection{Our Scheme: PC Localization}
   \label{sec:goal}
   Our design of hybrid prefetcher should do prefetching smartly. Idealy, if our hybrid prefetcher can utilize \emph{BO} and \emph{ISB}'s advantage well while avoiding the influence of their disadvantages, the hybrid prefetcher should enjoy better accuracy, coverage and speedup. \par
-  PC localization has been demonstrated as a useful technique in prefetching.\cite{isbpaper, ghbpaper, shippaper}. In this project we use PC as our feature to localize prefetchers. The intuition of PC localization is that PC is biased to regular patterns or irregular patterns.
+  PC localization has been demonstrated as a useful technique in prefetching\cite{isbpaper, ghbpaper, shippaper}. In this project we use PC as our feature to localize prefetchers. The intuition of PC localization is that PC is biased to regular patterns or irregular patterns.
   Some PCs traverse an array with a fixed stride so it would always load regular streams. Some PCs scan a linked list or a graph, so it will always load irregular streams.
-  During the execution, if our hybrid prefetching system can identify the preference of each PC and control the prefetching degree of both prefetchers, we can make accurate prefetches and avoid useless prefetches. \par
+  During the execution, if our hybrid prefetching system can identify the preference of each PC and control the aggressiveness of both prefetchers, we can make accurate prefetches and avoid useless prefetches. \par
+  
+  
