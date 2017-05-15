@@ -34,6 +34,12 @@ This structural address space allows the \emph{ISB} to organize prefetching meta
 %here needs one general discrption
 
  \subsection*{}
+ In this project we design a hybrid prefetching system that uses PC as a feature, to combine irregular and regular prefetchers.
+We use two sets of experiments, \emph{Brute Force Seach} and \emph{Static Analysis}, to measure the headroom of hybrid prefetching system. The \emph{Brute Force Search} finds the optimal decision of each PC.  
+The \emph{Static Analysis} builds a offline heuristic that makes PC decisions closest to \emph{Brute Force Search}. 
+Then this offline heuristic is used as a guide for \emph{Dynamic Hybrid Prefetcher (DHP)} 
+The experiment results show that the DRAM bandwidth is a strong factor to affect headroom. On 6.4GB/s bandwidth, the headroom has on average 12\% speedup over naive hybrid prefetcher and our DHP can achieve 6\% of it. \par
+
  The rest of the report are organized as follows. Section \ref{sec:motivation} demonstrates the motivation of the project. Section \ref{sec:designflow} shows the design flow of our research process, detailedly describes our two headroom designs: brute force search and static analysis. Section \ref{sec:headroom} analyzes the result of headroom experiments and how the result should guide our real design. Section \ref{sec:ourdesign} will give the solution of our design and the result are evaluated in section \ref{sec:result}.
  
  

@@ -14,7 +14,7 @@ In this section, headroom experiment results are analyzed to guide our dynamic h
 
   In Fig.\ref{fig:headroom_acc_cov}, the accuracy and coverage performance of \emph{ISB, BO, NHP, Static Analysis} and \emph{Brute Force Search}. Comparing \emph{NHP} with \emph{ISB, BO}, we found that the accuracy of \emph{NHP} is significantly lower than \emph{ISB}'s, while its coverage is higher than \emph{ISB}. It indicate that \emph{NHP} issued much more prefetches than \emph{ISB} or \emph{BO}. For \emph{static analysis} part, it achieves similar accuracy with \emph{ISB}'s, and similar coverage with \emph{NHP}'s. This is understandable since static analysis focus on static data files, making wise decisions is the only thing it can do. The \emph{Brute Force Search} method focuses on speedup most. Therefore, its accuracy and coverage performance are not as good as the static ones'. Because we use \emph{SNIPER} as our simulator, the accuracy and coverage keep the same even we change the bandwidth since no prefetch is abandoned.
 
-  Though accuracy and coverage are good metrics for evaluating prefetchers. The most import performance metric is speedup. The speedup numbers of different bandwidth are shown in Fig.\ref{fig:headroom_speedup}. Interestingly, we got results of different shapes when the bandwidth is different. \emph{ISB} has higher speedup during low bandwidth while \emph{BO} has higher during high bandwidth. The reason is that high bandwidth wouldn't give much punishment to useless prefetch while low bandwidth does. For \emph{NHP}, in both configuration it enjoys higher speedup. However, the headroom of 6.4GB/s bandwidth is more than 11\%, while only 4\% in 12.8GB/s bandwidth case. Another point worth attention is that though static method enjoys higher accuracy and coverage than the brute force one, \emph{Brute Force Search} still has better speedup. Intuitively, it is because some prefetches shouldn't have been issued by \emph{Static Analysis} due to high memory pressure at that point. The detail reason will be explained in section \ref{sec:memorybandwidthissue}.
+  Though accuracy and coverage are good metrics for evaluating prefetchers. The most import performance metric is speedup. The speedup numbers of different bandwidth are shown in Fig.\ref{fig:headroom_speedup}. Note that here and in all the later figures, the speedup is comparing to system with no prefetcher. Interestingly, we got results of different shapes when the bandwidth is different. \emph{ISB} has higher speedup during low bandwidth while \emph{BO} has higher during high bandwidth. The reason is that high bandwidth wouldn't give much punishment to useless prefetch while low bandwidth does. For \emph{NHP}, in both configuration it enjoys higher speedup. However, the headroom of 6.4GB/s bandwidth is more than 11\%, while only 4\% in 12.8GB/s bandwidth case. Another point worth attention is that though static method enjoys higher accuracy and coverage than the brute force one, \emph{Brute Force Search} still has better speedup. Intuitively, it is because some prefetches shouldn't have been issued by \emph{Static Analysis} due to high memory pressure at that point. The detail reason will be explained in section \ref{sec:memorybandwidthissue}.
 
   In our later evaluation, we will choose 6.4GB/s as our bandwidth since the headroom is quite encouraging in that case.
 
@@ -33,21 +33,21 @@ In this section, headroom experiment results are analyzed to guide our dynamic h
   In Fig.\ref{fig:headroom_speedup}, the headroom of high bandwidth 12.8 GB/s is from NHB 44.1\% to static 48\%, it has about 3.9\% headroom. On low bandwidth 6.4 GB/s, the headroom is from NHB 26.9\% to BF 38.2\%, headroom is 11.3\%.
   The figure shows that the headroom of hybrid prefetching system is highly related to memory bandwidth, and it is consistent with our previous discussion: hybrid prefetching system is limited by the amount of shared resources.
   The less resources it has, the more headroom it can achieve.\par
-  In this part we will discuss in detail how the memory bandwidth influences our performance, and how we can deal with it.\par
 
-    \begin{figure}[ht!]
+
+    \begin{figure}[h]
 	   \centering
-	   \includegraphics[width=1.0\textwidth]{images/bandwidth_IPC.png}
+	   \includegraphics[width=0.8\textwidth]{images/bandwidth_IPC.png}
 	   \caption{DRAM accesses vs IPC}
 	  \label{fig:bandwidth_IPC}
   \end{figure}
-  \begin{figure}[ht!]
+  \begin{figure}[h]
 	   \centering
-	   \includegraphics[width=1.0\textwidth]{images/bandwidth_latency.png}
+	   \includegraphics[width=0.8\textwidth]{images/bandwidth_latency.png}
 	   \caption{DRAM accesses vs DRAM latency}
 	  \label{fig:bandwidth_latency}
   \end{figure}
-
+In this part we will discuss in detail how the memory bandwidth influences our performance, and how we can deal with it.\par
 Fig.\ref{fig:bandwidth_IPC} and Fig.\ref{fig:bandwidth_latency} shows bandwidth, IPC and memory latency from benchmark \emph{astar} sim point 1 from 140ms to 192ms. The blue lines in both graphs are numbers of DRAM accesses per ms, which denotes the bandwidth usage. Red line is the number of executed instructions per ms, which denotes IPC. Yellow line is the sum of latency of all DRAM accesses per ms. X axis is the time line.\par
 In Fig.\ref{fig:bandwidth_IPC}, DRAM accesses and IPC almost overlap. This indicates that at the low points, the benchmark program is stalled and DRAM doesn't receive any more request. For those low points in Fig.\ref{fig:bandwidth_latency}, latency increases a lot at the low points. Note that the latency Y axis is in log scale, the latency actually increases four to five magnitudes at those moments. The reason why the peak points of yellow is a little before the low points of blue is that, the sniper simulator calculates the latency of an access at the moment it is issued, not at the moment it returns.\par
  We can draw conclusions from these two figures that: 1) On some benchmarks, programs are occasionally stalled due to limited memory bandwidth and this is a significant issue to the performance. 2) Memory bandwidth should be considered in the hybrid prefetching system.  In our current headroom experiments, PCs make static decisions offline and never change decisions during execution. When we implement dynamic hybrid system, bandwidth usage is a factor to control the prefetching degree of prefetchers. \par
