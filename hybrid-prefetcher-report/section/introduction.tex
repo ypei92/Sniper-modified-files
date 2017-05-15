@@ -3,11 +3,11 @@
 
 This is the final class project of cs395t-lin: \emph{Prediction Mechanism in Computer Architecture}. Our group, which consist of Yan Pei and Michael He, chose the project of hybrid prefetch design.
 
-``hybrid prefetcher'' means a prefetcher built on several other prefetchers. A hybrid prefetcher issues prefetch requests based on what its underlying prefetchers issue. In our project, we designed a prefetcher using irregualr steam buffer prefetcher(\emph{ISB})\cite{isbpaper} and best-offset prefetcher(\emph{BO})\cite{bopaper}.
+``Hybrid prefetcher'' means a prefetcher built on several other prefetchers. A hybrid prefetcher issues prefetch requests based on what its underlying prefetchers issue. In our project, we designed a hybrid prefetcher using irregualr steam buffer prefetcher(\emph{ISB})\cite{isbpaper} and best-offset prefetcher(\emph{BO})\cite{bopaper}.
 
 In the execution of a program, access patterns, i.e. the stream of data address visited, can be divided into \emph{regular pattern} and \emph{irregular pattern}. For example, the access is regular when traversing a simple array, where addresses can be represented by a base PC and a fixed stride. The access is regarded as irregular when addresses can't be represented as above.  Traversing a link list is irregular, where address are ordered in pointer chasing manner. These two kinds of access pattens can occur alone or interleave with each other.
 
-For types of prefetchers, most of prefetchers can be divided into two groups: \emph{regular prefetcher}\cite{bopaper, sandboxpaper} and \emph{irregular prefetcher}\cite{isbpaper, ghbpaper, reinforcementlearning}.
+As for types of prefetchers, most of prefetchers can be divided into two groups: \emph{regular prefetcher}\cite{bopaper, sandboxpaper} and \emph{irregular prefetcher}\cite{isbpaper, ghbpaper, reinforcementlearning}.
 They are good at prefetching their corresponding patterns but is either inaccurate or inefficient at the other pattern. Their advantages are complimentary.
 %\emph{Regular prefetchers} prefetch regular patterns well while \emph{irregular prefetchers} are good at irregular pattern. These two kinds of prefetchers' advantage are complimentary.
 Therefore, we construct our hybrid prefetcher by combining one \emph{regular prefetcher} and one \emph{irregular prefetcher}.
@@ -37,7 +37,7 @@ This structural address space allows the \emph{ISB} to organize prefetching meta
  In this project we design a hybrid prefetching system that uses PC as a feature, to combine irregular and regular prefetchers.
 We use two sets of experiments, \emph{Brute Force Seach} and \emph{Static Analysis}, to measure the headroom of hybrid prefetching system. The \emph{Brute Force Search} finds the optimal decision of each PC.  
 The \emph{Static Analysis} builds a offline heuristic that makes PC decisions closest to \emph{Brute Force Search}. 
-Then this offline heuristic is used as a guide for \emph{Dynamic Hybrid Prefetcher (DHP)} 
+Then this offline heuristic is used as a guide for \emph{Dynamic Hybrid Prefetcher (DHP)}.
 The experiment results show that the DRAM bandwidth is a strong factor to affect headroom. On 6.4GB/s bandwidth, the headroom has on average 12\% speedup over naive hybrid prefetcher and our DHP can achieve 6\% of it. \par
 
  The rest of the report are organized as follows. Section \ref{sec:motivation} demonstrates the motivation of the project. Section \ref{sec:designflow} shows the design flow of our research process, detailedly describes our two headroom designs: brute force search and static analysis. Section \ref{sec:headroom} analyzes the result of headroom experiments and how the result should guide our real design. Section \ref{sec:ourdesign} will give the solution of our design and the result are evaluated in section \ref{sec:result}.
