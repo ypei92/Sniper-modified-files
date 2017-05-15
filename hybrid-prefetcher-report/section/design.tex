@@ -60,11 +60,40 @@ On PC2, BO has more prefetch hits and more useless prefetches, so it's hard to i
 
   \subsection{Static Analysis}
   \label{sec:staticanalysis}
-  Another path to know about headroom is to use static analysis method. The high level design flow is shown in Fig.\ref{fig:staticanalysis_flow}. The input for a benchmark are three files from \emph{ISB} only execution, \emph{BO} only execution and \emph{NHP} execution. In each performance file, it records the hits and prefetches issued by each PC. As described in Fig.\ref{fig:pcmetric}, some PC are easy to make decision but some are not. Here we come up with some heuristic from \emph{Brute Forse Search} to guide our decision making process. 
+  Another path to know about headroom is to use static analysis method. The high level design flow is shown in Fig.\ref{fig:staticanalysis_flow}. The input for a benchmark are three files from \emph{ISB} only execution, \emph{BO} only execution and \emph{NHP} execution. In each performance file, it records the hits and prefetches issued by each PC. As described in Fig.\ref{fig:pcmetric}, some PC are easy to make decision but some are not. Here we come up with some heuristic from \emph{Brute Forse Search} to guide our decision making process. After going through the heuristic, each PC has a fixed decision over the whole benchmark execution: \emph{BOTH, NEITHER, ISB} and \emph{BO}.
 
   \begin{figure}[ht!]
-	\centering
-	\includegraphics[width=1.0\textwidth]{images/staticanalysis_flow.png}
-	\caption{Static Analysis Design Flow}
-	\label{fig:staticanalysis_flow}
+	  \centering
+	  \includegraphics[width=0.8\textwidth]{images/staticanalysis_flow.png}
+	  \caption{Static Analysis Design Flow}
+	  \label{fig:staticanalysis_flow}
   \end{figure}
+
+
+  \begin{figure}[ht!]
+	  \centering
+	  \includegraphics[width=0.8\textwidth]{images/heuristic_design.png}
+	  \caption{Heuristic Design}
+	  \label{fig:heuritic design}
+  \end{figure}
+
+  Here we will describle how our heuristic are designed in Fig.\ref{fig:heuritic design}. Four threshold are defined by user. \emph{Global Accuracy Threshold} set the lowest acceptable accuracy of one PC of any kind of prefetcher. \emph{BOTH Accuracy Threshold} determines when we should prefetch both. \emph{NEITHER Accuracy Threshold} determines when we should prefetch at most one of them. Last but not least, \emph{Shared Score Threshold} determines how should shared hits and shared prefetch affect the final decision. The decision process is list as follows.
+
+  1) Compare \emph{NHP}'s accuracy with \emph{BOTH Accuracy Threshold}. If \emph{NHP}'s accuracy is higher than threshold, the hybrid prefetcher would choose both prefetches from \emph{ISB} and \emph{BO}.
+
+  2) Compare \emph{NHP}'s accuracy with \emph{NEITHER Accuracy Threshold}. If \emph{NHP}'s accuracy is lower than threshold, the hybrid prefetcher would choose prefetches from either \emph{ISB}, or \emph{BO} or neither of them.
+
+  3) Compare \emph{ISB}'s and \emph{BO}'s with \emph{Global Accuracy Threshold}, make decision when one meet the threshold and the the other does not. If both meet, go to step 4.
+
+  4) Calculte the shared score. The shared score calculate how many shared hits and shared miss prefetch are made. Usually less share hits and more shared prefetches indicate better cache performance. The score is compared to \emph{Shared Score Threshold} in order to decide whether prefetch both or go to step 5. The score is calculated in equation.\ref{equ:shared_score}.
+
+  \begin{equation}
+  \label{equ:shared_score}
+  shared\_score = shared\_hits - accuracy\_NHP * shared\_prefetch
+  \end{equation}
+
+  5) \emph{BO} score and \emph{ISB} score are defined in equation.\ref{equ:prefetcher_score}. The heuristic of this equation is to calulate the importance of hit and useless prefetches. Hits are more evaluated so we apply a coefficient to reduce the impact of useless prefetches. Finally, the hybrid prefetcher will pick the one with higher score.
+  \begin{equation}
+  \label{equ:prefetcher_score}
+  score = hits - useless\_prefetch * (1 - accuracy\_NHP)
+  \end{equation}
