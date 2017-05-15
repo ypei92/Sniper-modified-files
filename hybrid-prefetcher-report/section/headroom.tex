@@ -1,6 +1,6 @@
 \section{Headroom Experiment}
 \label{sec:headroom}
-In this section, headroom experiment results are analyzed to guide our real hybrid prefetcher design. In section \ref{sec:headroomanalysis} we will talk about the potential of our design and the difference between two headroom test. In section \ref{sec:memorybandwidthissue}, one of the most influential factor, memory bandwidth, will be discussed in detail. Some other insights will be revealed in section \ref{sec:otherinsights}.
+In this section, headroom experiment results are analyzed to guide our dynamic hybrid prefetcher design. In section \ref{sec:headroomanalysis} we will talk about the potential of our design and the difference between two headroom test. In section \ref{sec:memorybandwidthissue}, one of the most influential factor, memory bandwidth, will be discussed in detail. Some other insights will be revealed in section \ref{sec:otherinsights}.
 
   \subsection{Headroom Result Analysis}
   \label{sec:headroomanalysis}
@@ -11,6 +11,14 @@ In this section, headroom experiment results are analyzed to guide our real hybr
 	   \caption{Headroom accuracy and coverage performance}
 	  \label{fig:headroom_acc_cov}
   \end{figure}
+
+  In Fig.\ref{fig:headroom_acc_cov}, the accuracy and coverage performance of \emph{ISB, BO, NHP, Static Analysis} and \emph{Brute Force Search}. Comparing \emph{NHP} with \emph{ISB, BO}, we found that the accuracy of \emph{NHP} is significantly lower than \emph{ISB}'s, while its coverage is higher than \emph{ISB}. It indicate that \emph{NHP} issued much more prefetches than \emph{ISB} or \emph{BO}. For \emph{static analysis} part, it achieves similar accuracy with \emph{ISB}'s, and similar coverage with \emph{NHP}'s. This is understandable since static analysis focus on static data files, making wise decisions is the only thing it can do. The \emph{Brute Force Search} method focuses on speedup most. Therefore, its accuracy and coverage performance are not as good as the static ones'. Because we use \emph{SNIPER} as our simulator, the accuracy and coverage keep the same even we change the bandwidth since no prefetch is abandoned.
+
+  Though accuracy and coverage are good metrics for evaluating prefetchers. The most import performance metric is speedup. The speedup numbers of different bandwidth are shown in Fig.\ref{fig:headroom_speedup}. Interestingly, we got results of different shapes when the bandwidth is different. \emph{ISB} has higher speedup during low bandwidth while \emph{BO} has higher during high bandwidth. The reason is that high bandwidth wouldn't give much punishment to useless prefetch while low bandwidth does. For \emph{NHP}, in both configuration it enjoys higher speedup. However, the headroom of 6.4GB/s bandwidth is more than 11\%, while only 4\% in 12.8GB/s bandwidth case. Another point worth attention is that though static method enjoys higher accuracy and coverage than the brute force one, \emph{Brute Force Search} still has better speed up. Intuitively, it is because some prefetches shouldn't have been issued by \emph{Static Analysis} due to high memory pressure at that point. The detail reason will be explained in section \ref{sec:memorybandwidthissue}.
+
+  In our later evaluation, we will choose 6.4GB/s as our bandwidth since the headroom is quite encouraging in that case.
+
+  %higher accuracy and coverage doesn't imply better speedup.
 
   \begin{figure}[ht!]
 	   \centering
@@ -24,3 +32,10 @@ In this section, headroom experiment results are analyzed to guide our real hybr
 
   \subsection{Some other insights}
   \label{sec:otherinsights}
+  Besides memory bandwidth factor, we have some other insights about these headroom experiments.
+  \begin{itemize}
+    \item Performance is input dependent. A well built benchmark set is important
+    \item The brute force experiments are not optimal, but they can still show the preference of each PC.
+    \item In the headroom experiment, PCs’ decisions are made offline and not changed during execution. And we have up to 12\% speedup headroom. If PC can make dynamic decisions, we may have more speedup.
+    \item Memory bandwidth pressure affects the prefetch performance a lot. It needs to be considered and measured in dynamic hybrid prefetching system.
+  \end{itemize}
