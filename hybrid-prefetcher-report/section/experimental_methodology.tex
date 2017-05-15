@@ -1,27 +1,24 @@
 \section{Experimental Methodology}
 \label{sec:methodology}
 
-We evaluate all our experiments using Sniper \cite{sniperpaper}, a next generation parallel, high-speed and accurate x86 simulator. Our simulation runs ten benchmarks from SPEC06 benchmark suite on a single core model. We disable the prefetching of L1 cache to make the access stream to L2 consistent. We use SimPoint sampling methodology. We simulate 250 million instruction on each SimPoint and simulate around 20 SimPoints on each benchmark. We now only simulate degree equals 1 for both ISB and BO. See Table \ref{table:config} for details. 
+We evaluate all our experiments using \emph{Sniper} \cite{sniperpaper}, a next generation parallel, high-speed and accurate x86 simulator. Our simulation runs ten benchmarks from SPEC06 benchmark suite on a single core model. We disable the prefetching of L1 cache to make the access stream to L2 consistent. SimPoint sampling methodology are used. In each SimPoint, we simulate 250 million instructions and there are around 20 SimPoints on each benchmark. In this experiment, we only simulate both ISB and BO with degree one. See Table \ref{table:config} for more details. 
 \begin{table}[ht!]
 \centering
-        \renewcommand{\multirowsetup}{\centering}  
-        \begin{tabular}{|l|l|} 
-        \hline  
+        \renewcommand{\multirowsetup}{\centering}
+        \begin{tabular}{|l|l|}
+        \hline
         \multirow{2}{3cm}{benchmarks}   & {astar, bzip2, gcc, libquantum, mcf,omnetpp} \\
          \multirow{2}{3cm}{}  & {perlbench, soplex, sphinx3, xalancbmk} \\ \cline{1-2}
          \multirow{2}{3cm}{L1 cache}  & {size: 64kB, associativity: 8, block size = 64Bytes} \\
          \multirow{2}{3cm}{}  & {cache replacement policy: LRU, no prefetching} \\ \cline{1-2}
          \multirow{2}{3cm}{L2 cache}  & {size: 2048kB, associativity: 16, block size = 64Bytes} \\
          \multirow{2}{3cm}{}  & {cache replacement policy: LRU} \\ \cline{1-2}
-         \multirow{2}{3cm}{DRAM }  
-         	& {Latency: 54.4ns } \\ 
+         \multirow{2}{3cm}{DRAM }
+         	& {Latency: 54.4ns } \\
 	 \multirow{1}{3cm}{}  & {per\ controller\ bandwidth = 6.4GB/s or 12.8GB/s} \\ \cline{1-2}
          \multirow{1}{3cm}{prefetchers}  & {ISB (degree = 1), BO (degree = 1)} \\ \cline{1-2}
-        \hline 
-        \end{tabular} 
+        \hline
+        \end{tabular}
 \caption{Configuration}
 \label{table:config}
 \end{table}
-
-
-
