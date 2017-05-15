@@ -3,13 +3,13 @@
 
 In this project we built a hybrid prefetching system that combines irregular and regular prefetchers, using PC localization. 
 We ran two groups of headroom experiments, \emph{Brute Force Seach} and \emph{Static Analysis}. The \emph{Brute Force Search} finds the optimal decision of each PC.  
-The \emph{Static Analysis} tried to build a heuristic that use PC statistics from ISB, BO and NHB as input, to make PC decisions closest to \emph{Brute Force Search}. 
+The \emph{Static Analysis} built a heuristic that uses PC statistics from ISB, BO and NHP as input, to make PC decisions closest to \emph{Brute Force Search}. 
 Then this offline heuristic is used as a guide for dynamic hybrid prefetcher. 
-The experiment results show that the headroom is highly related to DRAM bandwidth. On 6.4GB/s bandwidth, the headroom has on average 12\% speedup over NHB and our DHB can achieve 6\% of it. \par
+The experiment results show that the headroom is highly related to DRAM bandwidth. On 6.4GB/s bandwidth, the headroom has on average 12\% speedup over NHP and our DHP can achieve 6\% of it. \par
 
 We are now trying to add the bandwidth estimation to control the dynamic decisions of the hybrid system. 
-As we have seen in the experiment result, currently the bandwidth-aware DHB even performs slower than DHB without it, and there is still a large gap between DHB and the headroom. 
-We think there are still some issues in our design of bandwidth-aware DHB. One issue might be the bandwidth estimation is incorrect. Using the number of DRAM accesses to measure bandwidth like in Section \ref{sec:memorybandwidhissue} is misleading. Because when the program is stalled by bandwidth, the simulator doesn't see any DRAM accesses issued and the bandwidth would be considered as free. However in fact, the bandwidth is fully occupied. The bandwidth would be our first step in future work. \par
+As we have seen in the experiment result, currently the bandwidth-aware DHP even performs slower than DHP without it, and there is still a large gap between DH and the headroom. 
+We think there are still some issues in our design of bandwidth-aware DHP. One issue might be the bandwidth estimation is incorrect. Using the number of DRAM accesses to measure bandwidth like in Section \ref{sec:memorybandwidhissue} is misleading. Because when the program is stalled by bandwidth, the simulator doesn't see any DRAM accesses issued and the bandwidth would be considered as free. However in fact, the bandwidth is fully occupied. The bandwidth would be our first step in future work. \par
 
 The second will be adding the degree control to hybrid system. Now we only consider both ISB and BO with degree one. In the future it is necessary to increase the degree of ISB (BO's degree is at most 1).\par
 
