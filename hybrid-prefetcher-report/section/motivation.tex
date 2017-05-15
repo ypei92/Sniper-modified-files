@@ -18,7 +18,7 @@ Regular prefetchers are good at prefetching regular patterns while prefetching i
 
   \subsection{Irregular Vs. Regular}
   \label{sec:irrVsre}
-  Here we will show the performance graph of one regular benchmark and one irregular benchmark. In Fig.\ref{fig:regVsirreg}, \emph{libquantum} is a regular benchmark while \emph{omnetpp} is sort an irregular benchmark. We can see that, though \emph{ISB} and \emph{BO} have similar accuracy but \emph{BO}'s coverage is better, result in much more speedup than \emph{ISB}'s. That's why we call irregualr prefetchers are inefficient in detecting regular patterns. On the other hand, \emph{ISB} is much better than BO for benchmark \emph{omnetpp}. \emph{BO} even causes negative coverage because of huge cache pollution. This example shows that choosing right prefetcher for one kind of access pattern is crucial to improve benchmark performance.
+  Here we will show the performance graph of one regular benchmark and one irregular benchmark. In Fig.\ref{fig:regVsirreg}, \emph{libquantum} is a regular benchmark while \emph{omnetpp} is sort an irregular benchmark. We can see that, though \emph{ISB} and \emph{BO} have similar accuracy but \emph{BO}'s coverage is better, so it has much more speedup than \emph{ISB}'s. That's why we call irregualr prefetchers are inefficient in detecting regular patterns. On the other hand, \emph{ISB} is much better than BO for benchmark \emph{omnetpp}. \emph{BO} even causes negative coverage because of huge cache pollution. This example shows that choosing right prefetcher for one kind of access pattern is crucial to improve benchmark performance.
   \begin{figure}[ht!]
 	  \centering
 	  \includegraphics[width=1.0\textwidth]{images/isbvsbo.png}
@@ -38,8 +38,8 @@ Regular prefetchers are good at prefetching regular patterns while prefetching i
   \end{figure}
 
   Well, it works when resource is rich enough, such as huge cache, huge memory bandwidth and so on. If these are limited, \emph{NHP} may cause huge memory pressure and cache pollution due to large number of inaccurate prefetches. In Fig.\ref{fig:hybridVssingle}, we give an example when \emph{NHP} works and when it doesn't. 
- For benchmark \emph{sphinx3}, it is not memory intensive. The figure shows that the accuracy of \emph{ISB} is much higher than \emph{NHP}'s while \emph{NHP}'s coverage is a little bit higher. It means that \emph{NHP} issued much more useless prefetches to the memory. However, \emph{NHP}'s speed is still much better than \emph{ISB}'s. 
- gOn the other hand, for benchmark \emph{mcf}, \emph{ISB} still has higher accuracy and lower coverage. However, this time, \emph{NHP}'s speed up is lower than \emph{ISB}'s. The possible reasons that a \emph{NHP} results in poor performance are listed below.
+ Benchmark \emph{sphinx3} is not memory intensive. The figure shows that the accuracy of \emph{ISB} is much higher than \emph{NHP}'s while \emph{NHP}'s coverage is a little bit higher. This means that \emph{NHP} issued much more useless prefetches to the memory, to achieve a little bit higher coverage. Because the benchmark is not memory intensive, the many useless prefetches don't cost much overhead. \emph{NHP}'s speed is still much better than \emph{ISB}'s. 
+ On the other hand, for memory intensive benchmark \emph{mcf}, \emph{ISB} also has higher accuracy and lower coverage. However, this time, \emph{NHP}'s speedup is lower than \emph{ISB}'s. The possible contention reasons that a \emph{NHP} results in poor performance are listed below.
 
   \begin{itemize}
     \item Memory bandwidth is limited
