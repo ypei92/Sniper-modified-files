@@ -54,7 +54,7 @@ On PC2, BO has more prefetch hits and more useless prefetches, so it's hard to i
     1) Choose several PCs with the main influence. For each pinpoint, we find out the PC with the most prefetches, denoted this number as MAX. Any PCs that has prefetches more than 5\% of MAX are chosen.\par
     2) Find the best decision for each PC. For each PC, run four experiments, respectively set its decision to ISB, BO, neither or both. \textbf{All other PCs are set to choose both}.\par
     3) Combine the best decisions of all PCs.\par
-    Note that for the several PCs we consider, they can cover more than 95\% of total prefetches, so they can representative the prefetch charactaristic of a benchmark. \par
+    Note that for the several PCs we consider, they can cover more than 95\% of total prefetches, so they can represent the prefetch charactaristic of a benchmark. \par
     Here the Brute Force Search design is not optimal. An optimal exploration should run all the possible choices over all PCs, i.e. $4^{n}$ experiments, n is the number of PC considered, which it is around 10 to 30.
     This exploration space is too large and needs too many experiments, so we take one step back and design this suboptimal search, which need 4*n experiments. Because it sets all non-considered PC to both, it's basically compare the four choices to all PCs choosing both, which might over estimate the bandwidth consumption. \par
 
