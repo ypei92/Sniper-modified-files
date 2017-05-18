@@ -26,8 +26,7 @@ In terms of speedup, as shown in Fig. \ref{fig:final_speedup}, the dynamic hybri
 \end{figure}
 
 \subsubsection*{}
-\subsubsection*{}
-As a test, we accually tried to monitor memory usage in real time. We measured the number of accesses in one period to represent the memory pressure. When the usage is high, then just prefetch \emph{ISB}'s decision if BOTH are met. On the other hand, increase the number of prefetchings when memory usage is low. Fig. \ref{fig:final_speedup_mem} shows our result. Unfortunately, this turns out to be a difficult problem. The naive measurement we've done seems problematic when guiding the \emph{DHP}'s decision. Maybe the timeliness of this measurement make \emph{DHP} make many wrong decisions. However, this path do have potential to improve \emph{DHP}'s performance.
+As a test, we accually tried to monitor memory usage in real time. We measured the number of accesses in one period to represent the memory bus pressure. When the usage is high, then just prefetch \emph{ISB}'s decision if BOTH is met. On the other hand, increase the number of prefetchings when memory usage is low. Fig. \ref{fig:final_speedup_mem} shows our result. Unfortunately, this turns out to be a difficult problem. The naive measurement we've done seems problematic when guiding the \emph{DHP}'s decision. Maybe the timeliness of this measurement make \emph{DHP} make many wrong decisions. However, this path do have potential to improve \emph{DHP}'s performance.
 
 \begin{figure}[ht!]
    \centering

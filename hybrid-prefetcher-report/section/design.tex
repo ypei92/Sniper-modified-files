@@ -10,12 +10,12 @@
 
 Based on the introduction and motivation we demonstrated above, we design our headroom experiments and ``smart'' hybrid prefetcher system in Fig. \ref{fig:design_flow}.
 
-First, we will evaluate the individual performance of \emph{BO}, \emph{ISB} and \emph{NHP}. Note that here we measure performance using two different memory bandwidth configuration. 12.8 represents high memory bandwidth 12.8 GB/s and 6.4 represents low memory bandwidth 6.4 GB/s. The \emph{Brute Force Search} and \emph{Static Analysis} are both offline headroom designs which will be described in the following two sections. Briefly, \emph{Brute Force Search} tries each choice on each PC, and finds out the best decisions and optimal headroom. Static Analysis comes up with a heuristic. It uses the statistics of each PC from ISB, BO and naive hybrid experiments as input, and builds a strategy that makes decisions closest to \emph{Brute Force Search} thus achieves best speedup. Finally the Static Analysis guides the design of our final hybrid prefetch system, which will be explained in section \ref{sec:ourdesign}.
+First, we will evaluate the individual performance of \emph{BO}, \emph{ISB} and \emph{NHP}. Note that here we measure performance using two different memory bandwidth configuration. 12.8 represents high memory bandwidth 12.8 GB/s and 6.4 represents low memory bandwidth 6.4 GB/s. The \emph{Brute Force Search} and \emph{Static Analysis} are both offline headroom designs which will be described in the following two sections. Briefly, \emph{Brute Force Search} tries each choice on each PC, and finds out the best decisions and optimal headroom. Static Analysis comes up with a heuristic. It uses the statistics of each PC from ISB, BO and naive hybrid experiments as input, and builds a strategy that makes decisions closest to \emph{Brute Force Search} thus achieves best speedup. Finally, the Static Analysis guides the design of our final hybrid prefetch system, which will be explained in section \ref{sec:ourdesign}.
 
   \subsection{Brute Force Search}
   \label{sec:bruteforcesearch}
 
-  In this part, we will first illustrate why we need a \emph{Brute Force Search} to find the headroom of PC localization. Then we show how Brute Force Search headroom experiment is designed. \par
+  In this part, we will first illustrate why we need \emph{Brute Force Search} to find out the headroom of PC localization. Then we show how \emph{Brute Force Search} headroom experiment is designed. \par
 
   \subsubsection{Metric to measure a PC}
   \label{sec:metricPC}
@@ -44,7 +44,7 @@ First, we will evaluate the individual performance of \emph{BO}, \emph{ISB} and 
 \end{figure}
 
 However, these two metrics from \emph{ISB} and \emph{BO} sometimes cannot determine the preference of a PC.
-For example in Fig. \ref{fig:pcmetric}, on PC1, it is clear that ISB on this PC has higher accuracy and coverage, so the hybrid system should choose ISB. But on PC2, ISB has higher accuracy but BO has higher coverage, then it's hard to choose.
+For example in Fig. \ref{fig:pcmetric}, on PC1, it is clear that \emph{ISB} on this PC has higher accuracy and coverage, so the hybrid system should choose \emph{ISB}. But on PC2, \emph{ISB} has higher accuracy but \emph{BO} has higher coverage, then it's hard to choose.
 In terms of speedup, prefetch hits has positive contribution and useless prefetches has negative contribution.
 On PC2, BO has more prefetch hits and more useless prefetches, so it's hard to infer its contribution is positive or negative only on this numbers.
 
@@ -74,18 +74,18 @@ On PC2, BO has more prefetch hits and more useless prefetches, so it's hard to i
 	  \centering
 	  \includegraphics[width=0.8\textwidth]{images/heuristic_design.png}
 	  \caption{Heuristic Design}
-	  \label{fig:heuritic design} 
+	  \label{fig:heuritic design}
   \end{figure}
 
-  Here we will describle how our heuristic is designed in Fig. \ref{fig:heuritic design}. Four thresholds are defined by user. \emph{Global Accuracy Threshold} set the lowest acceptable accuracy of one PC of any kind of prefetcher. \emph{BOTH Accuracy Threshold} determines when we should prefetch both. \emph{NEITHER Accuracy Threshold} determines when we should prefetch at most one of them. \emph{Shared Score Threshold} determines how should shared hits and shared prefetches affect the final decision. The decision process is list as follows.
+  Here we will describle how our heuristic is designed in Fig. \ref{fig:heuritic design}. Four thresholds are defined by user. \emph{Global Accuracy Threshold} sets the lowest acceptable accuracy of one PC of any kind of prefetcher. \emph{BOTH Accuracy Threshold} determines when we should prefetch both. \emph{NEITHER Accuracy Threshold} determines when we should prefetch at most one of them. \emph{Shared Score Threshold} determines how should shared hits and shared prefetches affect the final decision. The decision process is list as follows.
 
   1) Compare \emph{NHP}'s accuracy with \emph{BOTH Accuracy Threshold}. If \emph{NHP}'s accuracy is higher than threshold, the hybrid prefetcher would choose both prefetches from \emph{ISB} and \emph{BO}.
 
-  2) Compare \emph{NHP}'s accuracy with \emph{NEITHER Accuracy Threshold}. If \emph{NHP}'s accuracy is lower than threshold, the hybrid prefetcher would choose prefetches from either \emph{ISB}, or \emph{BO} or neither of them.
+  2) Compare \emph{NHP}'s accuracy with \emph{NEITHER Accuracy Threshold}. If \emph{NHP}'s accuracy is lower than threshold, the hybrid prefetcher would choose prefetches from either \emph{ISB}, or \emph{BO} or neither of them based on their accuracy.
 
-  3) Compare \emph{ISB}'s and \emph{BO}'s with \emph{Global Accuracy Threshold}, make decision when one meet the threshold and the the other does not. If both meet, go to step 4.
+  3) Compare \emph{ISB}'s and \emph{BO}'s with \emph{Global Accuracy Threshold}, make decision when one meet the threshold and the other does not. If both meet, go to step 4.
 
-  4) Calculte the shared score. The shared score calculate how many shared hits and shared useless prefetches are made. Usually less share hits and more shared prefetches indicate better cache performance. The score is compared to \emph{Shared Score Threshold} in order to decide whether prefetch both or go to step 5. The score is calculated in Equation \ref{equ:shared_score}.
+  4) Calculte the shared score. The shared score calculate how many shared hits and shared prefetches are made. Usually less share hits and more shared prefetches indicate better cache performance. The score is compared to \emph{Shared Score Threshold} in order to decide whether prefetch both or go to step 5. The score is calculated in Equation \ref{equ:shared_score}.
 
   \begin{equation}
   \label{equ:shared_score}

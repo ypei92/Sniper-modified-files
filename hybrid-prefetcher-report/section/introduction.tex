@@ -1,7 +1,7 @@
 \section{Introduction}
 \label{sec:intro}
 
-This is the final class project of cs395t-lin: \emph{Prediction Mechanism in Computer Architecture}. Our group, which consist of Yan Pei and Michael He, chose the project of hybrid prefetch design.
+This is the final class project of cs395t-lin: \emph{Prediction Mechanism in Computer Architecture}. Our group, which consists of Yan Pei and Michael He, chose the project of hybrid prefetch design.
 
 ``Hybrid prefetcher'' means a prefetcher built on several other prefetchers. A hybrid prefetcher issues prefetch requests based on what its underlying prefetchers issue. In our project, we designed a hybrid prefetcher using irregualr steam buffer prefetcher(\emph{ISB})\cite{isbpaper} and best-offset prefetcher(\emph{BO})\cite{bopaper}.
 
@@ -17,7 +17,7 @@ We pick \emph{ISB}\cite{isbpaper} as irregular prefetcher component and \emph{BO
   \label{sec:isbintro}
 
   \emph{ISB}, which stands for Irregular Stream Buffer prefetcher, is a state of the art irregular prefetcher. It enjoys extremely good accuracy with fairly good coverage. It is an idea built on Global History Buffer(\emph{GHB})\cite{ghbpaper}.
-In \emph{GHB}, access stream of one PC is stored in a link list, which is very inconvenient to traverse. Instead of using GHB, \emph{ISB} assigns access pattern buffer for every PC.
+In \emph{GHB}, access stream of one PC is stored in a link list, which is very inconvenient to traverse. Instead of using \emph{GHB}, \emph{ISB} assigns access pattern buffer for every PC.
 The key idea of \emph{ISB} is to use an extra level of indirection to translate arbitrary pairs of correlated physical address(PC local access stream) into consecutive address in a new structural address space(PC local access stream buffer), which is visible only to the \emph{ISB}.
 This structural address space allows the \emph{ISB} to organize prefetching meta-data so that it is both temporally and spatially ordered, which produce technical benefits in terms of coverage, accuracy and memory traffic overhead.
 
@@ -29,18 +29,14 @@ This structural address space allows the \emph{ISB} to organize prefetching meta
  Thus many late prefetches are issued in the \emph{Sandbox prefetcher}.
  The \emph{BO} is an offset prefetcher with a new method that takes into account prefetch timeliness. Briefly, the \emph{BO} prefetch offset is updated at the end of every learning phase. Each learning phase consists of several rounds.
  During a round, each offset in the list is tested once, and each offset's score is incremented if a hit occur.
- After all the rounds are finished in one learning phase, the offset with the highest score will be selected as the offset of the next learning phase.
+ After all the rounds are finished in one learning phase, the offset with the highest score will be selected as the offset for the next learning phase.
 
 %here needs one general discrption
 
- \subsection*{}
  In this project we design a hybrid prefetching system that uses PC as a feature, to combine irregular and regular prefetchers.
-We use two sets of experiments, \emph{Brute Force Seach} and \emph{Static Analysis}, to measure the headroom of hybrid prefetching system. The \emph{Brute Force Search} finds the optimal decision of each PC.  
-The \emph{Static Analysis} builds a offline heuristic that makes PC decisions closest to \emph{Brute Force Search}. 
-Then this offline heuristic is used as a guide for \emph{Dynamic Hybrid Prefetcher (DHP)}.
+We use two sets of experiments, \emph{Brute Force Seach} and \emph{Static Analysis}, to measure the headroom of hybrid prefetching system. The \emph{Brute Force Search} finds the optimal decision of each PC.
+The \emph{Static Analysis} builds a offline heuristic that makes PC decisions closest to \emph{Brute Force Search}.
+Then this offline heuristic is used as a guidence for \emph{Dynamic Hybrid Prefetcher (DHP)}.
 The experiment results show that the DRAM bandwidth is a strong factor to affect headroom. On 6.4GB/s bandwidth, the headroom has on average 12\% speedup over naive hybrid prefetcher and our DHP can achieve 6\% of it. \par
 
- The rest of the report are organized as follows. Section \ref{sec:motivation} demonstrates the motivation of the project. Section \ref{sec:designflow} shows the design flow of our research process, detailedly describes our two headroom designs: brute force search and static analysis. Section \ref{sec:headroom} analyzes the result of headroom experiments and how the result should guide our real design. Section \ref{sec:ourdesign} will give the solution of our design and the result are evaluated in section \ref{sec:result}.
- 
- 
- 
+ The rest of the report is organized as follows. Section \ref{sec:motivation} demonstrates the motivation of the project. Section \ref{sec:designflow} shows the design flow of our research process, detailedly describes our two headroom designs: brute force search and static analysis. Section \ref{sec:headroom} analyzes the result of headroom experiments and how the result should guide our real design. Section \ref{sec:ourdesign} will give the solution of our design and the result are evaluated in section \ref{sec:result}.
