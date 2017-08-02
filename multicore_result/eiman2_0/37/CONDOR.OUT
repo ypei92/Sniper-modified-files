@@ -1,0 +1,1262 @@
+[SNIPER] Start
+Sampler: 4, 4, 32
+stlb_cache: 512, 16
+stlb_cache_L1: 512, 16
+Sampler: 4, 32, 0
+itlb_cache: 32, 1
+itlb_cache_L1: 32, 1
+Sampler: 4, 128, 0
+dtlb_cache: 128, 4
+dtlb_cache_L1: 128, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 128
+L1-I: 2048, 64
+L1-I_L1: 2048, 64
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+Sampler: 25f, 10, d
+L2: 20000, 1000
+L2_L1: 20000, 1000
+EimanPrefetcher2 running
+Creating prefetcher object 0 0x34ecee0
+EimanPrefetcher2 running
+Creating prefetcher object 1 0x35ef7e0
+EimanPrefetcher2 running
+Creating prefetcher object 2 0x36f2120
+EimanPrefetcher2 running
+Creating prefetcher object 3 0x37f4a60
+Sampler: 4, 4, 20
+stlb_cache: 200, 10
+stlb_cache_L1: 200, 10
+Sampler: 4, 20, 0
+itlb_cache: 20, 1
+itlb_cache_L1: 20, 1
+Sampler: 4, 80, 0
+dtlb_cache: 80, 4
+dtlb_cache_L1: 80, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 80
+L1-I: 800, 40
+L1-I_L1: 800, 40
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+Sampler: 4, 4, 20
+stlb_cache: 200, 10
+stlb_cache_L1: 200, 10
+Sampler: 4, 20, 0
+itlb_cache: 20, 1
+itlb_cache_L1: 20, 1
+Sampler: 4, 80, 0
+dtlb_cache: 80, 4
+dtlb_cache_L1: 80, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 80
+L1-I: 800, 40
+L1-I_L1: 800, 40
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+Sampler: 4, 4, 20
+stlb_cache: 200, 10
+stlb_cache_L1: 200, 10
+Sampler: 4, 20, 0
+itlb_cache: 20, 1
+itlb_cache_L1: 20, 1
+Sampler: 4, 80, 0
+dtlb_cache: 80, 4
+dtlb_cache_L1: 80, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 80
+L1-I: 800, 40
+L1-I_L1: 800, 40
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using SIFT/trace-driven frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+0	1
+0	1
+0	2
+0	3
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 0
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+1	4381
+1	87227
+1	30593
+1	2234
+phase = 0
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+2	18539
+isb_agg = 0, bo_agg = 1
+2	71
+isb_agg = 0, bo_agg = 1
+2	21
+isb_agg = 0, bo_agg = 1
+phase = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+2	145327
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 2
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+3	15170
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 3
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+3	20
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 4
+3	23
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 5
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+3	13
+isb_agg = 0, bo_agg = 1
+4	43792
+isb_agg = 0, bo_agg = 1
+phase = 6
+4	5935
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+4	2
+phase = 7
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+phase = 8
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+5	39933
+5	3842
+isb_agg = 0, bo_agg = 1
+5	6170
+phase = 9
+isb_agg = 0, bo_agg = 1
+4	10
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 10
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 11
+5	2
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+6	13386
+isb_agg = 0, bo_agg = 1
+6	3783
+phase = 12
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+6	3774
+6	45901
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 2
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 13
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+7	43670
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+7	34
+7	346
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+7	25915
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 14
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 15
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 16
+isb_agg = 0, bo_agg = 1
+8	10
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+8	7039
+8	26
+8	49138
+isb_agg = 0, bo_agg = 1
+phase = 17
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 18
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 19
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+9	9293
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+9	258
+phase = 20
+9	50376
+isb_agg = 0, bo_agg = 1
+9	25
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 3
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 21
+a	66586
+isb_agg = 0, bo_agg = 1
+a	24
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+a	779
+isb_agg = 0, bo_agg = 1
+a	23174
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 22
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 23
+isb_agg = 0, bo_agg = 1
+b	12
+isb_agg = 0, bo_agg = 1
+b	1078
+b	13579
+b	24628
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 4
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 24
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 25
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 26
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 27
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+c	62271
+c	31018
+c	30
+c	2378
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+d	7936
+isb_agg = 0, bo_agg = 1
+d	9247
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 28
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+d	9
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 5
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+d	7
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+e	65479
+e	3
+e	16779
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+e	2
+phase = 29
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 30
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 6
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+f	33287
+f	28092
+isb_agg = 0, bo_agg = 1
+f	851
+f	64
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 31
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 32
+isb_agg = 0, bo_agg = 1
+10	663
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+10	17438
+isb_agg = 0, bo_agg = 1
+phase = 33
+10	40136
+isb_agg = 0, bo_agg = 1
+10	10
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 34
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 35
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+11	777
+11	12111
+11	35077
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+11	4063
+isb_agg = 0, bo_agg = 1
+phase = 36
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 37
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 38
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+12	20228
+12	45401
+12	1961
+isb_agg = 0, bo_agg = 1
+12	7907
+phase = 39
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 40
+isb_agg = 0, bo_agg = 1
+phase = 7
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 41
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+13	21811
+13	46199
+13	8375
+phase = 42
+13	1225
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 43
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 44
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 45
+isb_agg = 0, bo_agg = 1
+14	1197
+14	23701
+14	4918
+14	49552
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 46
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 47
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 48
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+15	22178
+15	921
+15	50297
+15	4873
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 49
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 50
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 8
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 51
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+16	1113
+16	21409
+16	49442
+16	7638
+isb_agg = 0, bo_agg = 1
+phase = 52
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 53
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 54
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 55
+17	1158
+17	21126
+17	49224
+17	8271
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 56
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 57
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 58
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 0
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+18	7399
+18	20236
+18	918
+18	50427
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 59
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 60
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 61
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 62
+19	19408
+19	51425
+19	959
+19	6331
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 9
+phase = 63
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 64
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+phase = 65
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+1a	20750
+1a	1014
+1a	6303
+1a	51473
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 66
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 67
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 68
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 69
+1b	930
+1b	18797
+1b	6340
+1b	53675
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 70
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 71
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 72
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+1c	18517
+1c	5183
+1c	53553
+1c	865
+isb_agg = 0, bo_agg = 1
+phase = 73
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+phase = 74
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 75
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 76
+isb_agg = 0, bo_agg = 1
+1d	1457
+1d	51744
+1d	19715
+1d	6604
+phase = 10
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 77
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 78
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 0
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 79
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+1e	1264
+1e	18105
+1e	52580
+1e	6334
+phase = 80
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 81
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 82
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 83
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+1f	19661
+1f	6268
+1f	52182
+1f	1025
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 84
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 85
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 86
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+20	19130
+20	1509
+20	51948
+phase = 87
+20	5738
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 88
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 89
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 90
+isb_agg = 0, bo_agg = 1
+phase = 11
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+21	3378
+21	55884
+21	18881
+21	1082
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 91
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 92
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 93
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 94
+22	18562
+22	1319
+22	55841
+22	1547
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 95
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 96
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 0
+isb_agg = 0, bo_agg = 1
+phase = 97
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+23	20253
+23	1010
+23	51341
+23	6568
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 98
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 99
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 100
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+24	21311
+24	1529
+24	49244
+isb_agg = 0, bo_agg = 1
+24	7162
+phase = 101
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 102
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 12
+isb_agg = 1, bo_agg = 1
+phase = 103
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 104
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+25	21361
+25	48679
+25	1380
+25	7347
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 105
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 106
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 107
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+26	21110
+26	1785
+26	47880
+26	8307
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 108
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+phase = 109
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 110
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 0
+isb_agg = 0, bo_agg = 1
+27	10596
+27	1565
+27	21507
+27	47237
+phase = 111
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 112
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 113
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 13
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 114
+28	8923
+28	22023
+28	46241
+28	2099
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 115
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 116
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 117
+isb_agg = 0, bo_agg = 1
+29	22118
+29	46198
+29	2094
+29	9655
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 118
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 119
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 120
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+2a	7923
+2a	1852
+2a	20996
+2a	47020
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 121
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 0
+phase = 122
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 123
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 14
+isb_agg = 0, bo_agg = 1
+2b	22248
+2b	46777
+2b	9703
+2b	1270
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 124
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 125
+isb_agg = 0, bo_agg = 1
+isb_agg = 1, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+phase = 126
+isb_agg = 0, bo_agg = 1
+isb_agg = 0, bo_agg = 1
+[TRACE:1] -- DONE --
+[TRACE:3] -- STOP --
+[TRACE:2] -- STOP --
+[TRACE:0] -- STOP --
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 1557.64 seconds
+[SNIPER] Simulated 507.7M instructions, 148.9M cycles, 3.41 IPC
+[SNIPER] Simulation speed 325.9 KIPS (81.5 KIPS / target core - 12272.9ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+phase = 0
+Inserted: 26c8
+Redundant.progress: 180
+Redundant.cache: 15cc
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+phase = 127
+Inserted: 1d6d18
+Redundant.progress: 313
+Redundant.cache: 225
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+phase = 15
+Inserted: 147c4d
+Redundant.progress: 173
+Redundant.cache: 9d35
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+phase = 0
+Inserted: 6867
+Redundant.progress: e0
+Redundant.cache: 2e7f
+Redundant.buffer: 0
+[SNIPER] End
+[SNIPER] Elapsed time: 1601.80 seconds

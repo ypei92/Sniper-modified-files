@@ -1,0 +1,48 @@
+000 (15005804.000.000) 08/01 20:50:08 Job submitted from host: <128.83.130.153:51299?addrs=128.83.130.153-51299>
+...
+001 (15005804.000.000) 08/01 20:50:13 Job executing on host: <128.83.130.203:52232?addrs=128.83.130.203-52232>
+...
+006 (15005804.000.000) 08/01 20:50:22 Image size of job updated: 32460
+	6  -  MemoryUsage of job (MB)
+	5580  -  ResidentSetSize of job (KB)
+...
+006 (15005804.000.000) 08/01 20:55:23 Image size of job updated: 6428784
+	2318  -  MemoryUsage of job (MB)
+	2372880  -  ResidentSetSize of job (KB)
+...
+006 (15005804.000.000) 08/01 21:00:23 Image size of job updated: 6495596
+	2399  -  MemoryUsage of job (MB)
+	2456012  -  ResidentSetSize of job (KB)
+...
+006 (15005804.000.000) 08/01 21:05:24 Image size of job updated: 6495616
+	2455  -  MemoryUsage of job (MB)
+	2513072  -  ResidentSetSize of job (KB)
+...
+006 (15005804.000.000) 08/01 21:10:25 Image size of job updated: 6561408
+	2495  -  MemoryUsage of job (MB)
+	2554080  -  ResidentSetSize of job (KB)
+...
+006 (15005804.000.000) 08/01 21:15:25 Image size of job updated: 6626972
+	2545  -  MemoryUsage of job (MB)
+	2605400  -  ResidentSetSize of job (KB)
+...
+006 (15005804.000.000) 08/01 21:18:02 Image size of job updated: 6626976
+	2545  -  MemoryUsage of job (MB)
+	2605400  -  ResidentSetSize of job (KB)
+...
+005 (15005804.000.000) 08/01 21:18:02 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:29:48, Sys 0 00:00:39  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:29:48, Sys 0 00:00:39  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :        1        1    749983
+	   Gpus                 :                           0
+	   Memory (MB)          :     2545        1      4021
+...

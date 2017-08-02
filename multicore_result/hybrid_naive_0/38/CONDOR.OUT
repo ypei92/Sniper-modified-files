@@ -1,0 +1,418 @@
+[SNIPER] Start
+Sampler: 4, 4, 32
+stlb_cache: 512, 16
+stlb_cache_L1: 512, 16
+Sampler: 4, 32, 0
+itlb_cache: 32, 1
+itlb_cache_L1: 32, 1
+Sampler: 4, 128, 0
+dtlb_cache: 128, 4
+dtlb_cache_L1: 128, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 128
+L1-I: 2048, 64
+L1-I_L1: 2048, 64
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+Sampler: 25f, 10, d
+L2: 20000, 1000
+L2_L1: 20000, 1000
+HybridPrefetcher0 running
+Creating prefetcher object 0 0x1742f20
+HybridPrefetcher0 running
+Creating prefetcher object 1 0xea2ee0
+HybridPrefetcher0 running
+Creating prefetcher object 2 0x1748080
+HybridPrefetcher0 running
+Creating prefetcher object 3 0x174a950
+Sampler: 4, 4, 20
+stlb_cache: 200, 10
+stlb_cache_L1: 200, 10
+Sampler: 4, 20, 0
+itlb_cache: 20, 1
+itlb_cache_L1: 20, 1
+Sampler: 4, 80, 0
+dtlb_cache: 80, 4
+dtlb_cache_L1: 80, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 80
+L1-I: 800, 40
+L1-I_L1: 800, 40
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+Sampler: 4, 4, 20
+stlb_cache: 200, 10
+stlb_cache_L1: 200, 10
+Sampler: 4, 20, 0
+itlb_cache: 20, 1
+itlb_cache_L1: 20, 1
+Sampler: 4, 80, 0
+dtlb_cache: 80, 4
+dtlb_cache_L1: 80, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 80
+L1-I: 800, 40
+L1-I_L1: 800, 40
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+Sampler: 4, 4, 20
+stlb_cache: 200, 10
+stlb_cache_L1: 200, 10
+Sampler: 4, 20, 0
+itlb_cache: 20, 1
+itlb_cache_L1: 20, 1
+Sampler: 4, 80, 0
+dtlb_cache: 80, 4
+dtlb_cache_L1: 80, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 80
+L1-I: 800, 40
+L1-I_L1: 800, 40
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using SIFT/trace-driven frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+0	1
+0	2
+0	1
+0	4
+1	24518
+1	2461
+1	2068
+1	5162
+2	4555
+2	23446
+2	2576
+2	2694
+3	21902
+3	1135
+3	1195
+3	4317
+phase = 0
+phase = 0
+phase = 0
+4	19948
+4	1157
+4	1249
+4	3520
+5	20182
+5	4548
+5	2266
+5	2238
+phase = 1
+6	23388
+6	2505
+6	963
+6	956
+7	19840
+7	1419
+7	1921
+7	1731
+phase = 1
+phase = 1
+phase = 2
+8	23795
+8	1595
+8	5268
+8	1626
+9	23221
+9	1411
+9	1541
+9	4114
+a	24184
+a	2817
+a	2756
+a	3819
+phase = 2
+phase = 2
+phase = 3
+b	28317
+b	6225
+b	2040
+b	1989
+c	31594
+c	2242
+c	5086
+c	2141
+d	25775
+d	4793
+d	1873
+d	1732
+phase = 4
+phase = 3
+phase = 3
+e	1371
+e	1568
+phase = 5
+e	3382
+e	30327
+f	2435
+f	21956
+f	2440
+f	3046
+10	29873
+10	2501
+10	2584
+10	6886
+phase = 6
+11	36087
+11	2566
+11	5965
+11	2748
+phase = 4
+phase = 4
+12	35439
+12	6020
+12	2224
+12	2469
+phase = 7
+phase = 0
+13	31325
+13	8157
+13	2364
+13	2348
+phase = 8
+14	24644
+14	3447
+14	1425
+14	1461
+phase = 9
+15	3014
+15	22585
+15	3239
+15	5794
+phase = 5
+phase = 5
+16	30842
+16	2491
+16	7554
+16	2330
+phase = 10
+17	35028
+17	2387
+17	2479
+17	6514
+18	32121
+18	2533
+18	2606
+18	8274
+phase = 6
+phase = 6
+phase = 11
+19	35222
+19	3536
+19	3663
+19	6720
+phase = 12
+1a	3255
+1a	26032
+1a	1407
+1a	1718
+phase = 13
+1b	10555
+1b	2418
+1b	1493
+1b	12
+1c	25757
+1c	2681
+1c	3662
+1c	1718
+phase = 14
+phase = 7
+1d	23376
+1d	2101
+1d	1830
+1d	4377
+phase = 7
+1e	26357
+1e	1783
+1e	4902
+1e	1743
+phase = 15
+1f	32337
+1f	2285
+1f	6668
+1f	2331
+phase = 8
+20	31703
+20	2388
+20	6314
+20	2495
+phase = 8
+phase = 16
+21	4885
+21	35423
+21	1920
+21	2352
+phase = 17
+22	18915
+22	2026
+22	2412
+22	17
+phase = 18
+23	15227
+23	121
+23	3182
+23	4471
+24	27027
+24	4215
+24	2800
+24	2577
+phase = 9
+[TRACE:2] -- DONE --
+[TRACE:1] -- STOP --
+[TRACE:0] -- STOP --
+[TRACE:3] -- STOP --
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 1403.16 seconds
+[SNIPER] Simulated 657.1M instructions, 123.9M cycles, 5.30 IPC
+[SNIPER] Simulation speed 468.3 KIPS (117.1 KIPS / target core - 8540.9ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+phase = 19
+Inserted: 1c419b
+Redundant.progress: 338d
+Redundant.cache: d9cc2
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+phase = 1
+Inserted: 2d532
+Redundant.progress: ac7
+Redundant.cache: 2295e
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+phase = 10
+Inserted: 7e88f
+Redundant.progress: 12d
+Redundant.cache: 7b24f
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+phase = 9
+Inserted: 8045d
+Redundant.progress: 131
+Redundant.cache: 7caad
+Redundant.buffer: 0
+[SNIPER] End
+[SNIPER] Elapsed time: 1450.23 seconds

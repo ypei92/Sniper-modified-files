@@ -1,0 +1,209 @@
+[SNIPER] Start
+Sampler: 4, 4, 32
+stlb_cache: 512, 16
+stlb_cache_L1: 512, 16
+Sampler: 4, 32, 0
+itlb_cache: 32, 1
+itlb_cache_L1: 32, 1
+Sampler: 4, 128, 0
+dtlb_cache: 128, 4
+dtlb_cache_L1: 128, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 128
+L1-I: 2048, 64
+L1-I_L1: 2048, 64
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+Sampler: 25f, 10, d
+L2: 20000, 1000
+L2_L1: 20000, 1000
+HybridPrefetcher0 running
+Creating prefetcher object 0 0x1aebf20
+HybridPrefetcher0 running
+Creating prefetcher object 1 0x124bee0
+HybridPrefetcher0 running
+Creating prefetcher object 2 0x1af1080
+HybridPrefetcher0 running
+Creating prefetcher object 3 0x1af3950
+Sampler: 4, 4, 20
+stlb_cache: 200, 10
+stlb_cache_L1: 200, 10
+Sampler: 4, 20, 0
+itlb_cache: 20, 1
+itlb_cache_L1: 20, 1
+Sampler: 4, 80, 0
+dtlb_cache: 80, 4
+dtlb_cache_L1: 80, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 80
+L1-I: 800, 40
+L1-I_L1: 800, 40
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+Sampler: 4, 4, 20
+stlb_cache: 200, 10
+stlb_cache_L1: 200, 10
+Sampler: 4, 20, 0
+itlb_cache: 20, 1
+itlb_cache_L1: 20, 1
+Sampler: 4, 80, 0
+dtlb_cache: 80, 4
+dtlb_cache_L1: 80, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 80
+L1-I: 800, 40
+L1-I_L1: 800, 40
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+Sampler: 4, 4, 20
+stlb_cache: 200, 10
+stlb_cache_L1: 200, 10
+Sampler: 4, 20, 0
+itlb_cache: 20, 1
+itlb_cache_L1: 20, 1
+Sampler: 4, 80, 0
+dtlb_cache: 80, 4
+dtlb_cache_L1: 80, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 80
+L1-I: 800, 40
+L1-I_L1: 800, 40
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using SIFT/trace-driven frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+0	1
+0	1
+0	1
+0	1
+1	30481
+1	8372
+1	38131
+1	62085
+phase = 0
+phase = 0
+phase = 1
+2	1841
+2	69148
+2	36154
+2	14175
+phase = 2
+3	66156
+3	2827
+3	18348
+3	36834
+phase = 1
+phase = 3
+4	51029
+4	1412
+4	57462
+4	15011
+phase = 4
+5	65229
+5	15241
+5	1541
+5	62154
+phase = 5
+phase = 2
+phase = 0
+6	1393
+6	62874
+6	27813
+6	56458
+phase = 6
+7	1696
+7	62779
+7	64993
+7	28412
+phase = 7
+phase = 8
+8	86967
+8	770
+8	26846
+8	26004
+phase = 9
+phase = 10
+phase = 3
+9	47943
+9	880
+9	38607
+9	19813
+phase = 11
+phase = 1
+a	37578
+a	23290
+a	914
+a	29490
+------------------------------------------------------------
+Segmentation fault. Access Address = 0x6ff922be56c
+
+Backtrace:
+    hashtable_policy.h:std::__detail::_Hash_code_base<unsigned long, std::pair<unsigned long const, ParametricDramDirectoryMSI::MshrEntry>, std::__detail::_Select1st, std::hash<unsigned long>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, false>::_M_bucket_index:1028
+    cache_cntlr.cc:ParametricDramDirectoryMSI::CacheCntlr::Prefetch:1002
+    stl_vector.h:~_Vector_base:161
+    cache_cntlr.cc:ParametricDramDirectoryMSI::CacheCntlr::processMemOpFromCore:572
+    memory_manager.cc:ParametricDramDirectoryMSI::MemoryManager::coreInitiateMemoryAccess:446
+    core.cc:Core::initiateMemoryAccess:383
+    core.cc:Core::accessMemory:483
+    dynamic_instruction.cc:DynamicInstruction::accessMemory:59 (discriminator 6)
+    micro_op_performance_model.cc:MicroOpPerformanceModel::handleInstruction:228
+    performance_model.cc:PerformanceModel::iterate:309
+    subsecond_time.h:SubsecondTime:70
+    pthread_thread.cc:PthreadThread::spawnedThreadFunc:21
+    ??:??:0
+    ??:??:0
+------------------------------------------------------------
+[SNIPER] End
+[SNIPER] Elapsed time: 248.79 seconds

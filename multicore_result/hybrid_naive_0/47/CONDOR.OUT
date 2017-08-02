@@ -1,0 +1,469 @@
+[SNIPER] Start
+Sampler: 4, 4, 32
+stlb_cache: 512, 16
+stlb_cache_L1: 512, 16
+Sampler: 4, 32, 0
+itlb_cache: 32, 1
+itlb_cache_L1: 32, 1
+Sampler: 4, 128, 0
+dtlb_cache: 128, 4
+dtlb_cache_L1: 128, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 128
+L1-I: 2048, 64
+L1-I_L1: 2048, 64
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+Sampler: 25f, 10, d
+L2: 20000, 1000
+L2_L1: 20000, 1000
+HybridPrefetcher0 running
+Creating prefetcher object 0 0x26d2f20
+HybridPrefetcher0 running
+Creating prefetcher object 1 0x1e32ee0
+HybridPrefetcher0 running
+Creating prefetcher object 2 0x26d8080
+HybridPrefetcher0 running
+Creating prefetcher object 3 0x26da950
+Sampler: 4, 4, 20
+stlb_cache: 200, 10
+stlb_cache_L1: 200, 10
+Sampler: 4, 20, 0
+itlb_cache: 20, 1
+itlb_cache_L1: 20, 1
+Sampler: 4, 80, 0
+dtlb_cache: 80, 4
+dtlb_cache_L1: 80, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 80
+L1-I: 800, 40
+L1-I_L1: 800, 40
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+Sampler: 4, 4, 20
+stlb_cache: 200, 10
+stlb_cache_L1: 200, 10
+Sampler: 4, 20, 0
+itlb_cache: 20, 1
+itlb_cache_L1: 20, 1
+Sampler: 4, 80, 0
+dtlb_cache: 80, 4
+dtlb_cache_L1: 80, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 80
+L1-I: 800, 40
+L1-I_L1: 800, 40
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+Sampler: 4, 4, 20
+stlb_cache: 200, 10
+stlb_cache_L1: 200, 10
+Sampler: 4, 20, 0
+itlb_cache: 20, 1
+itlb_cache_L1: 20, 1
+Sampler: 4, 80, 0
+dtlb_cache: 80, 4
+dtlb_cache_L1: 80, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 80
+L1-I: 800, 40
+L1-I_L1: 800, 40
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using SIFT/trace-driven frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+0	1
+0	6
+0	1
+0	1
+phase = 0
+1	40354
+1	55990
+1	8621
+1	8754
+phase = 1
+2	79571
+2	39607
+2	7818
+2	7914
+phase = 0
+phase = 1
+3	66029
+3	32633
+3	7244
+3	7590
+phase = 2
+4	66947
+4	8421
+4	5943
+4	6030
+phase = 3
+5	28015
+5	53532
+5	7006
+5	7123
+phase = 2
+phase = 4
+6	42855
+6	58184
+6	8369
+6	8406
+phase = 5
+phase = 3
+7	31434
+7	79270
+7	10759
+7	11736
+phase = 6
+8	76912
+8	22341
+8	9285
+8	9032
+phase = 7
+phase = 4
+phase = 8
+9	13462
+9	57878
+9	4896
+9	4609
+phase = 5
+phase = 9
+a	13660
+a	45401
+a	4106
+a	4080
+phase = 6
+phase = 10
+phase = 7
+b	25386
+b	60158
+b	7194
+b	7139
+phase = 11
+phase = 8
+c	71678
+c	23017
+c	9087
+c	8527
+phase = 12
+phase = 9
+d	35586
+d	6657
+d	6589
+d	43848
+phase = 10
+phase = 13
+e	29258
+e	5686
+e	39556
+e	5669
+phase = 14
+f	55393
+f	10293
+f	37602
+f	10354
+phase = 0
+phase = 0
+10	15876
+10	13036
+10	13283
+10	6078
+phase = 1
+phase = 11
+11	6768
+11	13122
+11	7717
+11	12132
+phase = 1
+12	14075
+12	25770
+12	6501
+12	12857
+phase = 15
+phase = 2
+phase = 2
+13	33319
+13	9845
+13	9964
+13	47003
+phase = 12
+phase = 16
+14	74669
+14	21277
+14	11439
+14	10568
+phase = 17
+15	78083
+15	10980
+15	10561
+15	19019
+phase = 3
+phase = 3
+phase = 18
+phase = 13
+16	46709
+16	33406
+16	8077
+16	8393
+phase = 19
+phase = 14
+17	53531
+17	48986
+17	13133
+17	12613
+phase = 20
+18	52390
+18	33507
+18	8715
+18	8815
+phase = 4
+phase = 4
+phase = 15
+phase = 21
+19	58013
+19	36939
+19	13300
+19	14142
+phase = 22
+1a	77390
+1a	20154
+1a	11567
+1a	11624
+phase = 23
+phase = 16
+1b	8107
+1b	23886
+1b	8773
+1b	48464
+phase = 5
+phase = 5
+phase = 24
+phase = 17
+1c	51888
+1c	44777
+1c	13202
+1c	13928
+phase = 25
+phase = 18
+1d	63686
+1d	36078
+1d	14648
+1d	13974
+phase = 26
+1e	39389
+1e	15131
+1e	15412
+1e	62479
+phase = 6
+phase = 6
+phase = 27
+1f	37120
+1f	54468
+1f	13591
+1f	12862
+phase = 19
+phase = 28
+20	52759
+20	8799
+20	21406
+20	8441
+phase = 29
+phase = 20
+21	36399
+21	43776
+21	9695
+21	10735
+phase = 30
+phase = 7
+phase = 7
+phase = 21
+22	64165
+22	37691
+22	18814
+22	17801
+phase = 31
+23	62930
+23	29039
+23	13951
+23	14916
+phase = 32
+phase = 22
+24	44214
+24	52253
+24	12990
+24	13257
+phase = 33
+phase = 8
+phase = 8
+25	50597
+25	23705
+25	9413
+25	9198
+phase = 34
+phase = 23
+26	30026
+26	57364
+26	11848
+26	11368
+phase = 35
+phase = 24
+27	59005
+27	33472
+27	15647
+27	16331
+phase = 36
+phase = 9
+phase = 9
+28	36154
+28	56246
+28	15468
+28	14792
+phase = 25
+phase = 37
+29	43717
+29	41120
+29	9765
+29	9765
+phase = 26
+phase = 38
+2a	8992
+2a	43511
+2a	9591
+2a	30427
+phase = 39
+phase = 10
+phase = 10
+2b	25911
+2b	7237
+2b	6793
+2b	28089
+phase = 27
+2c	33381
+2c	40466
+2c	12788
+2c	12942
+phase = 40
+phase = 28
+2d	63223
+2d	28047
+2d	15949
+2d	15332
+phase = 41
+phase = 11
+phase = 11
+2e	63586
+2e	38081
+2e	14199
+2e	13306
+phase = 29
+phase = 42
+2f	41958
+2f	12270
+2f	41924
+2f	12324
+phase = 43
+30	46316
+30	8245
+30	8462
+30	20029
+phase = 30
+phase = 44
+phase = 12
+phase = 12
+31	31131
+31	9150
+31	9024
+31	37037
+phase = 31
+phase = 45
+32	40235
+32	56766
+32	15434
+32	15828
+phase = 32
+phase = 46
+33	65176
+33	31424
+33	13174
+33	13423
+34	14934
+34	15184
+34	46996
+34	49191
+phase = 13
+phase = 13
+phase = 47
+phase = 33
+------------------------------------------------------------
+Segmentation fault. Access Address = (nil)
+
+Backtrace:
+    hashtable_policy.h:std::__detail::_Hash_code_base<unsigned long, std::pair<unsigned long const, ParametricDramDirectoryMSI::MshrEntry>, std::__detail::_Select1st, std::hash<unsigned long>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, false>::_M_bucket_index:1028
+    cache_cntlr.cc:ParametricDramDirectoryMSI::CacheCntlr::Prefetch:1002
+    stl_vector.h:~_Vector_base:161
+    cache_cntlr.cc:ParametricDramDirectoryMSI::CacheCntlr::processMemOpFromCore:572
+    memory_manager.cc:ParametricDramDirectoryMSI::MemoryManager::coreInitiateMemoryAccess:446
+    core.cc:Core::initiateMemoryAccess:383
+    core.cc:Core::accessMemory:483
+    dynamic_instruction.cc:DynamicInstruction::accessMemory:59 (discriminator 6)
+    micro_op_performance_model.cc:MicroOpPerformanceModel::handleInstruction:228
+    performance_model.cc:PerformanceModel::iterate:309
+    subsecond_time.h:SubsecondTime:70
+    pthread_thread.cc:PthreadThread::spawnedThreadFunc:21
+    ??:??:0
+    ??:??:0
+------------------------------------------------------------
+[SNIPER] End
+[SNIPER] Elapsed time: 1726.16 seconds
