@@ -1,0 +1,1885 @@
+[SNIPER] Start
+Sampler: 4, 4, 32
+stlb_cache: 512, 16
+stlb_cache_L1: 512, 16
+Sampler: 4, 32, 0
+itlb_cache: 32, 1
+itlb_cache_L1: 32, 1
+Sampler: 4, 128, 0
+dtlb_cache: 128, 4
+dtlb_cache_L1: 128, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 128
+L1-I: 2048, 64
+L1-I_L1: 2048, 64
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+Sampler: 25f, 10, d
+L2: 20000, 1000
+L2_L1: 20000, 1000
+HybridPrefetcher3 running
+Creating prefetcher object 0 0x32eff20
+HybridPrefetcher3 running
+Creating prefetcher object 1 0x3492850
+HybridPrefetcher3 running
+Creating prefetcher object 2 0x36351b0
+HybridPrefetcher3 running
+Creating prefetcher object 3 0x37d7b10
+Sampler: 4, 4, 20
+stlb_cache: 200, 10
+stlb_cache_L1: 200, 10
+Sampler: 4, 20, 0
+itlb_cache: 20, 1
+itlb_cache_L1: 20, 1
+Sampler: 4, 80, 0
+dtlb_cache: 80, 4
+dtlb_cache_L1: 80, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 80
+L1-I: 800, 40
+L1-I_L1: 800, 40
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+Sampler: 4, 4, 20
+stlb_cache: 200, 10
+stlb_cache_L1: 200, 10
+Sampler: 4, 20, 0
+itlb_cache: 20, 1
+itlb_cache_L1: 20, 1
+Sampler: 4, 80, 0
+dtlb_cache: 80, 4
+dtlb_cache_L1: 80, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 80
+L1-I: 800, 40
+L1-I_L1: 800, 40
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+Sampler: 4, 4, 20
+stlb_cache: 200, 10
+stlb_cache_L1: 200, 10
+Sampler: 4, 20, 0
+itlb_cache: 20, 1
+itlb_cache_L1: 20, 1
+Sampler: 4, 80, 0
+dtlb_cache: 80, 4
+dtlb_cache_L1: 80, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 80
+L1-I: 800, 40
+L1-I_L1: 800, 40
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using SIFT/trace-driven frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+0	1
+0	4
+0	1
+0	1
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 0
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 0
+1	1396
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+1	119507
+1	138741
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+1	1119
+shadow_cache used up once
+phase = 1
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+2	128356
+shadow_cache used up once
+shadow_cache used up once
+phase = 1
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+2	10
+shadow_cache used up once
+2	16
+2	94071
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+3	25103
+3	22
+shadow_cache used up once
+shadow_cache used up once
+3	13898
+shadow_cache used up once
+shadow_cache used up once
+phase = 0
+shadow_cache used up once
+3	13
+4	47851
+shadow_cache used up once
+shadow_cache used up once
+4	4
+shadow_cache used up once
+4	4
+shadow_cache used up once
+4	4
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 2
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+5	26947
+5	54855
+shadow_cache used up once
+5	27351
+5	8484
+shadow_cache used up once
+shadow_cache used up once
+phase = 2
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 3
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+6	32895
+shadow_cache used up once
+6	187
+6	95435
+shadow_cache used up once
+shadow_cache used up once
+6	127
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 4
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 3
+shadow_cache used up once
+7	49900
+shadow_cache used up once
+7	48
+7	75828
+7	96
+shadow_cache used up once
+phase = 5
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 4
+shadow_cache used up once
+8	62627
+shadow_cache used up once
+8	64086
+8	96
+8	103
+shadow_cache used up once
+shadow_cache used up once
+phase = 6
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 5
+shadow_cache used up once
+shadow_cache used up once
+9	78505
+shadow_cache used up once
+9	60
+shadow_cache used up once
+9	91
+9	47922
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 6
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+a	2281
+a	19141
+a	4046
+a	98708
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 30000026a15c0 got flushed counter=0
+shadow_cache used up once
+shadow_cache used up once
+phase = 7
+shadow_cache used up once
+shadow_cache used up once
+phase = 7
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+b	14889
+b	8150
+b	60924
+b	53920
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 8
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 8
+shadow_cache used up once
+shadow_cache used up once
+phase = 1
+c	65729
+c	16217
+c	24985
+c	67031
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+d	18628
+d	16264
+d	65858
+d	69813
+phase = 9
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 9
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+e	18080
+e	16195
+e	68411
+e	69181
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 10
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 10
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+f	14661
+f	18301
+f	67641
+f	70204
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 17f9e44d488c0 got flushed counter=0
+Hit: Address 17f9e44d491c0 got flushed counter=1
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 17f9e44d49180 got flushed counter=2
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 1000009e1c840 got flushed counter=3
+shadow_cache used up once
+phase = 11
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 11
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000879d480 got flushed counter=4
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 17f9e44d50e00 got flushed counter=5
+shadow_cache used up once
+10	12950
+10	19346
+10	69316
+10	69646
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 12
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 12
+shadow_cache used up once
+shadow_cache used up once
+11	10882
+11	18850
+11	69880
+11	72875
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 0
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 13
+shadow_cache used up once
+shadow_cache used up once
+12	18701
+12	68098
+12	72425
+12	14199
+shadow_cache used up once
+shadow_cache used up once
+phase = 13
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 2
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+13	17992
+13	71880
+13	69689
+13	13553
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 14
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000af35dc0 got flushed counter=6
+shadow_cache used up once
+shadow_cache used up once
+phase = 14
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000aa424c0 got flushed counter=7
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 17f9e44d4c400 got flushed counter=8
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+14	71338
+14	19114
+14	68174
+14	14139
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 17f9e44d4ad40 got flushed counter=9
+shadow_cache used up once
+shadow_cache used up once
+phase = 15
+shadow_cache used up once
+shadow_cache used up once
+phase = 15
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+15	16921
+15	16931
+15	67294
+15	71329
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000712b180 got flushed counter=10
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 16
+shadow_cache used up once
+phase = 16
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+16	17203
+16	15236
+16	67906
+16	70917
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 17
+shadow_cache used up once
+shadow_cache used up once
+17	17944
+17	68654
+17	68774
+17	15495
+phase = 17
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000b005600 got flushed counter=11
+Hit: Address 100000375ab80 got flushed counter=12
+shadow_cache used up once
+Hit: Address 100000b02e980 got flushed counter=13
+shadow_cache used up once
+Hit: Address 100000b0bef40 got flushed counter=14
+Hit: Address 1000003805d40 got flushed counter=15
+Hit: Address 1000003805bc0 got flushed counter=16
+Hit: Address 1000003805c40 got flushed counter=17
+Hit: Address 1000003809500 got flushed counter=18
+Hit: Address 100000380a140 got flushed counter=19
+shadow_cache used up once
+Hit: Address 100000a2b5800 got flushed counter=20
+Hit: Address 100000a701100 got flushed counter=21
+Hit: Address 100000385b480 got flushed counter=22
+Hit: Address 100000385c0c0 got flushed counter=23
+Hit: Address 100000934f300 got flushed counter=24
+Hit: Address 10000097eb1c0 got flushed counter=25
+Hit: Address 10000097696c0 got flushed counter=26
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 1
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+18	17916
+18	15758
+18	68478
+18	68547
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 1000008630380 got flushed counter=27
+phase = 18
+shadow_cache used up once
+shadow_cache used up once
+phase = 18
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000b087080 got flushed counter=28
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000afbfe00 got flushed counter=29
+19	17285
+19	19248
+19	70407
+19	65632
+shadow_cache used up once
+Hit: Address 1000009bf4440 got flushed counter=30
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 3
+phase = 19
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 19
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+1a	17104
+1a	67139
+1a	69549
+1a	18228
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 10000097a3640 got flushed counter=31
+Hit: Address 10000097a3680 got flushed counter=32
+Hit: Address 100000b0c9800 got flushed counter=33
+Hit: Address 100000b0c98c0 got flushed counter=34
+Hit: Address 1000008094bc0 got flushed counter=35
+shadow_cache used up once
+shadow_cache used up once
+phase = 20
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 20
+Hit: Address 100000b0c6e00 got flushed counter=36
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000af1e2c0 got flushed counter=37
+Hit: Address 100000af2ab40 got flushed counter=38
+Hit: Address 100000af2ab00 got flushed counter=39
+shadow_cache used up once
+Hit: Address 100000af1e300 got flushed counter=40
+shadow_cache used up once
+Hit: Address 100000af6f780 got flushed counter=41
+Hit: Address 100000b16d500 got flushed counter=42
+1b	17253
+1b	17354
+1b	69758
+1b	68634
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000b0b7780 got flushed counter=43
+Hit: Address 100000b16d4c0 got flushed counter=44
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000b05ef00 got flushed counter=45
+Hit: Address 100000a4eec80 got flushed counter=46
+Hit: Address 100000afc03c0 got flushed counter=47
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000afc0400 got flushed counter=48
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 17f9e44d58f00 got flushed counter=49
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 21
+shadow_cache used up once
+shadow_cache used up once
+1c	18825
+1c	69520
+1c	13829
+1c	68787
+shadow_cache used up once
+phase = 21
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000af1fc40 got flushed counter=50
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 17f9e44d511c0 got flushed counter=51
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+1d	13723
+1d	18920
+1d	67469
+1d	71016
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 22
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 22
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+1e	18262
+1e	71367
+1e	69230
+1e	12886
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 23
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 23
+shadow_cache used up once
+shadow_cache used up once
+phase = 2
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+1f	19728
+1f	70100
+1f	69298
+1f	13491
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 17f9e44d4cfc0 got flushed counter=52
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 24
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 24
+shadow_cache used up once
+shadow_cache used up once
+phase = 4
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+20	15593
+20	68337
+20	18896
+20	70191
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 25
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 25
+shadow_cache used up once
+21	18008
+21	68833
+21	14105
+21	69968
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 26
+shadow_cache used up once
+shadow_cache used up once
+22	17414
+22	73437
+22	14708
+22	66945
+shadow_cache used up once
+shadow_cache used up once
+phase = 26
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+23	14896
+23	18060
+23	67327
+23	71027
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 27
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 27
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+24	12181
+24	17756
+24	71474
+24	68048
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 28
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 28
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+25	19651
+25	68940
+25	12529
+25	71385
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 29
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 3
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+26	15726
+26	69467
+26	23314
+26	61819
+shadow_cache used up once
+phase = 29
+phase = 5
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 30
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 1000008c2f7c0 got flushed counter=53
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+27	62620
+27	24409
+27	29470
+27	47093
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000b167d40 got flushed counter=54
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 1000000569b40 got flushed counter=55
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 31
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+28	50027
+28	26784
+28	23789
+28	57997
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 30
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 32
+shadow_cache used up once
+shadow_cache used up once
+29	53269
+29	28527
+29	57229
+29	22408
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 4
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 10000089a6000 got flushed counter=56
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+2a	28676
+2a	21509
+2a	55104
+2a	55841
+shadow_cache used up once
+phase = 33
+Hit: Address 17f9e44d52080 got flushed counter=57
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 6
+shadow_cache used up once
+Hit: Address 17f9e44d50d40 got flushed counter=58
+Hit: Address 17f9e44d52b80 got flushed counter=59
+Hit: Address 17f9e44d491c0 got flushed counter=60
+shadow_cache used up once
+phase = 31
+Hit: Address 1000009df7540 got flushed counter=61
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 17f9e44d52780 got flushed counter=62
+Hit: Address 17f9e44d52200 got flushed counter=63
+shadow_cache used up once
+Hit: Address 100000b01c300 got flushed counter=64
+Hit: Address 17f9e44d51740 got flushed counter=65
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+2b	27267
+2b	52691
+2b	25608
+2b	54616
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 34
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 201fb40 got flushed counter=0
+Hit: Address 201fbc0 got flushed counter=1
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Prefetch: Address 1ff8d40 got flushed counter=2
+Hit: Address 1ff8e00 got flushed counter=3
+Hit: Address 1ff8f80 got flushed counter=4
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 17f9e44d4c3c0 got flushed counter=66
+Hit: Address 10000086c5e40 got flushed counter=67
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 17f9e44d4a240 got flushed counter=68
+shadow_cache used up once
+Hit: Address 17f9e44d4a280 got flushed counter=69
+2c	54779
+2c	26985
+2c	19724
+2c	54004
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 17f9e44d483c0 got flushed counter=70
+shadow_cache used up once
+shadow_cache used up once
+phase = 35
+shadow_cache used up once
+shadow_cache used up once
+phase = 5
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 1000002a7d000 got flushed counter=71
+phase = 32
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Prefetch: Address 100000aec5000 got flushed counter=72
+Hit: Address 100000aec5000 got flushed counter=73
+2d	57694
+2d	21028
+2d	53521
+2d	27496
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 36
+Hit: Address 1000008c8f280 got flushed counter=74
+Hit: Address 100000b155540 got flushed counter=75
+Hit: Address 100000a8af240 got flushed counter=76
+shadow_cache used up once
+Hit: Address 100000af3fc00 got flushed counter=77
+Hit: Address 100000b0470c0 got flushed counter=78
+Hit: Address 100000b1bcb80 got flushed counter=79
+Hit: Address 100000b0db100 got flushed counter=80
+shadow_cache used up once
+Hit: Address 100000afc0380 got flushed counter=81
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 1000008ece2c0 got flushed counter=82
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000a811e40 got flushed counter=83
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000af34740 got flushed counter=84
+Hit: Address 100000aff97c0 got flushed counter=85
+Hit: Address 100000afdab40 got flushed counter=86
+shadow_cache used up once
+shadow_cache used up once
+2e	26477
+2e	56680
+2e	53301
+2e	23789
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 10000087fd240 got flushed counter=87
+Hit: Address 100000852be00 got flushed counter=88
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000afb55c0 got flushed counter=89
+shadow_cache used up once
+phase = 37
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 1000008943580 got flushed counter=90
+shadow_cache used up once
+Hit: Address 100000897aac0 got flushed counter=91
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 1000008a11d80 got flushed counter=92
+Hit: Address 10000089e3680 got flushed counter=93
+Hit: Address 1000008a08f00 got flushed counter=94
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 1000008a47b00 got flushed counter=95
+Hit: Address 100000b014200 got flushed counter=96
+shadow_cache used up once
+shadow_cache used up once
+phase = 7
+shadow_cache used up once
+2f	23497
+2f	53966
+2f	25291
+2f	54535
+phase = 6
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 33
+Hit: Address 100000afa5b00 got flushed counter=97
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000b0bf000 got flushed counter=98
+shadow_cache used up once
+shadow_cache used up once
+phase = 38
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+30	25676
+30	23922
+30	54999
+30	53121
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000712b180 got flushed counter=99
+Hit: Address 100000712b480 got flushed counter=100
+Hit: Address 1000008275b40 got flushed counter=101
+Hit: Address 1000002d97cc0 got flushed counter=102
+Hit: Address 1000002d97e40 got flushed counter=103
+Hit: Address 1000002d9b680 got flushed counter=104
+Hit: Address 1000002d9b840 got flushed counter=105
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000712c800 got flushed counter=106
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 1000003710f40 got flushed counter=107
+Hit: Address 1000003774080 got flushed counter=108
+Hit: Address 1000003773ec0 got flushed counter=109
+shadow_cache used up once
+shadow_cache used up once
+phase = 39
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000b08f780 got flushed counter=110
+31	57535
+31	25909
+31	23382
+31	53607
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000a242ec0 got flushed counter=111
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 1000007754640 got flushed counter=112
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 40
+phase = 34
+shadow_cache used up once
+Hit: Address 100000af43b40 got flushed counter=113
+Hit: Address 10000098ec440 got flushed counter=114
+shadow_cache used up once
+shadow_cache used up once
+32	58605
+32	26422
+32	53149
+32	20293
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 7
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 41
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+33	61432
+33	28778
+33	19759
+33	49302
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 8
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 35
+phase = 42
+34	61546
+34	29789
+34	48912
+34	19662
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 17f9e44d51280 got flushed counter=115
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+35	21058
+35	28471
+35	60774
+35	49752
+shadow_cache used up once
+phase = 43
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 8
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000630c500 got flushed counter=116
+36	24414
+36	25304
+36	56259
+36	52562
+Hit: Address 10000036f4b00 got flushed counter=117
+shadow_cache used up once
+Hit: Address 100000375ab80 got flushed counter=118
+Hit: Address 1000008b1d740 got flushed counter=119
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 44
+shadow_cache used up once
+shadow_cache used up once
+phase = 36
+Hit: Address 100000a7972c0 got flushed counter=120
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 1000009d57480 got flushed counter=121
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000b115d00 got flushed counter=122
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 10000072c0480 got flushed counter=123
+shadow_cache used up once
+shadow_cache used up once
+37	24539
+37	55166
+37	25506
+37	52383
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000ab38f40 got flushed counter=124
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 45
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 9
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+38	57096
+38	18267
+38	26685
+38	50805
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 46
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 9
+phase = 37
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+39	27224
+39	58736
+39	52489
+39	21040
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 100000af3dc00 got flushed counter=125
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 47
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+3a	52669
+3a	55602
+3a	24990
+3a	23686
+shadow_cache used up once
+Hit: Address 1000007131b40 got flushed counter=126
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 1000003d78a80 got flushed counter=127
+shadow_cache used up once
+phase = 48
+shadow_cache used up once
+Hit: Address 1000009d99300 got flushed counter=128
+shadow_cache used up once
+Hit: Address 100000b083080 got flushed counter=129
+Hit: Address 100000a1bd440 got flushed counter=130
+Hit: Address 100000a1bd4c0 got flushed counter=131
+Hit: Address 1000005b76980 got flushed counter=132
+Hit: Address 1000005b93a40 got flushed counter=133
+Hit: Address 1000005b92a00 got flushed counter=134
+Hit: Address 1000005b94bc0 got flushed counter=135
+Hit: Address 1000005b94b80 got flushed counter=136
+Hit: Address 1000005b957c0 got flushed counter=137
+Hit: Address 1000005b95580 got flushed counter=138
+Hit: Address 10000099247c0 got flushed counter=139
+Hit: Address 1000005b95e80 got flushed counter=140
+Hit: Address 1000005b96880 got flushed counter=141
+Hit: Address 1000005b968c0 got flushed counter=142
+Hit: Address 1000005b97440 got flushed counter=143
+Hit: Address 1000005b99740 got flushed counter=144
+Hit: Address 1000005b9a380 got flushed counter=145
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 1000009ea0340 got flushed counter=146
+shadow_cache used up once
+shadow_cache used up once
+3b	53993
+3b	24206
+3b	22753
+3b	55476
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 38
+[TRACE:3] -- DONE --
+shadow_cache used up once
+[TRACE:1] -- STOP --
+[TRACE:0] -- STOP --
+[TRACE:2] -- STOP --
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 2251.42 seconds
+[SNIPER] Simulated 531.6M instructions, 201.2M cycles, 2.64 IPC
+[SNIPER] Simulation speed 236.1 KIPS (59.0 KIPS / target core - 16940.3ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+phase = 39
+Inserted: 33885a
+Redundant.progress: 193a1
+Redundant.cache: 75453
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+phase = 10
+Inserted: 6e8fc
+Redundant.progress: bb4
+Redundant.cache: f7a0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+phase = 10
+Inserted: 13f46
+Redundant.progress: 6c8
+Redundant.cache: 445
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+phase = 49
+Inserted: 4fb4ca
+Redundant.progress: 18fbc
+Redundant.cache: a252b
+Redundant.buffer: 0
+[SNIPER] End
+[SNIPER] Elapsed time: 2293.85 seconds

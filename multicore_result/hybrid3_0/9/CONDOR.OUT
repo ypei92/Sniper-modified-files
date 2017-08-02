@@ -1,0 +1,2210 @@
+[SNIPER] Start
+Sampler: 4, 4, 32
+stlb_cache: 512, 16
+stlb_cache_L1: 512, 16
+Sampler: 4, 32, 0
+itlb_cache: 32, 1
+itlb_cache_L1: 32, 1
+Sampler: 4, 128, 0
+dtlb_cache: 128, 4
+dtlb_cache_L1: 128, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 128
+L1-I: 2048, 64
+L1-I_L1: 2048, 64
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+Sampler: 25f, 10, d
+L2: 20000, 1000
+L2_L1: 20000, 1000
+HybridPrefetcher3 running
+Creating prefetcher object 0 0x20dcef0
+HybridPrefetcher3 running
+Creating prefetcher object 1 0x227f820
+HybridPrefetcher3 running
+Creating prefetcher object 2 0x2422180
+HybridPrefetcher3 running
+Creating prefetcher object 3 0x25c4ae0
+Sampler: 4, 4, 20
+stlb_cache: 200, 10
+stlb_cache_L1: 200, 10
+Sampler: 4, 20, 0
+itlb_cache: 20, 1
+itlb_cache_L1: 20, 1
+Sampler: 4, 80, 0
+dtlb_cache: 80, 4
+dtlb_cache_L1: 80, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 80
+L1-I: 800, 40
+L1-I_L1: 800, 40
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+Sampler: 4, 4, 20
+stlb_cache: 200, 10
+stlb_cache_L1: 200, 10
+Sampler: 4, 20, 0
+itlb_cache: 20, 1
+itlb_cache_L1: 20, 1
+Sampler: 4, 80, 0
+dtlb_cache: 80, 4
+dtlb_cache_L1: 80, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 80
+L1-I: 800, 40
+L1-I_L1: 800, 40
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+Sampler: 4, 4, 20
+stlb_cache: 200, 10
+stlb_cache_L1: 200, 10
+Sampler: 4, 20, 0
+itlb_cache: 20, 1
+itlb_cache_L1: 20, 1
+Sampler: 4, 80, 0
+dtlb_cache: 80, 4
+dtlb_cache_L1: 80, 4
+num_memory_controller = 1
+L1-I 2
+Sampler: 4, 4, 80
+L1-I: 800, 40
+L1-I_L1: 800, 40
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L1-D 3
+Sampler: 4, 8, 20
+L1-D: 400, 20
+L1-D_L1: 400, 20
+Creating prefetcher object 0 0
+Creating prefetcher object 1 0
+Creating prefetcher object 2 0
+Creating prefetcher object 3 0
+L2 4
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using SIFT/trace-driven frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+0	1
+0	2
+0	2
+0	2
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+[app1] td>Ugo Glanzel</td><td><a href="mailto:Glanzel@ucd.ie">Glanzel@ucd.ie</a></td><td>+97 (652) 74327808</td><td></td><td></td><td>(0) open_auction2516<br>(I) open_auction1933<br>(II) open_auction4577<br>(III) open_auction4886<br>
+[app1] </td><td>
+[app1] <p>31 Lubiw St<br>Palm, Tennessee<br>United States<br>35</p>
+[app1] </td><td>65104.7</td><td>female</td><td>Yes</td><td>47</td><td>College</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person11130</td><td>Ugo Ritondale</td><td><a href="mailto:Ritondale@computer.org">Ritondale@computer.org</a></td><td></td><td></td><td>1560 3281 3209 4196</td><td>(0) open_auction2394<br>(I) open_auction2070<br>(II) open_auction3597<br>(III) open_auction5284<br>(IV) open_auction1332<br>(V) open_auction5293<br>
+[app1] </td><td>
+[app1] <p>90 Cohoon St<br>Tri, <br>Nigeria<br>28</p>
+[app1] </td><td>97645.36</td><td></td><td>No</td><td></td><td>College</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person8759</td><td>Ugur Rothman</td><td><a href="mailto:Rothman@conclusivestrategies.com">Rothman@conclusivestrategies.com</a></td><td></td><td><a href="http://www.conclusivestrategies.com/~Rothman">http://www.conclusivestrategies.com/~Rothman</a></td><td>3476 1547 2340 1102</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person9598</td><td>Uinam Haddadi</td><td><a href="mailto:Haddadi@crossgain.com">Haddadi@crossgain.com</a></td><td></td><td><a href="http://www.crossgain.com/~Haddadi">http://www.crossgain.com/~Haddadi</a></td><td>3578 5577 6010 4447</td><td>(0) open_auction2518<br>(I) open_auction270<br>
+[app1] </td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person530</td><td>Uinam Straser</td><td><a href="mailto:Straser@edu.hk">Straser@edu.hk</a></td><td></td><td></td><td>6221 4416 2811 8270</td><td>(0) open_auction3245<br>(I) open_auction4795<br>(II) open_auction3047<br>(III) open_auction1130<br>
+[app1] </td><td>
+[app1] <p>3 Eklundh St<br>Fort, <br>United States<br>3</p>
+[app1] </td><td>9876</td><td></td><td>No</td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+[app1] <td>person7840</td><td>Uisok Reade</td><td><a href="mailto:Reade@cmu.edu">Reade@cmu.edu</a></td><td>+0 (88) 55256306</td><td></td><td>3379 7136 8312 5582</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person284</td><td>Uldis Kukimoto</td><td><a href="mailto:Kukimoto@co.in">Kukimoto@co.in</a></td><td></td><td><a href="http://www.co.in/~Kukimoto">http://www.co.in/~Kukimoto</a></td><td>9136 5125 4221 2864</td><td>(0) open_auction591<br>(I) open_auction4463<br>(II) open_auction681<br>(III) open_auction3787<br>(IV) open_auction1904<br>
+[app1] </td><td></td><td>50516.34</td><td>male</td><td>Yes</td><td>46</td><td>College</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person3288</td><td>Ulf Buchter</td><td><a href="mailto:Buchter@sds.no">Buchter@sds.no</a></td><td>+20 (456) 48506647</td><td><a href="http://www.sds.no/~Buchter">http://www.sds.no/~Buchter</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person8655</td><td>Ulf Furedi</td><td><a href="mailto:Furedi@versata.com">Furedi@versata.com</a></td><td>+164 (17) 17689749</td><td><a href="http://www.versata.com/~Furedi">http://www.versata.com/~Furedi</a></td><td></td><td></td><td>
+[app1] <p>2 Steenstrup St<br>Houston, <br>United States<br>24</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person10201</td><td>Ulf Gessel</td><td><a href="mailto:Gessel@uta.edu">Gessel@uta.edu</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person6153</td><td>Ulfar Heijne</td><td><a href="mailto:Heijne@upenn.edu">Heijne@upenn.edu</a></td><td></td><td><a href="http://www.upenn.edu/~Heijne">http://www.upenn.edu/~Heijne</a></td><td></td><td>(0) open_auction4325<br>(I) open_auction968<br>(II) open_auction3176<br>(III) open_auction2161<br>(IV) open_auction1899<br>
+[app1] </td><td>
+[app1] <p>24 Deacon St<br>Huntington, Lampert<br>Kenya<br>28</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person7526</td><td>Ulfar Murtagh</td><td><a href="mailto:Murtagh@ntua.gr">Murtagh@ntua.gr</a></td><td>+80 (99) 72327674</td><td></td><td>7863 9368 1478 3046</td><td>(0) open_auction2820<br>(I) open_auction440<br>(II) open_auction2575<br>(III) open_auction857<br>(IV) open_auction61<br>(V) open_auction5293<br>
+[app1] </td><td>
+[app1] <p>89 Rivierre St<br>Venice, Oregon<br>United States<br>24</p>
+[app1] </td><td>44787.93</td><td>female</td><td>Yes</td><td>28</td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person10238</td><td>Ulfar Staylopatis</td><td><a href="mailto:Staylopatis@edu.sg">Staylopatis@edu.sg</a></td><td></td><td><a href="http://www.edu.sg/~Staylopatis">http://www.edu.sg/~Staylopatis</a></td><td>1760 2815 4133 9556</td><td></td><td>
+[app1] <p>21 Emond St<br>Elko, <br>United States<br>22</p>
+[app1] </td><td>16256.63</td><td>male</td><td>No</td><td>29</td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person742</td><td>Uli Ebeling</td><td><a href="mailto:Ebeling@gatech.edu">Ebeling@gatech.edu</a></td><td>+0 (539) 52375137</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person7373</td><td>Uli Iida</td><td><a href="mailto:Iida@uwo.ca">Iida@uwo.ca</a></td><td></td><td><a href="http://www.uwo.ca/~Iida">http://www.uwo.ca/~Iida</a></td><td></td><td>(0) open_auction3061<br>
+[app1] </td><td>
+[app1] <p>25 Benz St<br>Pasco, Maine<br>United States<br>22</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person8484</td><td>Uli Ionescu</td><td><a href="mailto:Ionescu@filemaker.com">Ionescu@filemaker.com</a></td><td></td><td></td><td>6632 9194 3926 5485</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person10261</td><td>Uli Olveszky</td><td><a href="mailto:Olveszky@itc.it">Olveszky@itc.it</a></td><td></td><td><a href="http://www.itc.it/~Olveszky">http://www.itc.it/~Olveszky</a></td><td>6189 8238 9569 5584</td><td>(0) open_auction2607<br>(I) open_auction1172<br>
+[app1] </td><td>
+[app1] <p>75 Gerace St<br>Cancun, <br>United States<br>26</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+1	28182
+1	28192
+1	28117
+1	5859
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person3895</td><td>Uli Pekkanen</td><td><a href="mailto:Pekkanen@sybase.com">Pekkanen@sybase.com</a></td><td>+0 (494) 96113287</td><td><a href="http://www.sybase.com/~Pekkanen">http://www.sybase.com/~Pekkanen</a></td><td>3165 6984 7053 7936</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person2325</td><td>Uli Ritcey</td><td><a href="mailto:Ritcey@concentric.net">Ritcey@concentric.net</a></td><td></td><td><a href="http://www.concentric.net/~Ritcey">http://www.concentric.net/~Ritcey</a></td><td></td><td>(0) open_auction3995<br>(I) open_auction4507<br>
+[app1] </td><td></td><td>28199.16</td><td>male</td><td>No</td><td>41</td><td>College</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person2178</td><td>Ulises Dale</td><td><a href="mailto:Dale@edu.hk">Dale@edu.hk</a></td><td></td><td><a href="http://www.edu.hk/~Dale">http://www.edu.hk/~Dale</a></td><td>5194 7621 5569 5589</td><td></td><td>
+[app1] <p>48 Capaccioli St<br>South, <br>Lithuania<br>23</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person5077</td><td>Ulises Loubersac</td><td><a href="mailto:Loubersac@clustra.com">Loubersac@clustra.com</a></td><td></td><td><a href="http://www.clustra.com/~Loubersac">http://www.clustra.com/~Loubersac</a></td><td></td><td></td><td>
+[app1] <p>34 Michalakopoulos St<br>Conakry, <br>United States<br>22</p>
+[app1] </td><td>14970.63</td><td>male</td><td>Yes</td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person10214</td><td>Ulises Weihrauch</td><td><a href="mailto:Weihrauch@auth.gr">Weihrauch@auth.gr</a></td><td></td><td><a href="http://www.auth.gr/~Weihrauch">http://www.auth.gr/~Weihrauch</a></td><td></td><td>(0) open_auction4361<br>(I) open_auction1507<br>(II) open_auction3481<br>(III) open_auction3708<br>
+[app1] </td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person5613</td><td>Ulrik Earley</td><td><a href="mailto:Earley@uni-sb.de">Earley@uni-sb.de</a></td><td></td><td></td><td></td><td>(0) open_auction2479<br>
+[app1] </td><td>
+[app1] <p>26 Kieras St<br>Austin, <br>United States<br>10</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person11379</td><td>Ulrik Feltelson</td><td><a href="mailto:Feltelson@newpaltz.edu">Feltelson@newpaltz.edu</a></td><td></td><td></td><td></td><td></td><td></td><td>29266.21</td><td>male</td><td>No</td><td>28</td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person11594</td><td>Ulrik Hooghiemstra</td><td><a href="mailto:Hooghiemstra@ucr.edu">Hooghiemstra@ucr.edu</a></td><td>+0 (235) 67799542</td><td><a href="http://www.ucr.edu/~Hooghiemstra">http://www.ucr.edu/~Hooghiemstra</a></td><td>1890 1593 9944 1672</td><td></td><td>
+[app1] <p>33 Brody St<br>Stockholm, <br>United States<br>6</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person635</td><td>Ulrik Perna</td><td><a href="mailto:Perna@bellatlantic.net">Perna@bellatlantic.net</a></td><td></td><td></td><td></td><td></td><td></td><td>10541.2</td><td>male</td><td>No</td><td>46</td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person4192</td><td>Ulrik Schicker</td><td><a href="mailto:Schicker@ibm.com">Schicker@ibm.com</a></td><td></td><td><a href="http://www.ibm.com/~Schicker">http://www.ibm.com/~Schicker</a></td><td></td><td>(0) open_auction1840<br>(I) open_auction3301<br>
+[app1] </td><td>
+[app1] <p>94 Gazzotti St<br>Abidjan, <br>Turks Islands<br>14</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person2504</td><td>Ulrik Werthner</td><td><a href="mailto:Werthner@ac.jp">Werthner@ac.jp</a></td><td></td><td><a href="http://www.ac.jp/~Werthner">http://www.ac.jp/~Werthner</a></td><td>9427 3489 7435 9746</td><td></td><td></td><td>79161.26</td><td></td><td>No</td><td>27</td><td>College</td>
+[app1] </tr>
+[app1] <tr valign="top">
+phase = 0
+phase = 0
+phase = 0
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+2	1148
+2	18287
+2	18287
+2	17627
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+3	685
+3	16954
+3	16887
+3	18903
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address c01bec0 got flushed counter=0
+Hit: Address 300000c01bec0 got flushed counter=0
+phase = 1
+Hit: Address 300000c0205c0 got flushed counter=1
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address c020600 got flushed counter=1
+Hit: Address 300000c013e80 got flushed counter=2
+Hit: Address 300000c020600 got flushed counter=3
+Hit: Address 200000c013f00 got flushed counter=0
+Hit: Address 200000c020680 got flushed counter=1
+Hit: Address 300000c020a40 got flushed counter=4
+Hit: Address 200000c020ac0 got flushed counter=2
+phase = 1
+phase = 1
+shadow_cache used up once
+Hit: Address 300000c0207c0 got flushed counter=5
+Hit: Address c0207c0 got flushed counter=2
+Hit: Address 300000c020800 got flushed counter=6
+Hit: Address c020800 got flushed counter=3
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 200000c0208c0 got flushed counter=3
+Hit: Address 300000c01bdc0 got flushed counter=7
+Hit: Address c01bdc0 got flushed counter=4
+4	17742
+4	17844
+4	1143
+4	18273
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+5	757
+5	19213
+5	17889
+5	17805
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 200000c013d40 got flushed counter=4
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 200000c013e40 got flushed counter=5
+Hit: Address 200000c0205c0 got flushed counter=6
+Hit: Address 200000c020a00 got flushed counter=7
+Hit: Address 200000c013e80 got flushed counter=8
+Hit: Address 200000c013ec0 got flushed counter=9
+phase = 2
+phase = 2
+phase = 2
+Hit: Address 300000c020b80 got flushed counter=8
+Hit: Address c020b80 got flushed counter=5
+shadow_cache used up once
+Hit: Address 300000c020780 got flushed counter=9
+shadow_cache used up once
+Hit: Address c014000 got flushed counter=6
+Hit: Address c020780 got flushed counter=7
+shadow_cache used up once
+Hit: Address 300000c01bec0 got flushed counter=10
+Hit: Address c01bec0 got flushed counter=8
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 200000c013dc0 got flushed counter=10
+Hit: Address 200000c020540 got flushed counter=11
+Hit: Address 300000c020a00 got flushed counter=11
+Hit: Address 300000c01bf40 got flushed counter=12
+shadow_cache used up once
+Hit: Address c01bf40 got flushed counter=9
+6	1090
+6	17369
+6	18302
+6	18146
+Hit: Address c020b00 got flushed counter=10
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address c020800 got flushed counter=11
+Hit: Address 300000c020800 got flushed counter=13
+shadow_cache used up once
+Hit: Address 300000c020880 got flushed counter=14
+Hit: Address c020880 got flushed counter=12
+Hit: Address 200000c020840 got flushed counter=12
+Hit: Address c0208c0 got flushed counter=13
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+[app1] <td>person5419</td><td>Ult Bala</td><td><a href="mailto:Bala@sun.com">Bala@sun.com</a></td><td>+0 (329) 49045257</td><td></td><td></td><td>(0) open_auction3233<br>(I) open_auction2654<br>(II) open_auction572<br>(III) open_auction2489<br>(IV) open_auction2627<br>(V) open_auction568<br>(VI) open_auction574<br>(VII) open_auction528<br>(VIII) open_auction4417<br>(IX) open_auction5498<br>(X) open_auction3867<br>(XLIX) open_auction1396<br>(L) open_auction4310<br>
+[app1] </td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person3121</td><td>Ult Diehl</td><td><a href="mailto:Diehl@okcu.edu">Diehl@okcu.edu</a></td><td></td><td><a href="http://www.okcu.edu/~Diehl">http://www.okcu.edu/~Diehl</a></td><td></td><td></td><td></td><td>64274.18</td><td></td><td>Yes</td><td></td><td>High School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person2074</td><td>Ult Tischendorf</td><td><a href="mailto:Tischendorf@co.in">Tischendorf@co.in</a></td><td>+0 (695) 45926287</td><td></td><td>9548 6280 9963 3328</td><td></td><td>
+[app1] <p>37 Ehrenfeucht St<br>Gainesville, <br>United States<br>15</p>
+[app1] </td><td>37750.05</td><td>male</td><td>No</td><td></td><td>High School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person4871</td><td>Uma Buchter</td><td><a href="mailto:Buchter@sds.no">Buchter@sds.no</a></td><td></td><td></td><td>9022 8582 2904 4395</td><td></td><td>
+[app1] <p>83 Freundschuh St<br>Worcester, <br>Oman<br>12</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person11965</td><td>Uma Lemarechal</td><td><a href="mailto:Lemarechal@panasonic.com">Lemarechal@panasonic.com</a></td><td>+0 (964) 2790671</td><td></td><td></td><td>(0) open_auction2651<br>(I) open_auction827<br>(II) open_auction1704<br>(III) open_auction4194<br>(IV) open_auction4528<br>(V) open_auction5883<br>(VI) open_auction4205<br>(VII) open_auction1498<br>(VIII) open_auction3864<br>(IX) open_auction2266<br>(X) open_auction4742<br>(XLIX) open_auction4955<br>
+[app1] </td><td>
+[app1] <p>75 Mittermeir St<br>Kahului, <br>Northern Mariana Islands<br>9</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person89</td><td>Uma Llana</td><td><a href="mailto:Llana@utexas.edu">Llana@utexas.edu</a></td><td></td><td><a href="http://www.utexas.edu/~Llana">http://www.utexas.edu/~Llana</a></td><td></td><td></td><td>
+[app1] <p>32 Hofting St<br>Miami, <br>United States<br>16</p>
+[app1] </td><td>47209.91</td><td></td><td>No</td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person4364</td><td>Umakanta Morreau</td><td><a href="mailto:Morreau@airmail.net">Morreau@airmail.net</a></td><td></td><td><a href="http://www.airmail.net/~Morreau">http://www.airmail.net/~Morreau</a></td><td></td><td></td><td></td><td>87745.81</td><td>female</td><td>No</td><td></td><td>Other</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person9864</td><td>Umberto Giguere</td><td><a href="mailto:Giguere@co.jp">Giguere@co.jp</a></td><td></td><td><a href="http://www.co.jp/~Giguere">http://www.co.jp/~Giguere</a></td><td></td><td></td><td>
+[app1] <p>37 Markatos St<br>Aruba, Michigan<br>United States<br>23</p>
+[app1] </td><td>39239.88</td><td>male</td><td>Yes</td><td>18</td><td>College</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person7866</td><td>Umeshwar Gustavson</td><td><a href="mailto:Gustavson@zambeel.com">Gustavson@zambeel.com</a></td><td></td><td></td><td>2649 2556 8554 7414</td><td>(0) open_auction4870<br>(I) open_auction5152<br>(II) open_auction2987<br>(III) open_auction3758<br>(IV) open_auction2415<br>(V) open_auction899<br>(VI) open_auction5833<br>(VII) open_auction5420<br>
+[app1] </td><td>
+[app1] <p>56 Koitz St<br>Butte, <br>United States<br>11</p>
+[app1] </td><td>59208.62</td><td></td><td>Yes</td><td>36</td><td>High School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person4127</td><td>Umeshwar Jonckers</td><td><a href="mailto:Jonckers@ask.com">Jonckers@ask.com</a></td><td></td><td></td><td>6801 6843 1821 2914</td><td>(0) open_auction622<br>(I) open_auction3963<br>
+[app1] </td><td></td><td>70358.1</td><td></td><td>No</td><td>24</td><td>Other</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person1966</td><td>Umeshwar Sewelson</td><td><a href="mailto:Sewelson@cornell.edu">Sewelson@cornell.edu</a></td><td>+0 (628) 54174875</td><td></td><td></td><td></td><td>
+[app1] <p>46 Waema St<br>Cape, <br>Niue<br>23</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+7	19114
+7	921
+7	17014
+7	17464
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 3
+phase = 3
+shadow_cache used up once
+Hit: Address 300000c013d80 got flushed counter=15
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 200000c013fc0 got flushed counter=13
+Hit: Address 200000c020740 got flushed counter=14
+phase = 3
+Hit: Address 300000c013f00 got flushed counter=16
+Hit: Address 300000c020680 got flushed counter=17
+Hit: Address c013f00 got flushed counter=14
+Hit: Address c020680 got flushed counter=15
+Hit: Address 300000c020ac0 got flushed counter=18
+Hit: Address 300000c01c000 got flushed counter=19
+Hit: Address c020ac0 got flushed counter=16
+shadow_cache used up once
+Hit: Address c01c000 got flushed counter=17
+Hit: Address 300000c013f40 got flushed counter=20
+Hit: Address 300000c0206c0 got flushed counter=21
+Hit: Address 300000c020b00 got flushed counter=22
+Hit: Address 300000c01c040 got flushed counter=23
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 300000c020b80 got flushed counter=24
+Hit: Address 200000c01bf40 got flushed counter=15
+Hit: Address 300000c01c0c0 got flushed counter=25
+Hit: Address 200000c013e80 got flushed counter=16
+Hit: Address 200000c020600 got flushed counter=17
+Hit: Address 300000c014000 got flushed counter=26
+Hit: Address 300000c020780 got flushed counter=27
+Hit: Address c020b80 got flushed counter=18
+Hit: Address c01c0c0 got flushed counter=19
+8	557
+Hit: Address 200000c020a40 got flushed counter=18
+Hit: Address c014000 got flushed counter=20
+Hit: Address c020780 got flushed counter=21
+8	18659
+8	18042
+8	19025
+shadow_cache used up once
+Hit: Address c013cc0 got flushed counter=22
+Hit: Address 200000c020b80 got flushed counter=19
+Hit: Address 200000c01c0c0 got flushed counter=20
+shadow_cache used up once
+Hit: Address c01be40 got flushed counter=23
+shadow_cache used up once
+Hit: Address 300000c01bf40 got flushed counter=28
+Hit: Address 300000c01bf80 got flushed counter=29
+Hit: Address c01bfc0 got flushed counter=24
+Hit: Address 300000c01bfc0 got flushed counter=30
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address c020b00 got flushed counter=25
+shadow_cache used up once
+Hit: Address 300000c020b40 got flushed counter=31
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+9	16906
+shadow_cache used up once
+9	885
+9	18529
+9	18926
+shadow_cache used up once
+shadow_cache used up once
+phase = 4
+shadow_cache used up once
+phase = 4
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 4
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+a	17903
+a	16818
+a	18796
+a	570
+shadow_cache used up once
+Hit: Address 200000c013fc0 got flushed counter=21
+shadow_cache used up once
+Hit: Address c013d40 got flushed counter=26
+Hit: Address 300000c013f00 got flushed counter=32
+Hit: Address 300000c020680 got flushed counter=33
+Hit: Address 300000c020ac0 got flushed counter=34
+Hit: Address 300000c013f40 got flushed counter=35
+Hit: Address 300000c0206c0 got flushed counter=36
+Hit: Address c013d80 got flushed counter=27
+Hit: Address c020500 got flushed counter=28
+Hit: Address 300000c020b00 got flushed counter=37
+Hit: Address c020940 got flushed counter=29
+Hit: Address 300000c013f80 got flushed counter=38
+Hit: Address 300000c020700 got flushed counter=39
+Hit: Address c013dc0 got flushed counter=30
+Hit: Address c020540 got flushed counter=31
+Hit: Address c020980 got flushed counter=32
+shadow_cache used up once
+Hit: Address c020a40 got flushed counter=33
+Hit: Address c013ec0 got flushed counter=34
+Hit: Address c020640 got flushed counter=35
+Hit: Address c020a80 got flushed counter=36
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address c013f00 got flushed counter=37
+Hit: Address c020680 got flushed counter=38
+Hit: Address c020ac0 got flushed counter=39
+Hit: Address c013f40 got flushed counter=40
+Hit: Address c0206c0 got flushed counter=41
+Hit: Address c013f80 got flushed counter=42
+Hit: Address c020700 got flushed counter=43
+Hit: Address c020b80 got flushed counter=44
+Hit: Address c01c0c0 got flushed counter=45
+Hit: Address 200000c020640 got flushed counter=22
+Hit: Address c020780 got flushed counter=46
+shadow_cache used up once
+Hit: Address 300000c020600 got flushed counter=40
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 5
+b	711
+b	18683
+b	20003
+b	17174
+shadow_cache used up once
+shadow_cache used up once
+phase = 5
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 5
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+c	933
+c	16448
+c	18419
+c	15397
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 200000c0209c0 got flushed counter=23
+Hit: Address 200000c01bf00 got flushed counter=24
+shadow_cache used up once
+Hit: Address 200000c013e40 got flushed counter=25
+Hit: Address 200000c0205c0 got flushed counter=26
+Hit: Address 300000c014000 got flushed counter=41
+Hit: Address 200000c020a00 got flushed counter=27
+Hit: Address 200000c01bf40 got flushed counter=28
+Hit: Address 200000c013e80 got flushed counter=29
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address c013d80 got flushed counter=47
+Hit: Address c020500 got flushed counter=48
+Hit: Address 300000c01bd80 got flushed counter=42
+Hit: Address c020940 got flushed counter=49
+Hit: Address c01be80 got flushed counter=50
+Hit: Address c013dc0 got flushed counter=51
+Hit: Address c020540 got flushed counter=52
+Hit: Address c020980 got flushed counter=53
+Hit: Address 200000c01c080 got flushed counter=30
+Hit: Address 200000c013fc0 got flushed counter=31
+Hit: Address 200000c020740 got flushed counter=32
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address c020640 got flushed counter=54
+phase = 6
+shadow_cache used up once
+Hit: Address 300000c020a00 got flushed counter=43
+Hit: Address 300000c01bf40 got flushed counter=44
+Hit: Address 300000c020600 got flushed counter=45
+Hit: Address 300000c020a40 got flushed counter=46
+shadow_cache used up once
+d	1063
+d	17872
+d	17250
+d	17810
+shadow_cache used up once
+shadow_cache used up once
+phase = 6
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 6
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address c01fcc0 got flushed counter=55
+shadow_cache used up once
+shadow_cache used up once
+e	571
+e	17502
+e	17811
+e	18127
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address c013e40 got flushed counter=56
+shadow_cache used up once
+shadow_cache used up once
+phase = 7
+[app1] <td>person3826</td><td>Umpei Geidmanis</td><td><a href="mailto:Geidmanis@duke.edu">Geidmanis@duke.edu</a></td><td>+0 (609) 67926804</td><td><a href="http://www.duke.edu/~Geidmanis">http://www.duke.edu/~Geidmanis</a></td><td>4135 7683 4074 6079</td><td></td><td>
+[app1] <p>17 Depreitere St<br>Calgary, <br>United States<br>22</p>
+[app1] </td><td>60391.89</td><td>male</td><td>Yes</td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person11948</td><td>Umpei Masulis</td><td><a href="mailto:Masulis@verity.com">Masulis@verity.com</a></td><td>+0 (476) 49334976</td><td><a href="http://www.verity.com/~Masulis">http://www.verity.com/~Masulis</a></td><td>8438 7151 2764 3874</td><td></td><td></td><td>27841.65</td><td></td><td>Yes</td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person4029</td><td>Unal Grady</td><td><a href="mailto:Grady@ucd.ie">Grady@ucd.ie</a></td><td></td><td></td><td>4935 5644 8762 7354</td><td>(0) open_auction4873<br>
+[app1] </td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person8493</td><td>Unal Lubin</td><td><a href="mailto:Lubin@propel.com">Lubin@propel.com</a></td><td>+0 (919) 68089939</td><td><a href="http://www.propel.com/~Lubin">http://www.propel.com/~Lubin</a></td><td>3496 4695 2631 1185</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person3881</td><td>Unal Makrucki</td><td><a href="mailto:Makrucki@uqam.ca">Makrucki@uqam.ca</a></td><td></td><td><a href="http://www.uqam.ca/~Makrucki">http://www.uqam.ca/~Makrucki</a></td><td></td><td></td><td>
+[app1] <p>42 Kibati St<br>Basel, <br>United States<br>26</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person6986</td><td>Unal Paleologo</td><td><a href="mailto:Paleologo@lehner.net">Paleologo@lehner.net</a></td><td>+0 (130) 9767686</td><td><a href="http://www.lehner.net/~Paleologo">http://www.lehner.net/~Paleologo</a></td><td></td><td>(0) open_auction5106<br>(I) open_auction1290<br>
+[app1] </td><td></td><td>9876</td><td></td><td>Yes</td><td>44</td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person5446</td><td>Unal Thees</td><td><a href="mailto:Thees@lri.fr">Thees@lri.fr</a></td><td>+0 (518) 72455242</td><td><a href="http://www.lri.fr/~Thees">http://www.lri.fr/~Thees</a></td><td></td><td>(0) open_auction4198<br>(I) open_auction5475<br>(II) open_auction48<br>(III) open_auction5552<br>(IV) open_auction373<br>(V) open_auction5390<br>(VI) open_auction5264<br>
+[app1] </td><td></td><td>93579.65</td><td>female</td><td>Yes</td><td>52</td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person4605</td><td>Ung Birsak</td><td><a href="mailto:Birsak@lbl.gov">Birsak@lbl.gov</a></td><td>+0 (91) 56975339</td><td><a href="http://www.lbl.gov/~Birsak">http://www.lbl.gov/~Birsak</a></td><td>8799 2598 3496 1557</td><td></td><td>
+[app1] <p>85 Coscoy St<br>Geneva, <br>United States<br>20</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person5680</td><td>Ung Castella</td><td><a href="mailto:Castella@nwu.edu">Castella@nwu.edu</a></td><td></td><td></td><td>9500 4835 3133 3585</td><td></td><td>
+[app1] <p>99 Feigelson St<br>Casper, Texas<br>United States<br>11</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person10594</td><td>Ung Poulsen</td><td><a href="mailto:Poulsen@ucla.edu">Poulsen@ucla.edu</a></td><td></td><td><a href="http://www.ucla.edu/~Poulsen">http://www.ucla.edu/~Poulsen</a></td><td></td><td>(0) open_auction2979<br>(I) open_auction5767<br>(II) open_auction1927<br>(III) open_auction4116<br>
+[app1] </td><td></td><td>50192.66</td><td>male</td><td>No</td><td>51</td><td>High School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person9350</td><td>Uno Carrera</td><td><a href="mailto:Carrera@propel.com">Carrera@propel.com</a></td><td>+230 (456) 94209886</td><td><a href="http://www.propel.com/~Carrera">http://www.propel.com/~Carrera</a></td><td></td><td></td><td>
+[app1] <p>7 Henriksson St<br>Boise, <br>United States<br>19</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+shadow_cache used up once
+Hit: Address 300000c01c000 got flushed counter=47
+shadow_cache used up once
+Hit: Address 300000c01c040 got flushed counter=48
+Hit: Address 300000c013f80 got flushed counter=49
+shadow_cache used up once
+Hit: Address 300000c020b80 got flushed counter=50
+Hit: Address 300000c01c0c0 got flushed counter=51
+Hit: Address 300000c014000 got flushed counter=52
+Hit: Address 300000c020780 got flushed counter=53
+Hit: Address 200000c01c000 got flushed counter=33
+f	854
+f	18024
+f	17293
+f	17849
+Hit: Address 200000c020700 got flushed counter=34
+Hit: Address c020940 got flushed counter=57
+Hit: Address c020540 got flushed counter=58
+Hit: Address 200000c020740 got flushed counter=35
+shadow_cache used up once
+Hit: Address 300000c0208c0 got flushed counter=54
+shadow_cache used up once
+phase = 7
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 7
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+10	16339
+10	1982
+shadow_cache used up once
+10	12247
+10	20768
+shadow_cache used up once
+[app1] <td>person9732</td><td>Uno Kindlmann</td><td><a href="mailto:Kindlmann@whizbang.com">Kindlmann@whizbang.com</a></td><td>+0 (438) 23045921</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person333</td><td>Uno Kurematsu</td><td><a href="mailto:Kurematsu@umich.edu">Kurematsu@umich.edu</a></td><td></td><td><a href="http://www.umich.edu/~Kurematsu">http://www.umich.edu/~Kurematsu</a></td><td></td><td>(0) open_auction5737<br>(I) open_auction1591<br>(II) open_auction1994<br>(III) open_auction5987<br>(IV) open_auction3115<br>(V) open_auction466<br>(VI) open_auction1022<br>(VII) open_auction1642<br>(VIII) open_auction133<br>(IX) open_auction3137<br>(X) open_auction4362<br>(XLIX) open_auction1758<br>
+[app1] </td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person10819</td><td>Uno Lonning</td><td><a href="mailto:Lonning@sbphrd.com">Lonning@sbphrd.com</a></td><td></td><td></td><td>4784 6399 4661 9551</td><td>(0) open_auction4638<br>(I) open_auction5484<br>(II) open_auction767<br>(III) open_auction4307<br>(IV) open_auction2482<br>
+[app1] </td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person6884</td><td>Uno Luzi</td><td><a href="mailto:Luzi@nwu.edu">Luzi@nwu.edu</a></td><td></td><td><a href="http://www.nwu.edu/~Luzi">http://www.nwu.edu/~Luzi</a></td><td>5176 9728 6457 7656</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person1839</td><td>Uno Onizuka</td><td><a href="mailto:Onizuka@telcordia.com">Onizuka@telcordia.com</a></td><td></td><td><a href="http://www.telcordia.com/~Onizuka">http://www.telcordia.com/~Onizuka</a></td><td></td><td></td><td></td><td>43314.22</td><td>male</td><td>Yes</td><td>26</td><td>Graduate School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person8934</td><td>Uno Pulidas</td><td><a href="mailto:Pulidas@ufl.edu">Pulidas@ufl.edu</a></td><td>+0 (549) 82789585</td><td><a href="http://www.ufl.edu/~Pulidas">http://www.ufl.edu/~Pulidas</a></td><td>4128 5524 6831 1002</td><td>(0) open_auction3053<br>
+[app1] </td><td></td><td>31310.99</td><td></td><td>No</td><td></td><td>Graduate School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person10417</td><td>Upen Kavraki</td><td><a href="mailto:Kavraki@temple.edu">Kavraki@temple.edu</a></td><td>+87 (368) 67816614</td><td><a href="http://www.temple.edu/~Kavraki">http://www.temple.edu/~Kavraki</a></td><td>4314 2731 6179 5244</td><td>(0) open_auction3906<br>
+[app1] </td><td>
+[app1] <p>88 Sandin St<br>Norfolk, <br>French Polynesia<br>26</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person9537</td><td>Upendra Sueyoshi</td><td><a href="mailto:Sueyoshi@msstate.edu">Sueyoshi@msstate.edu</a></td><td>+0 (581) 48943037</td><td></td><td></td><td>(0) open_auction2003<br>
+[app1] </td><td>
+[app1] <p>100 Iwayama St<br>Pensacola, <br>United States<br>16</p>
+[app1] </td><td>31313.06</td><td>female</td><td>Yes</td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person3688</td><td>Upendra Tsunakawa</td><td><a href="mailto:Tsunakawa@yorku.ca">Tsunakawa@yorku.ca</a></td><td>+222 (833) 98133211</td><td></td><td>9148 6387 5904 7608</td><td>(0) open_auction1193<br>(I) open_auction1591<br>(II) open_auction5627<br>
+[app1] </td><td>
+[app1] <p>66 Halevi St<br>Ciudad, Babinski<br>Switzerland<br>26</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person9227</td><td>Urban Baer</td><td><a href="mailto:Baer@edu.au">Baer@edu.au</a></td><td></td><td></td><td>5357 9532 6890 1794</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person8120</td><td>Urban Bain</td><td><a href="mailto:Bain@ust.hk">Bain@ust.hk</a></td><td></td><td></td><td>1278 1276 1169 2854</td><td>(0) open_auction1125<br>(I) open_auction1761<br>(II) open_auction5749<br>
+[app1] </td><td>
+[app1] <p>54 Krisper St<br>Las, <br>United States<br>5</p>
+[app1] </td><td>88138.4</td><td>female</td><td>No</td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person7249</td><td>Uri Castangia</td><td><a href="mailto:Castangia@nodak.edu">Castangia@nodak.edu</a></td><td></td><td></td><td>7322 8256 9843 3844</td><td>(0) open_auction5224<br>(I) open_auction5212<br>
+[app1] </td><td>
+[app1] <p>28 Gahleitner St<br>Monterrey, Feuerman<br>Guyana<br>23</p>
+Hit: Address c01c140 got flushed counter=59
+Hit: Address c014080 got flushed counter=60
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 200000c014040 got flushed counter=36
+shadow_cache used up once
+[app1] </td><td>9876</td><td>male</td><td>Yes</td><td></td><td>Other</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person4288</td><td>Uri Cooper</td><td><a href="mailto:Cooper@utexas.edu">Cooper@utexas.edu</a></td><td>+0 (387) 74965083</td><td></td><td></td><td>(0) open_auction3602<br>
+[app1] </td><td>
+[app1] <p>97 Convent St<br>Santiago, <br>United States<br>20</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person3204</td><td>Uri Giani</td><td><a href="mailto:Giani@rice.edu">Giani@rice.edu</a></td><td>+0 (12) 93039599</td><td></td><td>2920 7994 3856 9450</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person2826</td><td>Uri Mecking</td><td><a href="mailto:Mecking@ibm.com">Mecking@ibm.com</a></td><td>+0 (426) 44468708</td><td><a href="http://www.ibm.com/~Mecking">http://www.ibm.com/~Mecking</a></td><td>1593 5834 1241 9209</td><td>(0) open_auction3638<br>(I) open_auction46<br>(II) open_auction131<br>(III) open_auction2535<br>(IV) open_auction1163<br>(V) open_auction703<br>(VI) open_auction302<br>(VII) open_auction922<br>
+[app1] </td><td>
+[app1] <p>13 Kehl St<br>Savannah, Wisconsin<br>United States<br>14</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person8516</td><td>Uri Tolva</td><td><a href="mailto:Tolva@msstate.edu">Tolva@msstate.edu</a></td><td></td><td></td><td></td><td></td><td></td><td>79943.54</td><td></td><td>No</td><td>45</td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person2833</td><td>Uriel Lukaszewicz</td><td><a href="mailto:Lukaszewicz@sbphrd.com">Lukaszewicz@sbphrd.com</a></td><td>+137 (199) 4657365</td><td></td><td>2059 2945 6476 3436</td><td>(0) open_auction32<br>(I) open_auction3509<br>(II) open_auction5259<br>(III) open_auction1087<br>(IV) open_auction679<br>(V) open_auction1657<br>(VI) open_auction364<br>(VII) open_auction2036<br>(VIII) open_auction3992<br>(IX) open_auction2702<br>
+[app1] </td><td>
+[app1] <p>51 Vignat St<br>Chihuahua, <br>Guinea<br>35</p>
+[app1] </td><td>61112.61</td><td>female</td><td>Yes</td><td>18</td><td>High School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person834</td><td>Uros Gronowski</td><td><a href="mailto:Gronowski@ucdavis.edu">Gronowski@ucdavis.edu</a></td><td></td><td></td><td></td><td>(0) open_auction3351<br>(I) open_auction437<br>(II) open_auction4197<br>(III) open_auction264<br>(IV) open_auction4335<br>
+[app1] </td><td>
+[app1] <p>60 Zuidweg St<br>Wilmington, Flatebo<br>Anguilla<br>9</p>
+[app1] </td><td>53877.43</td><td>female</td><td>Yes</td><td>50</td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person7510</td><td>Uros Thorelli</td><td><a href="mailto:Thorelli@conclusivestrategies.com">Thorelli@conclusivestrategies.com</a></td><td></td><td><a href="http://www.conclusivestrategies.com/~Thorelli">http://www.conclusivestrategies.com/~Thorelli</a></td><td></td><td></td><td>
+[app1] <p>74 Cords St<br>Leon, <br>United States<br>23</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person11921</td><td>Uros Vassalos</td><td><a href="mailto:Vassalos@cnr.it">Vassalos@cnr.it</a></td><td>+0 (905) 726736</td><td></td><td></td><td></td><td></td><td>59833.32</td><td></td><td>No</td><td>36</td><td>High School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person4695</td><td>Urs Casson</td><td><a href="mailto:Casson@uni-marburg.de">Casson@uni-marburg.de</a></td><td></td><td><a href="http://www.uni-marburg.de/~Casson">http://www.uni-marburg.de/~Casson</a></td><td>7729 2486 3127 3369</td><td>(0) open_auction3145<br>(I) open_auction5066<br>(II) open_auction1022<br>(III) open_auction4604<br>(IV) open_auction1606<br>(V) open_auction4664<br>
+[app1] </td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person6101</td><td>Urs Debuse</td><td><a href="mailto:Debuse@ac.kr">Debuse@ac.kr</a></td><td>+0 (72) 38530249</td><td></td><td>1594 6143 3770 8005</td><td>(0) open_auction3154<br>(I) open_auction5058<br>(II) open_auction4352<br>(III) open_auction773<br>(IV) open_auction5835<br>(V) open_auction5775<br>(VI) open_auction3210<br>(VII) open_auction1902<br>(VIII) open_auction4579<br>(IX) open_auction593<br>(X) open_auction5028<br>
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+11	4205
+11	17301
+11	23154
+11	13395
+shadow_cache used up once
+phase = 8
+[app1] </td><td></td><td>9876</td><td></td><td>Yes</td><td></td><td>Graduate School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person6558</td><td>Urs Guski</td><td><a href="mailto:Guski@bell-labs.com">Guski@bell-labs.com</a></td><td></td><td></td><td></td><td></td><td>
+[app1] <p>89 Minor St<br>Colorado, Iowa<br>United States<br>21</p>
+[app1] </td><td>64133.81</td><td></td><td>Yes</td><td>25</td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person10505</td><td>Ushio Fernald</td><td><a href="mailto:Fernald@llnl.gov">Fernald@llnl.gov</a></td><td></td><td><a href="http://www.llnl.gov/~Fernald">http://www.llnl.gov/~Fernald</a></td><td></td><td>(0) open_auction2907<br>
+[app1] </td><td>
+[app1] <p>40 Stanley St<br>Amarillo, <br>United States<br>25</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person10970</td><td>Usko Matzel</td><td><a href="mailto:Matzel@ernet.in">Matzel@ernet.in</a></td><td>+0 (804) 64396147</td><td><a href="http://www.ernet.in/~Matzel">http://www.ernet.in/~Matzel</a></td><td>8371 4625 1855 2692</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person4808</td><td>Uta Brodman</td><td><a href="mailto:Brodman@ust.hk">Brodman@ust.hk</a></td><td>+0 (344) 69438933</td><td></td><td>1783 4632 3505 5894</td><td></td><td></td><td>66749.93</td><td>female</td><td>No</td><td>18</td><td>High School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person7048</td><td>Uta Nordbotten</td><td><a href="mailto:Nordbotten@cohera.com">Nordbotten@cohera.com</a></td><td></td><td><a href="http://www.cohera.com/~Nordbotten">http://www.cohera.com/~Nordbotten</a></td><td></td><td></td><td>
+[app1] <p>93 Bohlen St<br>Killeen, <br>United States<br>21</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person10877</td><td>Uta Snedden</td><td><a href="mailto:Snedden@ufl.edu">Snedden@ufl.edu</a></td><td>+0 (244) 96733464</td><td><a href="http://www.ufl.edu/~Snedden">http://www.ufl.edu/~Snedden</a></td><td></td><td></td><td>
+[app1] <p>22 Pierro St<br>Nassau, Massachusetts<br>United States<br>22</p>
+[app1] </td><td>34901.64</td><td></td><td>No</td><td>18</td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person3300</td><td>Ute Bast</td><td><a href="mailto:Bast@uregina.ca">Bast@uregina.ca</a></td><td>+0 (976) 43610793</td><td></td><td>2865 3631 2440 8682</td><td>(0) open_auction19<br>
+[app1] </td><td>
+[app1] <p>33 Ananiadou St<br>Jackson, North Dakota<br>United States<br>34</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person1015</td><td>Ute Niittylahti</td><td><a href="mailto:Niittylahti@cabofalso.com">Niittylahti@cabofalso.com</a></td><td>+0 (955) 84175487</td><td><a href="http://www.cabofalso.com/~Niittylahti">http://www.cabofalso.com/~Niittylahti</a></td><td></td><td>(0) open_auction3733<br>(I) open_auction2650<br>(II) open_auction1153<br>(III) open_auction1693<br>(IV) open_auction5556<br>(V) open_auction466<br>
+[app1] </td><td>
+[app1] <p>40 Trevathan St<br>Charlotte, Rall<br>Namibia<br>28</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person866</td><td>Ute Takano</td><td><a href="mailto:Takano@ac.jp">Takano@ac.jp</a></td><td></td><td><a href="http://www.ac.jp/~Takano">http://www.ac.jp/~Takano</a></td><td>5942 7656 8155 1008</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person3887</td><td>Ute Verhofstadt</td><td><a href="mailto:Verhofstadt@msstate.edu">Verhofstadt@msstate.edu</a></td><td>+0 (493) 34040288</td><td><a href="http://www.msstate.edu/~Verhofstadt">http://www.msstate.edu/~Verhofstadt</a></td><td></td><td></td><td>
+[app1] <p>66 Sweeney St<br>Wilmington, Cannon<br>Faroe Islands<br>10</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person11544</td><td>Utpal Beck</td><td><a href="mailto:Beck@microsoft.com">Beck@microsoft.com</a></td><td>+75 (261) 46377210</td><td><a href="http://www.microsoft.com/~Beck">http://www.microsoft.com/~Beck</a></td><td></td><td>(0) open_auction5937<br>
+[app1] </td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 8
+phase = 8
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+12	25932
+12	3152
+12	19704
+12	23564
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+[app1] <td>person7800</td><td>Utpal Callaway</td><td><a href="mailto:Callaway@co.in">Callaway@co.in</a></td><td>+0 (858) 5549169</td><td></td><td>7979 6286 2222 7167</td><td></td><td></td><td>86242.46</td><td>female</td><td>Yes</td><td></td><td>High School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person2831</td><td>Utpal Duclos</td><td><a href="mailto:Duclos@lante.com">Duclos@lante.com</a></td><td></td><td><a href="http://www.lante.com/~Duclos">http://www.lante.com/~Duclos</a></td><td>5375 7996 7380 5397</td><td></td><td>
+[app1] <p>53 Penn St<br>Tri, <br>Moldova, Republic Of<br>15</p>
+[app1] </td><td>66394.75</td><td></td><td>Yes</td><td>54</td><td>Graduate School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person11080</td><td>Utpal Duclos</td><td><a href="mailto:Duclos@lante.com">Duclos@lante.com</a></td><td></td><td><a href="http://www.lante.com/~Duclos">http://www.lante.com/~Duclos</a></td><td>2952 7333 6439 7612</td><td>(0) open_auction4890<br>(I) open_auction5215<br>(II) open_auction4479<br>(III) open_auction4849<br>(IV) open_auction2199<br>
+[app1] </td><td>
+[app1] <p>24 Penn St<br>Beaumont, Marcken<br>Moldova, Republic Of<br>3</p>
+[app1] </td><td>87411.47</td><td>male</td><td>Yes</td><td></td><td>High School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person6339</td><td>Uttam Nock</td><td><a href="mailto:Nock@sybase.com">Nock@sybase.com</a></td><td></td><td><a href="http://www.sybase.com/~Nock">http://www.sybase.com/~Nock</a></td><td></td><td></td><td>
+[app1] <p>60 Alborghetti St<br>Sun, Maryland<br>United States<br>25</p>
+[app1] </td><td>62537.11</td><td>male</td><td>No</td><td>41</td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person6081</td><td>Utz Krotopoulou</td><td><a href="mailto:Krotopoulou@uni-mannheim.de">Krotopoulou@uni-mannheim.de</a></td><td>+0 (871) 76475777</td><td></td><td>2359 4080 3849 3909</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person4211</td><td>Utz Schlenzig</td><td><a href="mailto:Schlenzig@uic.edu">Schlenzig@uic.edu</a></td><td>+0 (645) 61305669</td><td><a href="http://www.uic.edu/~Schlenzig">http://www.uic.edu/~Schlenzig</a></td><td>8105 9080 4900 8025</td><td>(0) open_auction3442<br>
+[app1] </td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person655</td><td>Uwe Picht</td><td><a href="mailto:Picht@lante.com">Picht@lante.com</a></td><td></td><td><a href="http://www.lante.com/~Picht">http://www.lante.com/~Picht</a></td><td>2635 6154 2357 8548</td><td></td><td>
+[app1] <p>84 Bisiere St<br>Brunswick, <br>United States<br>25</p>
+[app1] </td><td>82723.31</td><td></td><td>No</td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person5745</td><td>Uwe Rosca</td><td><a href="mailto:Rosca@berkeley.edu">Rosca@berkeley.edu</a></td><td></td><td><a href="http://www.berkeley.edu/~Rosca">http://www.berkeley.edu/~Rosca</a></td><td></td><td></td><td>
+[app1] <p>63 Charretton St<br>Cancun, <br>Saudi Arabia<br>14</p>
+[app1] </td><td>9876</td><td></td><td>Yes</td><td>44</td><td>High School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person5309</td><td>Uwe Sureshchandran</td><td><a href="mailto:Sureshchandran@umkc.edu">Sureshchandran@umkc.edu</a></td><td></td><td></td><td></td><td>(0) open_auction4767<br>
+[app1] </td><td>
+[app1] <p>38 Liptay St<br>Veracruz, Nebraska<br>United States<br>39</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person2842</td><td>Uwe Takano</td><td><a href="mailto:Takano@gte.com">Takano@gte.com</a></td><td></td><td></td><td></td><td></td><td>
+[app1] <p>49 Weijland St<br>Barbados, <br>United States<br>24</p>
+[app1] </td><td>27199.71</td><td></td><td>No</td><td>18</td><td>Graduate School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person7019</td><td>Uzi Mizunuma</td><td><a href="mailto:Mizunuma@uwindsor.ca">Mizunuma@uwindsor.ca</a></td><td>+0 (98) 55453662</td><td></td><td>7646 5900 3732 5079</td><td></td><td>
+[app1] <p>56 Baatz St<br>Lafayette, New York<br>United States<br>27</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+13	964
+13	21293
+13	18497
+13	22238
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 9
+shadow_cache used up once
+shadow_cache used up once
+phase = 9
+shadow_cache used up once
+shadow_cache used up once
+phase = 9
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+14	864
+14	18174
+14	17279
+14	19506
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+15	968
+15	18299
+15	17007
+15	18225
+Hit: Address c01bd40 got flushed counter=61
+shadow_cache used up once
+phase = 10
+Hit: Address c020400 got flushed counter=62
+shadow_cache used up once
+shadow_cache used up once
+phase = 10
+shadow_cache used up once
+Hit: Address c0205c0 got flushed counter=63
+shadow_cache used up once
+shadow_cache used up once
+phase = 10
+Hit: Address 200000c01bc80 got flushed counter=37
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+16	1044
+16	18039
+16	17453
+16	17908
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 200000c014000 got flushed counter=38
+Hit: Address 200000c01bd00 got flushed counter=39
+shadow_cache used up once
+Hit: Address 200000c013c80 got flushed counter=40
+17	18852
+shadow_cache used up once
+17	896
+17	18935
+17	15910
+phase = 11
+Hit: Address 200000c013d40 got flushed counter=41
+Hit: Address c013d80 got flushed counter=64
+Hit: Address 300000c013c80 got flushed counter=55
+shadow_cache used up once
+Hit: Address c013e00 got flushed counter=65
+Hit: Address c020580 got flushed counter=66
+Hit: Address 300000c020840 got flushed counter=56
+Hit: Address c0209c0 got flushed counter=67
+Hit: Address 300000c020880 got flushed counter=57
+phase = 11
+shadow_cache used up once
+Hit: Address 300000c0208c0 got flushed counter=58
+shadow_cache used up once
+Hit: Address c013e80 got flushed counter=68
+Hit: Address c020600 got flushed counter=69
+Hit: Address c020a40 got flushed counter=70
+Hit: Address c013ec0 got flushed counter=71
+Hit: Address c020640 got flushed counter=72
+Hit: Address c020a80 got flushed counter=73
+Hit: Address 300000c020940 got flushed counter=59
+Hit: Address c013f40 got flushed counter=74
+Hit: Address c0206c0 got flushed counter=75
+Hit: Address c020b00 got flushed counter=76
+Hit: Address c01c040 got flushed counter=77
+Hit: Address c013f80 got flushed counter=78
+Hit: Address c020700 got flushed counter=79
+Hit: Address 300000c0209c0 got flushed counter=60
+Hit: Address 300000c013e40 got flushed counter=61
+Hit: Address 300000c0205c0 got flushed counter=62
+Hit: Address 300000c020a00 got flushed counter=63
+shadow_cache used up once
+Hit: Address 300000c013e80 got flushed counter=64
+Hit: Address 300000c020600 got flushed counter=65
+shadow_cache used up once
+Hit: Address 300000c020ac0 got flushed counter=66
+shadow_cache used up once
+Hit: Address 300000c0206c0 got flushed counter=67
+phase = 11
+[app1] <td>person2594</td><td>Uzi Nepomnjashchaja</td><td><a href="mailto:Nepomnjashchaja@ucd.ie">Nepomnjashchaja@ucd.ie</a></td><td>+90 (604) 61783403</td><td><a href="http://www.ucd.ie/~Nepomnjashchaja">http://www.ucd.ie/~Nepomnjashchaja</a></td><td>3487 7169 2471 2910</td><td></td><td></td><td>47863.63</td><td>male</td><td>Yes</td><td></td><td>Graduate School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person1975</td><td>Uzi Wazlowski</td><td><a href="mailto:Wazlowski@cnr.it">Wazlowski@cnr.it</a></td><td>+0 (985) 84378358</td><td></td><td>9228 9020 4361 5541</td><td>(0) open_auction1181<br>(I) open_auction1861<br>(II) open_auction5109<br>
+[app1] </td><td>
+[app1] <p>78 Spenke St<br>Tucson, North Carolina<br>United States<br>32</p>
+[app1] </td><td>9876</td><td>female</td><td>Yes</td><td></td><td>Graduate School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person5498</td><td>Vaagan Afsarmanesh</td><td><a href="mailto:Afsarmanesh@itc.it">Afsarmanesh@itc.it</a></td><td></td><td></td><td>4389 9632 7852 2154</td><td></td><td></td><td>61695.38</td><td>female</td><td>Yes</td><td>53</td><td>High School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person9857</td><td>Vaagan Anger</td><td><a href="mailto:Anger@du.edu">Anger@du.edu</a></td><td>+0 (894) 38672676</td><td><a href="http://www.du.edu/~Anger">http://www.du.edu/~Anger</a></td><td></td><td></td><td></td><td>9876</td><td>male</td><td>Yes</td><td></td><td>Graduate School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person10054</td><td>Vaagan Lessing</td><td><a href="mailto:Lessing@rwth-aachen.de">Lessing@rwth-aachen.de</a></td><td></td><td><a href="http://www.rwth-aachen.de/~Lessing">http://www.rwth-aachen.de/~Lessing</a></td><td>2822 5716 5587 2919</td><td></td><td>
+[app1] <p>96 Reis St<br>Worcester, <br>United States<br>27</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person12015</td><td>Vaclav Heyers</td><td><a href="mailto:Heyers@mitre.org">Heyers@mitre.org</a></td><td>+0 (899) 66783371</td><td></td><td></td><td>(0) open_auction797<br>(I) open_auction5309<br>
+[app1] </td><td>
+[app1] <p>32 Oppliger St<br>Brussels, Georgia<br>United States<br>10</p>
+[app1] </td><td>60679.81</td><td></td><td>Yes</td><td>18</td><td>High School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person11043</td><td>Vagan Narin'ani</td><td><a href="mailto:Narin'ani@nodak.edu">Narin'ani@nodak.edu</a></td><td>+0 (591) 45655829</td><td></td><td>9242 8794 6582 2195</td><td></td><td>
+[app1] <p>76 Kane St<br>West, <br>United States<br>28</p>
+[app1] </td><td>23975.95</td><td>male</td><td>Yes</td><td></td><td>Graduate School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person9975</td><td>Vagelio Littlefield</td><td><a href="mailto:Littlefield@auth.gr">Littlefield@auth.gr</a></td><td>+0 (723) 6056865</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person3356</td><td>Vaggelis Dimitriou</td><td><a href="mailto:Dimitriou@mitre.org">Dimitriou@mitre.org</a></td><td>+0 (710) 94799845</td><td></td><td>3856 1907 7207 7333</td><td>(0) open_auction3996<br>(I) open_auction1495<br>(II) open_auction1835<br>(III) open_auction2005<br>(IV) open_auction2287<br>
+[app1] </td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person10260</td><td>Vaggelis Graaff</td><td><a href="mailto:Graaff@edu.sg">Graaff@edu.sg</a></td><td>+0 (513) 63537808</td><td><a href="http://www.edu.sg/~Graaff">http://www.edu.sg/~Graaff</a></td><td>3577 1363 2170 4793</td><td>(0) open_auction172<br>
+[app1] </td><td>
+[app1] <p>33 Calisti St<br>Dayton, Ohio<br>United States<br>6</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person8046</td><td>Vaggelis Vassallo</td><td><a href="mailto:Vassallo@ac.kr">Vassallo@ac.kr</a></td><td></td><td></td><td>5899 4543 5462 8033</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person2724</td><td>Vaibhav Courtenage</td><td><a href="mailto:Courtenage@filemaker.com">Courtenage@filemaker.com</a></td><td></td><td></td><td>5611 5430 4818 6891</td><td>(0) open_auction1830<br>
+[app1] </td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person6444</td><td>Vaibhav Denti</td><td><a href="mailto:Denti@smu.edu">Denti@smu.edu</a></td><td></td><td><a href="http://www.smu.edu/~Denti">http://www.smu.edu/~Denti</a></td><td></td><td>(0) open_auction4859<br>(I) open_auction2173<br>(II) open_auction1909<br>(III) open_auction3972<br>(IV) open_auction2904<br>
+Hit: Address 300000c020740 got flushed counter=68
+Hit: Address 300000c020b80 got flushed counter=69
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+18	982
+18	16248
+18	18467
+18	18145
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 12
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+19	17905
+19	17668
+19	17953
+19	901
+phase = 12
+shadow_cache used up once
+Hit: Address 300000c020980 got flushed counter=70
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 300000c013e00 got flushed counter=71
+Hit: Address 200000c01bd00 got flushed counter=42
+Hit: Address 200000c01fcc0 got flushed counter=43
+Hit: Address 200000c013d40 got flushed counter=44
+Hit: Address 300000c01bfc0 got flushed counter=72
+Hit: Address 200000c020900 got flushed counter=45
+phase = 12
+Hit: Address 200000c01be40 got flushed counter=46
+Hit: Address 300000c020680 got flushed counter=73
+Hit: Address c01be00 got flushed counter=80
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 200000c020a40 got flushed counter=47
+Hit: Address c020a00 got flushed counter=81
+Hit: Address c01bf40 got flushed counter=82
+shadow_cache used up once
+Hit: Address 300000c01be00 got flushed counter=74
+Hit: Address c020b40 got flushed counter=83
+shadow_cache used up once
+Hit: Address 300000c020900 got flushed counter=75
+Hit: Address 300000c01be40 got flushed counter=76
+Hit: Address c020740 got flushed counter=84
+Hit: Address c020b80 got flushed counter=85
+shadow_cache used up once
+1a	976
+1a	17372
+1a	18383
+1a	17651
+Hit: Address 300000c01bf40 got flushed counter=77
+Hit: Address 300000c020a40 got flushed counter=78
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 13
+shadow_cache used up once
+shadow_cache used up once
+1b	696
+1b	18959
+1b	19172
+1b	15001
+shadow_cache used up once
+phase = 13
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 200000c013c80 got flushed counter=48
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address c01bf00 got flushed counter=86
+Hit: Address c013e40 got flushed counter=87
+Hit: Address c013e80 got flushed counter=88
+Hit: Address c020600 got flushed counter=89
+phase = 13
+Hit: Address c01bf80 got flushed counter=90
+Hit: Address c013ec0 got flushed counter=91
+shadow_cache used up once
+Hit: Address c013f00 got flushed counter=92
+Hit: Address c020680 got flushed counter=93
+shadow_cache used up once
+Hit: Address c020ac0 got flushed counter=94
+Hit: Address c013f40 got flushed counter=95
+Hit: Address c0206c0 got flushed counter=96
+Hit: Address c020b00 got flushed counter=97
+Hit: Address c01c040 got flushed counter=98
+Hit: Address c013f80 got flushed counter=99
+shadow_cache used up once
+Hit: Address 200000c020bc0 got flushed counter=49
+Hit: Address 300000c013e80 got flushed counter=79
+Hit: Address 300000c020600 got flushed counter=80
+Hit: Address 200000c01bd00 got flushed counter=50
+shadow_cache used up once
+Hit: Address 300000c020680 got flushed counter=81
+Hit: Address 200000c020840 got flushed counter=51
+Hit: Address 300000c020ac0 got flushed counter=82
+Hit: Address c01bdc0 got flushed counter=100
+shadow_cache used up once
+Hit: Address 300000c01c000 got flushed counter=83
+Hit: Address c013d00 got flushed counter=101
+Hit: Address 300000c013f40 got flushed counter=84
+Hit: Address 300000c0206c0 got flushed counter=85
+Hit: Address 300000c020b00 got flushed counter=86
+Hit: Address 300000c01c040 got flushed counter=87
+Hit: Address 300000c020b40 got flushed counter=88
+Hit: Address 300000c01c080 got flushed counter=89
+Hit: Address 300000c013fc0 got flushed counter=90
+Hit: Address 300000c020740 got flushed counter=91
+Hit: Address 300000c020b80 got flushed counter=92
+shadow_cache used up once
+Hit: Address 300000c01c0c0 got flushed counter=93
+1c	18609
+Hit: Address 300000c020780 got flushed counter=94
+1c	17634
+1c	17964
+1c	1036
+Hit: Address 200000c020500 got flushed counter=52
+Hit: Address 200000c020940 got flushed counter=53
+Hit: Address 200000c020540 got flushed counter=54
+Hit: Address 200000c020980 got flushed counter=55
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 200000c020a80 got flushed counter=56
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 14
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 14
+shadow_cache used up once
+1d	755
+1d	16446
+1d	17857
+1d	18854
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 14
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 300000c013c80 got flushed counter=95
+shadow_cache used up once
+1e	597
+1e	17518
+1e	19910
+1e	16743
+Hit: Address 300000c020900 got flushed counter=96
+shadow_cache used up once
+Hit: Address c013fc0 got flushed counter=102
+Hit: Address 200000c020a40 got flushed counter=57
+Hit: Address 200000c013ec0 got flushed counter=58
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 300000c013f00 got flushed counter=97
+Hit: Address 300000c020680 got flushed counter=98
+Hit: Address 300000c020ac0 got flushed counter=99
+shadow_cache used up once
+Hit: Address 300000c013fc0 got flushed counter=100
+shadow_cache used up once
+shadow_cache used up once
+phase = 15
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 15
+shadow_cache used up once
+Hit: Address c01fcc0 got flushed counter=103
+1f	672
+1f	16821
+1f	19314
+1f	17227
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 15
+Hit: Address 300000c01fcc0 got flushed counter=101
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 200000c01fcc0 got flushed counter=59
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address c013f00 got flushed counter=104
+shadow_cache used up once
+20	616
+20	19172
+20	18250
+20	15868
+shadow_cache used up once
+Hit: Address 300000c020940 got flushed counter=102
+shadow_cache used up once
+Hit: Address 200000c020440 got flushed counter=60
+Hit: Address 200000c020880 got flushed counter=61
+Hit: Address 200000c01be00 got flushed counter=62
+shadow_cache used up once
+Hit: Address 200000c013d80 got flushed counter=63
+Hit: Address 200000c020500 got flushed counter=64
+Hit: Address 200000c020940 got flushed counter=65
+Hit: Address 200000c01be80 got flushed counter=66
+shadow_cache used up once
+Hit: Address 200000c013dc0 got flushed counter=67
+Hit: Address 200000c020540 got flushed counter=68
+Hit: Address 200000c020980 got flushed counter=69
+Hit: Address 200000c01bec0 got flushed counter=70
+Hit: Address 200000c013e00 got flushed counter=71
+Hit: Address 200000c020580 got flushed counter=72
+shadow_cache used up once
+Hit: Address 300000c020b40 got flushed counter=103
+Hit: Address 200000c020600 got flushed counter=73
+Hit: Address 200000c01bfc0 got flushed counter=74
+Hit: Address 300000c01bd00 got flushed counter=104
+Hit: Address 200000c013f00 got flushed counter=75
+Hit: Address 200000c020680 got flushed counter=76
+phase = 16
+shadow_cache used up once
+Hit: Address 200000c0206c0 got flushed counter=77
+Hit: Address 200000c020b00 got flushed counter=78
+shadow_cache used up once
+Hit: Address 200000c01c080 got flushed counter=79
+shadow_cache used up once
+shadow_cache used up once
+[app1] </td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person7038</td><td>Vaidy Bober</td><td><a href="mailto:Bober@forwiss.de">Bober@forwiss.de</a></td><td>+0 (51) 30390381</td><td></td><td></td><td>(0) open_auction2828<br>(I) open_auction3468<br>(II) open_auction4727<br>(III) open_auction1714<br>
+[app1] </td><td></td><td>50640.18</td><td></td><td>No</td><td>18</td><td>High School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person12059</td><td>Vaidy Westmeier</td><td><a href="mailto:Westmeier@lante.com">Westmeier@lante.com</a></td><td></td><td></td><td>9624 8091 5318 1955</td><td>(0) open_auction2647<br>(I) open_auction5989<br>
+[app1] </td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person2759</td><td>Val Apsitis</td><td><a href="mailto:Apsitis@ac.jp">Apsitis@ac.jp</a></td><td></td><td></td><td></td><td></td><td></td><td>48187.45</td><td></td><td>No</td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person3759</td><td>Val Autin</td><td><a href="mailto:Autin@att.com">Autin@att.com</a></td><td></td><td><a href="http://www.att.com/~Autin">http://www.att.com/~Autin</a></td><td></td><td>(0) open_auction3317<br>(I) open_auction3249<br>(II) open_auction5143<br>(III) open_auction5602<br>(IV) open_auction2323<br>(V) open_auction2203<br>(VI) open_auction5389<br>(VII) open_auction5956<br>(VIII) open_auction4497<br>(IX) open_auction3799<br>(X) open_auction1519<br>(XLIX) open_auction4612<br>(L) open_auction1680<br>(LI) open_auction1080<br>
+[app1] </td><td>
+[app1] <p>56 Borowsky St<br>Kahului, <br>United States<br>24</p>
+[app1] </td><td>31678.96</td><td></td><td>Yes</td><td>34</td><td>Graduate School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person6130</td><td>Val Bonifati</td><td><a href="mailto:Bonifati@njit.edu">Bonifati@njit.edu</a></td><td>+0 (280) 66087791</td><td><a href="http://www.njit.edu/~Bonifati">http://www.njit.edu/~Bonifati</a></td><td>7627 7460 3720 8213</td><td>(0) open_auction855<br>(I) open_auction1336<br>(II) open_auction3969<br>(III) open_auction5625<br>(IV) open_auction5950<br>
+[app1] </td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person10365</td><td>Val Crabtree</td><td><a href="mailto:Crabtree@sybase.com">Crabtree@sybase.com</a></td><td>+0 (936) 69818187</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person488</td><td>Val Dale</td><td><a href="mailto:Dale@edu.sg">Dale@edu.sg</a></td><td>+0 (149) 72685454</td><td></td><td>1809 6590 8793 8651</td><td>(0) open_auction2136<br>
+[app1] </td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person5759</td><td>Val Krone</td><td><a href="mailto:Krone@umd.edu">Krone@umd.edu</a></td><td>+0 (61) 90605648</td><td><a href="http://www.umd.edu/~Krone">http://www.umd.edu/~Krone</a></td><td></td><td>(0) open_auction1631<br>(I) open_auction1852<br>(II) open_auction5188<br>(III) open_auction5922<br>(IV) open_auction2409<br>
+[app1] </td><td>
+[app1] <p>43 Dupuy St<br>Columbia, Hennebert<br>Saudi Arabia<br>13</p>
+[app1] </td><td>48581.87</td><td></td><td>Yes</td><td>43</td><td>Graduate School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person2746</td><td>Val Rohrbach</td><td><a href="mailto:Rohrbach@uwaterloo.ca">Rohrbach@uwaterloo.ca</a></td><td></td><td><a href="http://www.uwaterloo.ca/~Rohrbach">http://www.uwaterloo.ca/~Rohrbach</a></td><td>3049 8827 1738 4844</td><td>(0) open_auction1967<br>(I) open_auction419<br>(II) open_auction3596<br>(III) open_auction5033<br>
+[app1] </td><td>
+[app1] <p>35 Dolins St<br>Mobile, Washington<br>United States<br>19</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person11492</td><td>Valdiodio Chaudry</td><td><a href="mailto:Chaudry@cabofalso.com">Chaudry@cabofalso.com</a></td><td></td><td><a href="http://www.cabofalso.com/~Chaudry">http://www.cabofalso.com/~Chaudry</a></td><td>8635 9405 9011 9623</td><td></td><td>
+[app1] <p>100 Ratan St<br>Newark, <br>United States<br>35</p>
+[app1] </td><td>29579.35</td><td></td><td>No</td><td></td><td>Graduate School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+phase = 16
+shadow_cache used up once
+shadow_cache used up once
+21	975
+21	17344
+21	17493
+21	18595
+shadow_cache used up once
+phase = 16
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+22	662
+22	21384
+22	16674
+22	15473
+shadow_cache used up once
+Hit: Address 300000c013e40 got flushed counter=105
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 300000c013f40 got flushed counter=106
+Hit: Address 300000c0206c0 got flushed counter=107
+Hit: Address 300000c013f80 got flushed counter=108
+Hit: Address c020a00 got flushed counter=105
+Hit: Address 300000c01c0c0 got flushed counter=109
+Hit: Address c01bf40 got flushed counter=106
+Hit: Address 300000c014000 got flushed counter=110
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address c020b40 got flushed counter=107
+phase = 17
+Hit: Address c01c080 got flushed counter=108
+Hit: Address 300000c020900 got flushed counter=111
+Hit: Address c013fc0 got flushed counter=109
+Hit: Address c020740 got flushed counter=110
+Hit: Address 200000c013e00 got flushed counter=80
+Hit: Address 200000c020580 got flushed counter=81
+Hit: Address 300000c01be40 got flushed counter=112
+Hit: Address c020b80 got flushed counter=111
+Hit: Address 200000c0209c0 got flushed counter=82
+Hit: Address c01c0c0 got flushed counter=112
+Hit: Address c014000 got flushed counter=113
+Hit: Address c020780 got flushed counter=114
+Hit: Address 300000c020a00 got flushed counter=113
+shadow_cache used up once
+Hit: Address 300000c01bf40 got flushed counter=114
+Hit: Address c013cc0 got flushed counter=115
+shadow_cache used up once
+Hit: Address 300000c020600 got flushed counter=115
+Hit: Address 200000c01bfc0 got flushed counter=83
+Hit: Address 200000c013f00 got flushed counter=84
+Hit: Address 200000c020680 got flushed counter=85
+Hit: Address 200000c020ac0 got flushed counter=86
+shadow_cache used up once
+Hit: Address c01be40 got flushed counter=116
+phase = 17
+Hit: Address 300000c01c000 got flushed counter=116
+Hit: Address 200000c020b80 got flushed counter=87
+Hit: Address 200000c01c0c0 got flushed counter=88
+Hit: Address 200000c014000 got flushed counter=89
+Hit: Address 200000c020bc0 got flushed counter=90
+phase = 17
+Hit: Address 300000c01c080 got flushed counter=117
+Hit: Address 300000c020740 got flushed counter=118
+Hit: Address 300000c020b80 got flushed counter=119
+Hit: Address 200000c01bd80 got flushed counter=91
+shadow_cache used up once
+shadow_cache used up once
+23	975
+23	18771
+23	18448
+23	18589
+Hit: Address 200000c01bdc0 got flushed counter=92
+Hit: Address 300000c01bd00 got flushed counter=120
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 200000c01bcc0 got flushed counter=93
+Hit: Address 300000c01bcc0 got flushed counter=121
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+24	17954
+24	763
+24	18412
+24	18207
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 18
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 200000c013e80 got flushed counter=94
+Hit: Address 300000c013f00 got flushed counter=122
+Hit: Address 300000c020680 got flushed counter=123
+Hit: Address 300000c020ac0 got flushed counter=124
+Hit: Address 200000c013f40 got flushed counter=95
+shadow_cache used up once
+Hit: Address 200000c013f80 got flushed counter=96
+phase = 18
+shadow_cache used up once
+phase = 18
+shadow_cache used up once
+Hit: Address 200000c01bd00 got flushed counter=97
+Hit: Address 200000c01be00 got flushed counter=98
+25	918
+25	18304
+25	17787
+25	18048
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+26	1039
+26	17376
+26	18603
+26	18275
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 19
+Hit: Address c01fc80 got flushed counter=117
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 19
+phase = 19
+Hit: Address 200000c01fc80 got flushed counter=99
+Hit: Address c013e80 got flushed counter=118
+Hit: Address c01bf80 got flushed counter=119
+shadow_cache used up once
+Hit: Address c013f40 got flushed counter=120
+Hit: Address c0206c0 got flushed counter=121
+shadow_cache used up once
+Hit: Address c020b00 got flushed counter=122
+shadow_cache used up once
+Hit: Address c01c040 got flushed counter=123
+Hit: Address c020b40 got flushed counter=124
+Hit: Address c013fc0 got flushed counter=125
+Hit: Address c020740 got flushed counter=126
+Hit: Address c020b80 got flushed counter=127
+Hit: Address c01c0c0 got flushed counter=128
+Hit: Address c014000 got flushed counter=129
+Hit: Address c020780 got flushed counter=130
+Hit: Address 300000c01bf40 got flushed counter=125
+Hit: Address 300000c013e80 got flushed counter=126
+Hit: Address c01bd00 got flushed counter=131
+27	849
+27	19045
+27	18243
+27	17991
+Hit: Address 300000c020ac0 got flushed counter=127
+Hit: Address c013cc0 got flushed counter=132
+Hit: Address 300000c01c000 got flushed counter=128
+shadow_cache used up once
+Hit: Address 200000c01bfc0 got flushed counter=100
+Hit: Address 200000c013f00 got flushed counter=101
+Hit: Address 200000c020680 got flushed counter=102
+shadow_cache used up once
+Hit: Address 300000c020b80 got flushed counter=129
+Hit: Address 200000c013f80 got flushed counter=103
+Hit: Address 200000c020700 got flushed counter=104
+shadow_cache used up once
+Hit: Address 200000c020b40 got flushed counter=105
+Hit: Address 200000c01c080 got flushed counter=106
+Hit: Address c01be40 got flushed counter=133
+Hit: Address 200000c020b80 got flushed counter=107
+Hit: Address 200000c01c0c0 got flushed counter=108
+Hit: Address 200000c014000 got flushed counter=109
+Hit: Address 300000c01bd80 got flushed counter=130
+Hit: Address 300000c013cc0 got flushed counter=131
+Hit: Address 200000c01bd00 got flushed counter=110
+Hit: Address 300000c01bdc0 got flushed counter=132
+Hit: Address 300000c013d00 got flushed counter=133
+Hit: Address 200000c020800 got flushed counter=111
+shadow_cache used up once
+Hit: Address 300000c013d40 got flushed counter=134
+Hit: Address 300000c0204c0 got flushed counter=135
+Hit: Address 200000c01bd80 got flushed counter=112
+Hit: Address 200000c013cc0 got flushed counter=113
+Hit: Address 200000c013d00 got flushed counter=114
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address c020880 got flushed counter=134
+shadow_cache used up once
+shadow_cache used up once
+28	17974
+28	17643
+28	18620
+28	1278
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 20
+shadow_cache used up once
+phase = 20
+shadow_cache used up once
+phase = 20
+[app1] <td>person12091</td><td>Valdiodio Vogley</td><td><a href="mailto:Vogley@sds.no">Vogley@sds.no</a></td><td>+0 (696) 76643081</td><td><a href="http://www.sds.no/~Vogley">http://www.sds.no/~Vogley</a></td><td></td><td></td><td>
+[app1] <p>65 Zhil'tzova St<br>Casper, South Carolina<br>United States<br>11</p>
+[app1] </td><td>35953.17</td><td></td><td>No</td><td></td><td>Other</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person2004</td><td>Valente Ranta</td><td><a href="mailto:Ranta@columbia.edu">Ranta@columbia.edu</a></td><td>+0 (539) 67754213</td><td><a href="http://www.columbia.edu/~Ranta">http://www.columbia.edu/~Ranta</a></td><td>9708 1815 2348 6007</td><td>(0) open_auction5190<br>(I) open_auction609<br>(II) open_auction5011<br>(III) open_auction2010<br>(IV) open_auction3961<br>(V) open_auction869<br>
+[app1] </td><td>
+[app1] <p>28 Kingston St<br>Vail, Indiana<br>United States<br>36</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person11818</td><td>Valentin Baumann</td><td><a href="mailto:Baumann@itc.it">Baumann@itc.it</a></td><td></td><td><a href="http://www.itc.it/~Baumann">http://www.itc.it/~Baumann</a></td><td>7425 8733 1741 2737</td><td>(0) open_auction542<br>(I) open_auction2599<br>(II) open_auction4657<br>(III) open_auction2218<br>(IV) open_auction978<br>(V) open_auction2277<br>
+[app1] </td><td>
+[app1] <p>65 Dasarathy St<br>Villahermosa, Kentucky<br>United States<br>13</p>
+[app1] </td><td>38210.66</td><td></td><td>No</td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person12014</td><td>Valentina Stanfel</td><td><a href="mailto:Stanfel@edu.hk">Stanfel@edu.hk</a></td><td>+0 (829) 39157507</td><td></td><td></td><td>(0) open_auction2002<br>(I) open_auction1838<br>(II) open_auction4541<br>(III) open_auction3281<br>(IV) open_auction5121<br>(V) open_auction227<br>(VI) open_auction5037<br>(VII) open_auction4491<br>(VIII) open_auction2181<br>
+[app1] </td><td>
+[app1] <p>22 Wolin St<br>Porto, <br>United States<br>19</p>
+[app1] </td><td>35899.88</td><td>male</td><td>No</td><td>18</td><td>High School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person2702</td><td>Valentine Aybay</td><td><a href="mailto:Aybay@hitachi.com">Aybay@hitachi.com</a></td><td>+0 (331) 76128852</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person1295</td><td>Valentine Yetim</td><td><a href="mailto:Yetim@rwth-aachen.de">Yetim@rwth-aachen.de</a></td><td></td><td><a href="http://www.rwth-aachen.de/~Yetim">http://www.rwth-aachen.de/~Yetim</a></td><td>8326 5503 8556 8618</td><td>(0) open_auction2325<br>
+[app1] </td><td>
+[app1] <p>85 Nivat St<br>Tri, <br>United States<br>23</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person3200</td><td>Valentino Chong</td><td><a href="mailto:Chong@cornell.edu">Chong@cornell.edu</a></td><td>+0 (390) 6832618</td><td></td><td></td><td>(0) open_auction3028<br>(I) open_auction3220<br>(II) open_auction4113<br>(III) open_auction4504<br>(IV) open_auction313<br>(V) open_auction5504<br>(VI) open_auction386<br>(VII) open_auction2735<br>(VIII) open_auction1451<br>(IX) open_auction4169<br>(X) open_auction4279<br>(XLIX) open_auction1678<br>(L) open_auction5989<br>(LI) open_auction1111<br>(LII) open_auction5547<br>(LIII) open_auction5296<br>(LIV) open_auction1909<br>
+[app1] </td><td>
+[app1] <p>76 Spadoni St<br>Tokyo, <br>United States<br>6</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person8276</td><td>Valentino Nordemann</td><td><a href="mailto:Nordemann@ul.pt">Nordemann@ul.pt</a></td><td>+0 (799) 16172433</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person102</td><td>Valentyn Menhoudj</td><td><a href="mailto:Menhoudj@toronto.edu">Menhoudj@toronto.edu</a></td><td>+0 (424) 25542007</td><td><a href="http://www.toronto.edu/~Menhoudj">http://www.toronto.edu/~Menhoudj</a></td><td>7303 1435 1510 9412</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+29	854
+29	19535
+29	16789
+29	19761
+shadow_cache used up once
+Hit: Address c013c80 got flushed counter=135
+Hit: Address c020400 got flushed counter=136
+shadow_cache used up once
+Hit: Address 200000c013c80 got flushed counter=115
+Hit: Address 200000c020400 got flushed counter=116
+Hit: Address c01bdc0 got flushed counter=137
+shadow_cache used up once
+Hit: Address 200000c0208c0 got flushed counter=117
+Hit: Address 300000c020a00 got flushed counter=136
+Hit: Address 300000c01bf40 got flushed counter=137
+Hit: Address 300000c013e80 got flushed counter=138
+Hit: Address 300000c020600 got flushed counter=139
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 300000c020a40 got flushed counter=140
+Hit: Address 300000c01bf80 got flushed counter=141
+Hit: Address 300000c013ec0 got flushed counter=142
+Hit: Address 300000c020640 got flushed counter=143
+Hit: Address 200000c013e40 got flushed counter=118
+Hit: Address 200000c0205c0 got flushed counter=119
+shadow_cache used up once
+Hit: Address c013f40 got flushed counter=138
+Hit: Address c0206c0 got flushed counter=139
+Hit: Address c020b00 got flushed counter=140
+Hit: Address 300000c01c080 got flushed counter=144
+Hit: Address 300000c013fc0 got flushed counter=145
+Hit: Address 300000c020740 got flushed counter=146
+Hit: Address 300000c020800 got flushed counter=147
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 200000c01bd00 got flushed counter=120
+shadow_cache used up once
+Hit: Address c020480 got flushed counter=141
+Hit: Address 300000c0204c0 got flushed counter=148
+shadow_cache used up once
+2a	18977
+2a	18129
+2a	19173
+2a	1421
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 21
+phase = 21
+phase = 21
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address c01bc80 got flushed counter=142
+2b	1217
+2b	15894
+2b	19015
+2b	18972
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address c01c100 got flushed counter=143
+shadow_cache used up once
+Hit: Address 300000c013f00 got flushed counter=149
+Hit: Address 300000c020680 got flushed counter=150
+Hit: Address 300000c020ac0 got flushed counter=151
+Hit: Address 300000c01c000 got flushed counter=152
+shadow_cache used up once
+Hit: Address 300000c01c0c0 got flushed counter=153
+Hit: Address 300000c014000 got flushed counter=154
+shadow_cache used up once
+Hit: Address 300000c020400 got flushed counter=155
+Hit: Address 300000c01bd80 got flushed counter=156
+shadow_cache used up once
+shadow_cache used up once
+2c	781
+2c	22066
+2c	20907
+2c	21382
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 22
+phase = 22
+shadow_cache used up once
+phase = 22
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+2d	24127
+2d	23701
+2d	1911
+2d	22859
+[app1] <td>person4253</td><td>Valentyn Snyers</td><td><a href="mailto:Snyers@umich.edu">Snyers@umich.edu</a></td><td></td><td><a href="http://www.umich.edu/~Snyers">http://www.umich.edu/~Snyers</a></td><td></td><td>(0) open_auction4038<br>(I) open_auction4745<br>(II) open_auction5342<br>(III) open_auction1975<br>(IV) open_auction4553<br>(V) open_auction4168<br>(VI) open_auction1452<br>(VII) open_auction2931<br>(VIII) open_auction5829<br>(IX) open_auction1037<br>(X) open_auction1340<br>(XLIX) open_auction4930<br>(L) open_auction1130<br>(LI) open_auction2981<br>(LII) open_auction3620<br>(LIII) open_auction3884<br>(LIV) open_auction5890<br>(LV) open_auction1199<br>(LVI) open_auction3390<br>(LVII) open_auction1498<br>
+[app1] </td><td>
+[app1] <p>31 Baya St<br>Tampa, <br>United States<br>15</p>
+[app1] </td><td>56141.03</td><td>male</td><td>Yes</td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person2319</td><td>Valeri Kwatra</td><td><a href="mailto:Kwatra@lante.com">Kwatra@lante.com</a></td><td></td><td></td><td>9763 7281 4863 5685</td><td></td><td></td><td>27922.44</td><td></td><td>Yes</td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person11335</td><td>Valeri Paludetto</td><td><a href="mailto:Paludetto@computer.org">Paludetto@computer.org</a></td><td>+24 (545) 75039541</td><td></td><td></td><td></td><td></td><td>47432.68</td><td>female</td><td>No</td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person11414</td><td>Valeri Shimony</td><td><a href="mailto:Shimony@ac.kr">Shimony@ac.kr</a></td><td>+25 (914) 84493999</td><td></td><td></td><td></td><td></td><td>60896.23</td><td></td><td>No</td><td>51</td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person8858</td><td>Valery Alencar</td><td><a href="mailto:Alencar@uni-muenster.de">Alencar@uni-muenster.de</a></td><td></td><td></td><td>2895 7985 8512 4456</td><td></td><td></td><td>9876</td><td></td><td>No</td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person8595</td><td>Valery Badr</td><td><a href="mailto:Badr@lucent.com">Badr@lucent.com</a></td><td>+0 (345) 36853764</td><td></td><td>8222 6124 9020 1658</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person2230</td><td>Valery Takano</td><td><a href="mailto:Takano@acm.org">Takano@acm.org</a></td><td>+110 (762) 29650036</td><td></td><td></td><td></td><td>
+[app1] <p>46 Brownrigg St<br>Providence, Utah<br>United States<br>36</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person11292</td><td>Valeska Cangellaris</td><td><a href="mailto:Cangellaris@rpi.edu">Cangellaris@rpi.edu</a></td><td></td><td></td><td></td><td></td><td>
+[app1] <p>30 Lavie St<br>Vienna, <br>Tunisia<br>15</p>
+[app1] </td><td>78520.88</td><td>female</td><td>Yes</td><td>31</td><td>High School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person8707</td><td>Valeska Kharin</td><td><a href="mailto:Kharin@nodak.edu">Kharin@nodak.edu</a></td><td>+0 (608) 4389964</td><td><a href="http://www.nodak.edu/~Kharin">http://www.nodak.edu/~Kharin</a></td><td>8508 7675 2670 1763</td><td>(0) open_auction2028<br>
+[app1] </td><td></td><td>100409.42</td><td>male</td><td>No</td><td>18</td><td>College</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person792</td><td>Valeska Lance</td><td><a href="mailto:Lance@concentric.net">Lance@concentric.net</a></td><td>+195 (147) 78113939</td><td></td><td></td><td></td><td></td><td>9876</td><td>female</td><td>No</td><td></td><td>College</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person435</td><td>Valeska Narasayya</td><td><a href="mailto:Narasayya@uni-mb.si">Narasayya@uni-mb.si</a></td><td></td><td><a href="http://www.uni-mb.si/~Narasayya">http://www.uni-mb.si/~Narasayya</a></td><td></td><td>(0) open_auction5870<br>(I) open_auction2939<br>(II) open_auction1020<br>(III) open_auction1527<br>(IV) open_auction2260<br>
+[app1] </td><td></td><td>12004.61</td><td>female</td><td>No</td><td></td><td>Other</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person11319</td><td>Valter Belinskaya</td><td><a href="mailto:Belinskaya@ubs.com">Belinskaya@ubs.com</a></td><td>+0 (885) 29044925</td><td></td><td>9736 2701 7555 3338</td><td>(0) open_auction2971<br>(I) open_auction5396<br>(II) open_auction4219<br>
+[app1] </td><td>
+[app1] <p>3 Amy St<br>Great, <br>United States<br>9</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+[app1] <td>person6629</td><td>Valter Dratva</td><td><a href="mailto:Dratva@telcordia.com">Dratva@telcordia.com</a></td><td></td><td><a href="http://www.telcordia.com/~Dratva">http://www.telcordia.com/~Dratva</a></td><td>6326 8463 1619 9903</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person5503</td><td>Valter Flasterstein</td><td><a href="mailto:Flasterstein@unl.edu">Flasterstein@unl.edu</a></td><td></td><td><a href="http://www.unl.edu/~Flasterstein">http://www.unl.edu/~Flasterstein</a></td><td></td><td></td><td>
+[app1] <p>45 Smolensky St<br>Ontario, McCaskill<br>United Arab Emirates<br>27</p>
+[app1] </td><td>62341.28</td><td></td><td>No</td><td>18</td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person8354</td><td>Valter Majewski</td><td><a href="mailto:Majewski@dec.com">Majewski@dec.com</a></td><td></td><td></td><td>8919 5470 8528 4137</td><td>(0) open_auction3486<br>
+[app1] </td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person12557</td><td>Valter Saraswat</td><td><a href="mailto:Saraswat@indiana.edu">Saraswat@indiana.edu</a></td><td>+45 (634) 24160060</td><td></td><td></td><td></td><td>
+[app1] <p>33 Hokimoto St<br>London, <br>United States<br>25</p>
+[app1] </td><td>40116.62</td><td></td><td>Yes</td><td>19</td><td>College</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person12474</td><td>Valter Wiil</td><td><a href="mailto:Wiil@bellatlantic.net">Wiil@bellatlantic.net</a></td><td></td><td><a href="http://www.bellatlantic.net/~Wiil">http://www.bellatlantic.net/~Wiil</a></td><td></td><td></td><td>
+[app1] <p>60 Garnier St<br>Nice, Schrufer<br>Monaco<br>27</p>
+[app1] </td><td>54425.85</td><td></td><td>No</td><td>30</td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person2567</td><td>Vamsee Lukose</td><td><a href="mailto:Lukose@poznan.pl">Lukose@poznan.pl</a></td><td></td><td><a href="http://www.poznan.pl/~Lukose">http://www.poznan.pl/~Lukose</a></td><td></td><td>(0) open_auction5813<br>(I) open_auction2665<br>(II) open_auction1168<br>
+[app1] </td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person678</td><td>Van Dutra</td><td><a href="mailto:Dutra@fsu.edu">Dutra@fsu.edu</a></td><td>+0 (726) 68803614</td><td><a href="http://www.fsu.edu/~Dutra">http://www.fsu.edu/~Dutra</a></td><td></td><td></td><td></td><td>52480.31</td><td>female</td><td>Yes</td><td>30</td><td>Other</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person11240</td><td>Van Kinley</td><td><a href="mailto:Kinley@rice.edu">Kinley@rice.edu</a></td><td></td><td></td><td></td><td>(0) open_auction4302<br>(I) open_auction1333<br>(II) open_auction5454<br>(III) open_auction3910<br>(IV) open_auction4265<br>
+[app1] </td><td></td><td>52144.44</td><td>female</td><td>Yes</td><td></td><td>College</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person7348</td><td>Van Yada</td><td><a href="mailto:Yada@smu.edu">Yada@smu.edu</a></td><td></td><td></td><td></td><td></td><td>
+[app1] <p>57 Plun St<br>West, <br>United States<br>26</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person9578</td><td>Vanathi Takano</td><td><a href="mailto:Takano@baylor.edu">Takano@baylor.edu</a></td><td>+0 (963) 43588640</td><td></td><td>9748 8717 5684 6990</td><td>(0) open_auction328<br>(I) open_auction3186<br>(II) open_auction5371<br>
+[app1] </td><td>
+[app1] <p>39 Borowsky St<br>Istanbul, <br>United States<br>15</p>
+[app1] </td><td>88737.59</td><td>male</td><td>No</td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person3686</td><td>Vance Takano</td><td><a href="mailto:Takano@computer.org">Takano@computer.org</a></td><td></td><td><a href="http://www.computer.org/~Takano">http://www.computer.org/~Takano</a></td><td>7957 4510 2493 9045</td><td></td><td>
+[app1] <p>59 Tabet St<br>Great, <br>United States<br>16</p>
+[app1] </td><td>64506.63</td><td></td><td>No</td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person8583</td><td>Vangalur Dreier</td><td><a href="mailto:Dreier@ucsb.edu">Dreier@ucsb.edu</a></td><td></td><td><a href="http://www.ucsb.edu/~Dreier">http://www.ucsb.edu/~Dreier</a></td><td>1330 7877 1007 5668</td><td>(0) open_auction5281<br>
+[app1] </td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 200000d3ff280 got flushed counter=121
+Hit: Address 200000d3ff2c0 got flushed counter=122
+Hit: Address 200000c20c300 got flushed counter=123
+shadow_cache used up once
+Hit: Address d3fed80 got flushed counter=144
+Hit: Address c20bdc0 got flushed counter=145
+shadow_cache used up once
+2e	4038
+2e	19509
+2e	32772
+2e	29304
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 23
+phase = 23
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 200000e651d80 got flushed counter=124
+Hit: Address 200000e6542c0 got flushed counter=125
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+2f	40465
+2f	1288
+2f	41328
+2f	1340
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 24
+shadow_cache used up once
+shadow_cache used up once
+phase = 24
+shadow_cache used up once
+shadow_cache used up once
+Hit: Address 300000c20ccc0 got flushed counter=157
+shadow_cache used up once
+shadow_cache used up once
+30	42178
+30	9002
+30	554
+30	44930
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 25
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+31	1203
+shadow_cache used up once
+31	624
+31	52689
+31	39365
+phase = 25
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+phase = 26
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+32	1310
+32	1091
+32	48650
+32	46253
+shadow_cache used up once
+shadow_cache used up once
+phase = 26
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+33	1462
+phase = 27
+33	807
+33	44129
+33	49422
+shadow_cache used up once
+shadow_cache used up once
+[app1] <td>person8368</td><td>Vania Frauenstein</td><td><a href="mailto:Frauenstein@ucla.edu">Frauenstein@ucla.edu</a></td><td>+0 (274) 82264554</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person9068</td><td>Vania Picht</td><td><a href="mailto:Picht@uni-mannheim.de">Picht@uni-mannheim.de</a></td><td></td><td><a href="http://www.uni-mannheim.de/~Picht">http://www.uni-mannheim.de/~Picht</a></td><td></td><td>(0) open_auction875<br>(I) open_auction1969<br>(II) open_auction4059<br>(III) open_auction1106<br>(IV) open_auction3681<br>
+[app1] </td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person3064</td><td>Vanio Machine</td><td><a href="mailto:Machine@ucsd.edu">Machine@ucsd.edu</a></td><td></td><td></td><td>4051 4179 7996 2263</td><td></td><td>
+[app1] <p>77 Botten St<br>Portland, Massachusetts<br>United States<br>12</p>
+[app1] </td><td>24921.79</td><td>female</td><td>No</td><td></td><td>College</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person11697</td><td>Vannevar Emmart</td><td><a href="mailto:Emmart@lbl.gov">Emmart@lbl.gov</a></td><td>+0 (110) 37459506</td><td></td><td></td><td></td><td></td><td>58302.1</td><td>female</td><td>Yes</td><td></td><td>Graduate School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person9194</td><td>Vannevar Kuszyk</td><td><a href="mailto:Kuszyk@ucla.edu">Kuszyk@ucla.edu</a></td><td></td><td><a href="http://www.ucla.edu/~Kuszyk">http://www.ucla.edu/~Kuszyk</a></td><td></td><td></td><td>
+[app1] <p>35 Yigit St<br>Salt, <br>United States<br>12</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person10508</td><td>Varghese Asrin</td><td><a href="mailto:Asrin@evergreen.edu">Asrin@evergreen.edu</a></td><td></td><td></td><td></td><td>(0) open_auction627<br>
+[app1] </td><td></td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person8477</td><td>Vasant Nitzan</td><td><a href="mailto:Nitzan@labs.com">Nitzan@labs.com</a></td><td>+0 (448) 22244413</td><td><a href="http://www.labs.com/~Nitzan">http://www.labs.com/~Nitzan</a></td><td>4591 9056 5364 5799</td><td>(0) open_auction4810<br>(I) open_auction2626<br>(II) open_auction2318<br>(III) open_auction5575<br>(IV) open_auction1781<br>(V) open_auction1280<br>(VI) open_auction4425<br>(VII) open_auction99<br>(VIII) open_auction1939<br>
+[app1] </td><td>
+[app1] <p>73 Stampfel St<br>Tallahassee, New Mexico<br>United States<br>37</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person5283</td><td>Vasanth Kermode</td><td><a href="mailto:Kermode@ul.pt">Kermode@ul.pt</a></td><td></td><td></td><td></td><td>(0) open_auction5077<br>(I) open_auction241<br>(II) open_auction4209<br>(III) open_auction5889<br>(IV) open_auction4879<br>(V) open_auction4907<br>(VI) open_auction4411<br>(VII) open_auction3151<br>
+[app1] </td><td></td><td>13045.25</td><td>male</td><td>Yes</td><td>18</td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person149</td><td>Vasanth Poehlman</td><td><a href="mailto:Poehlman@intersys.com">Poehlman@intersys.com</a></td><td></td><td><a href="http://www.intersys.com/~Poehlman">http://www.intersys.com/~Poehlman</a></td><td>7253 6091 3749 7437</td><td>(0) open_auction935<br>
+[app1] </td><td>
+[app1] <p>23 Wohed St<br>Guangzhou, <br>United States<br>26</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person2419</td><td>Vasilii Atarashi</td><td><a href="mailto:Atarashi@washington.edu">Atarashi@washington.edu</a></td><td>+0 (357) 27036771</td><td></td><td>9042 7799 6143 6101</td><td></td><td>
+[app1] <p>80 Lecroq St<br>Idaho, Delaware<br>United States<br>21</p>
+[app1] </td><td></td><td></td><td></td><td></td><td></td>
+[app1] </tr>
+[app1] <tr valign="top">
+[app1] <td>person8901</td><td>Vasilii Collart</td><td><a href="mailto:Collart@arizona.edu">Collart@arizona.edu</a></td><td></td><td></td><td>5895 7254 5324 6363</td><td></td><td>
+[app1] <p>46 Merks St<br>La, <br>United States<br>19</p>
+[app1] </td><td>51502.44</td><td></td><td>Yes</td><td></td><td>High School</td>
+[app1] </tr>
+[app1] <tr valign="top">
+shadow_cache used up once
+shadow_cache used up once
+phase = 27
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+shadow_cache used up once
+[TRACE:2] -- DONE --
+[TRACE:3] -- STOP --
+[TRACE:1] -- STOP --
+[TRACE:0] -- STOP --
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 3208.02 seconds
+[SNIPER] Simulated 750.4M instructions, 175.5M cycles, 4.28 IPC
+[SNIPER] Simulation speed 233.9 KIPS (58.5 KIPS / target core - 17099.4ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+phase = 28
+Inserted: 1f8ab0
+Redundant.progress: 5d1
+Redundant.cache: ebb04
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+phase = 0
+Inserted: 15942
+Redundant.progress: 5c0
+Redundant.cache: d991
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+phase = 28
+Inserted: 1fcba4
+Redundant.progress: 813
+Redundant.cache: ee343
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+Hawkeye Victims: 0
+LRU Victims: 0
+Inserted: 0
+Redundant.progress: 0
+Redundant.cache: 0
+Redundant.buffer: 0
+phase = 23
+Inserted: 1a1af1
+Redundant.progress: a8
+Redundant.cache: d4c15
+Redundant.buffer: 0
+[SNIPER] End
+[SNIPER] Elapsed time: 3245.43 seconds

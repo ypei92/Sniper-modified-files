@@ -1,0 +1,17 @@
+
++Group="GRAD"
++Project="ARCHITECTURE"
++ProjectDescription="Architectural Simulation to study caches using sniper simulator"
+universe=vanilla
+coresize=0
+getenv=true
+Rank=Memory
+notification=Error
+input=
+output=/v/filer4b/v26q001/ypei/dynamic_hybrid_prefetcher/output/4core/hybrid3_0//64/CONDOR.OUT
+error=/v/filer4b/v26q001/ypei/dynamic_hybrid_prefetcher/output/4core/hybrid3_0//64/CONDOR.ERR
+Log=/v/filer4b/v26q001/ypei/dynamic_hybrid_prefetcher/output/4core/hybrid3_0//64/CONDOR.LOG
+requirements = InMastodon && ((Narsil == True) || (Uvanimor == True))
+initialdir = /v/filer4b/v26q001/ypei/dynamic_hybrid_prefetcher/output/4core/hybrid3_0//64
+executable = /v/filer4b/v26q001/ypei/dynamic_hybrid_prefetcher/output/4core/hybrid3_0//64/run.sh
+queue
